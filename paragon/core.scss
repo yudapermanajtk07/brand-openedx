@@ -5,3 +5,9 @@
 @use "./fonts";
 @use "./build/core/variables";
 // @use "./build/core/custom-media-breakpoints";
+/* Kustomisasi Header Kuning */
+.site-header-desktop, .learning-header {
+    background-color: #FFFF00 !important;
+    height: 90px !important;
+    padding-top: 15px !important;
+}
