@@ -5,6 +5,24 @@
 @use "./fonts";
 @use "./build/core/variables";
 
+/* --- OVERRIDE HEADER MFE --- */
+header,
+.pgn__header,
+header.pgn__header {
+    background-color: #F6DB00 !important;
+}
+
+/* Warna Teks, Link, dan Tombol di Header MFE */
+header a,
+header span,
+.pgn__header a,
+.pgn__header span,
+.pgn__header button {
+    color: #0B1F3F !important;
+}
+
+/* --------------------------- */
+
 // @use "./build/core/custom-media-breakpoints";
 /* Kustomisasi Header Kuning */
 .site-header-desktop,
@@ -102,4 +120,22 @@
     background-color: #E3C900 !important;
     /* Warna sedikit lebih gelap saat di-hover */
     border-color: #E3C900 !important;
+}
+
+/* =========================================
+   BACKGROUND HALAMAN LOGIN & REGISTER
+   ========================================= */
+.layout {
+    /* Set background dasar menjadi putih */
+    background-color: #ffffff !important;
+
+    /* Membuat dua titik cahaya glow kuning (kiri bawah dan kanan atas) */
+    background-image:
+        radial-gradient(circle at 10% 80%, rgba(246, 219, 0, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 90% 10%, rgba(246, 219, 0, 0.15) 0%, transparent 50%) !important;
+}
+
+/* Pastikan bagian form di sebelah kanan tidak tertutup warna putih solid bawaan */
+.layout .content {
+    background-color: transparent !important;
 }
