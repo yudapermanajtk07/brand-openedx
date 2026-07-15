@@ -4,13 +4,73 @@
 
 @use "./fonts";
 @use "./build/core/variables";
+
 // @use "./build/core/custom-media-breakpoints";
 /* Kustomisasi Header Kuning */
-.site-header-desktop, .learning-header {
+.site-header-desktop,
+.learning-header {
     background-color: #FFFF00 !important;
     height: 90px !important;
     padding-top: 15px !important;
 }
-.site-header-desktop *, .learning-header * {
+
+.site-header-desktop *,
+.learning-header * {
     font-family: 'Poppins', sans-serif !important;
+}
+
+/* =========================================
+   1. STYLE UNTUK TOMBOL (BUTTONS)
+   ========================================= */
+/* Gaya dasar untuk semua tombol */
+.btn {
+    border-radius: 8px !important;
+    /* Membuat sudut tombol sedikit melengkung */
+    font-weight: 600 !important;
+    /* Membuat teks tombol sedikit tebal */
+    padding: 8px 16px !important;
+    /* Mengatur jarak ruang di dalam tombol */
+}
+
+/* Gaya khusus untuk tombol "+ New course" (Biasanya tombol jenis outline/light) */
+.btn-outline-primary,
+.btn-light,
+.btn-outline-secondary {
+    background-color: #ffffff !important;
+    /* Latar belakang putih */
+    border: 1px solid #d1d5db !important;
+    /* Garis tepi abu-abu halus */
+    color: #1f2937 !important;
+    /* Warna teks abu-abu gelap/hitam */
+}
+
+/* Efek saat tombol disorot mouse (hover) */
+.btn-outline-primary:hover,
+.btn-light:hover,
+.btn-outline-secondary:hover {
+    background-color: #f3f4f6 !important;
+    /* Berubah abu-abu sangat terang */
+}
+
+/* =========================================
+   2. STYLE UNTUK DAFTAR COURSE (CARDS)
+   ========================================= */
+/* Di Open edX MFE, daftar course umumnya menggunakan class .card atau .list-group-item */
+.card,
+.list-group-item {
+    border-radius: 8px !important;
+    /* Membuat sudut kotak course melengkung */
+    border: 1px solid #e5e7eb !important;
+    /* Garis pembatas kotak yang halus */
+    margin-bottom: 12px !important;
+    /* Jarak antar kotak course agar terpisah */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+    /* Bayangan sangat tipis agar elegan */
+    background-color: #ffffff !important;
+}
+
+/* Jika sistem bawaan menggunakan List (daftar menempel), ini akan melepas ikatannya */
+.list-group {
+    border: none !important;
+    background-color: transparent !important;
 }
