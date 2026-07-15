@@ -84,3 +84,22 @@
     color: #000000 !important;
     /* Warna teks hitam */
 }
+
+/* Gaya untuk tombol utama (variant="brand") */
+.btn-brand,
+.btn-primary {
+    background-color: #F6DB00 !important;
+    /* Ganti dengan warna background yang Anda inginkan */
+    border-color: #F6DB00 !important;
+    /* Ganti dengan warna border yang sama */
+    color: #0B1F3F !important;
+    /* Warna teks di dalam tombol */
+}
+
+/* Efek saat tombol brand disorot mouse (hover) */
+.btn-brand:hover,
+.btn-primary:hover {
+    background-color: #E3C900 !important;
+    /* Warna sedikit lebih gelap saat di-hover */
+    border-color: #E3C900 !important;
+}
