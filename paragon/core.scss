@@ -9,7 +9,7 @@
 /* Kustomisasi Header Kuning */
 .site-header-desktop,
 .learning-header {
-    background-color: #FFFF00 !important;
+    background-color: #F6DB00 !important;
     height: 90px !important;
     padding-top: 15px !important;
 }
@@ -73,4 +73,14 @@
 .list-group {
     border: none !important;
     background-color: transparent !important;
+}
+
+/* Mengubah background kotak kecil penanda (Badge) seperti tulisan "Beta" */
+.badge,
+.badge-primary,
+.badge-info {
+    background-color: #F6DB00 !important;
+    /* Warna background kuning */
+    color: #000000 !important;
+    /* Warna teks hitam */
 }
