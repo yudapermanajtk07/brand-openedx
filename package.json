@@ -9,6 +9,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "make build",
     "build-tokens": "make build-tokens",
     "build-scss": "make build-scss",
