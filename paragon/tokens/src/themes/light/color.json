@@ -30,7 +30,7 @@
     },
     "text": {
       "base": {
-        "$value": "#111827",
+        "$value": "#0B1F3F",
         "source": "$text-color",
         "$description": "Text base color."
       },
@@ -45,7 +45,7 @@
         "$description": "Footer text color."
       },
       "primary": {
-        "$value": "#515661",
+        "$value": "#0B1F3F",
         "source": "$text-color-primary",
         "$description": "Text primary color."
       }

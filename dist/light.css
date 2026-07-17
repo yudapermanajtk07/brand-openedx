@@ -480,10 +480,10 @@
   --pgn-other-search-field-disabled-opacity: .3;
   --pgn-other-tooltip-opacity: 1;
   --pgn-other-link-emphasized-hover-darken-percentage: 15%;
-  --pgn-color-text-base: #111827FF;
+  --pgn-color-text-base: #0B1F3FFF;
   --pgn-color-text-light: #515661FF;
   --pgn-color-text-footer: #374151FF;
-  --pgn-color-text-primary: #515661FF;
+  --pgn-color-text-primary: #0B1F3FFF;
   --pgn-color-btn-bg-outline-brand: inherit;
   --pgn-color-btn-bg-inverse-outline-brand: #00000000;
   --pgn-color-btn-bg-outline-danger: inherit;
