@@ -1,5 +1,3 @@
 .DS_Store
 .vscode
-node_modules
-dist
-paragon/build
+/node_modules
