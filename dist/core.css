@@ -2552,7 +2552,6 @@ footer.footer {
 #root .layout .bg-primary-400 .min-vh-100 {
   min-height: calc(100vh - 100px) !important;
   display: flex !important;
-  align-items: center;
 }
 @media screen and (max-width: 1200px) {
   #root .layout .bg-primary-400 .min-vh-100 {
@@ -2561,28 +2560,27 @@ footer.footer {
   }
 }
 #root .layout .bg-primary-400 h1 {
-  margin: auto !important;
+  margin: 0 auto !important;
   max-width: 564px !important;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: 40px;
   color: #0B1F3F !important;
-  padding: 0;
+  padding: 50px 0;
   position: relative;
   z-index: 1;
   width: 100%;
   font-weight: 400;
-  text-align: left;
 }
 @media (min-width: 576px) {
   #root .layout .bg-primary-400 h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 52px;
+    line-height: 78px;
   }
 }
 @media (--pgn-size-breakpoint-min-width-sm) {
   #root .layout .bg-primary-400 h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 52px;
+    line-height: 78px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -2591,22 +2589,22 @@ footer.footer {
   }
 }
 #root .layout .bg-primary-400 h1 .text-accent-a {
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 34px;
+  line-height: 40px;
   color: #0B1F3F !important;
   display: block !important;
   font-weight: 900;
 }
 @media (min-width: 576px) {
   #root .layout .bg-primary-400 h1 .text-accent-a {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 64px;
+    line-height: 74px;
   }
 }
 @media (--pgn-size-breakpoint-min-width-sm) {
   #root .layout .bg-primary-400 h1 .text-accent-a {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 64px;
+    line-height: 74px;
   }
 }
 #root .layout .content {
@@ -5683,7 +5681,6 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 .min-vh-100 {
   min-height: calc(100vh - 100px) !important;
   display: flex !important;
-  align-items: center;
 }
 @media screen and (max-width: 1200px) {
   [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 .min-vh-100 {
@@ -5692,29 +5689,28 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   }
 }
 [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 h1 {
-  margin: auto !important;
+  margin: 0 auto !important;
   max-width: 564px !important;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: 40px;
   color: #0B1F3F !important;
-  padding: 0;
+  padding: 50px 0;
   position: relative;
   z-index: 1;
   width: 100%;
   font-weight: 400;
-  text-align: left;
   color: var(--pgn-color-text-base) !important;
 }
 @media (min-width: 576px) {
   [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 52px;
+    line-height: 78px;
   }
 }
 @media (--pgn-size-breakpoint-min-width-sm) {
   [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 h1 {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 52px;
+    line-height: 78px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -5723,8 +5719,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   }
 }
 [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 h1 .text-accent-a {
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 34px;
+  line-height: 40px;
   color: #0B1F3F !important;
   display: block !important;
   font-weight: 900;
@@ -5732,14 +5728,14 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 @media (min-width: 576px) {
   [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 h1 .text-accent-a {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 64px;
+    line-height: 74px;
   }
 }
 @media (--pgn-size-breakpoint-min-width-sm) {
   [data-paragon-theme-variant=dark] #root .layout .bg-primary-400 h1 .text-accent-a {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 64px;
+    line-height: 74px;
   }
 }
 [data-paragon-theme-variant=dark] #root .layout .content {
