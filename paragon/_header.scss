@@ -3,6 +3,9 @@
     position: relative;
     z-index: 1;
     width: 100%;
+    header, .studio-header, .learner-variant-header {
+        background-color: #F6DB00 !important;
+    }
     .logo {
       img {
         height: 48px;
