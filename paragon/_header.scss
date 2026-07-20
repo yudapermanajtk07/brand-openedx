@@ -1,4 +1,6 @@
 /// header style
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
 #root {
     position: relative;
     z-index: 1;
@@ -22,6 +24,9 @@
         border-right: none !important;
         span {
           color: var(--pgn-color-primary-500);
+        }
+        span:first-child, span:first-child * {
+          font-family: 'IBM Plex Mono', monospace !important;
         }
       }
       // Center the navigation block

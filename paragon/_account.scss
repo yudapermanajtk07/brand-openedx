@@ -259,3 +259,20 @@
         }
     } 
 }
+
+// Third-party Auth Provider buttons (like Keycloak, Google, etc)
+.login-provider, 
+.login-providers button, 
+.social-auth-button, 
+.social-login-btn, 
+.third-party-auth-button, 
+[class*="provider"],
+.login-register .btn-outline-primary,
+.logistration-container .btn-outline-primary {
+    color: #0B1F3F !important;
+    
+    // Sometimes the text is wrapped in a span
+    span {
+        color: #0B1F3F !important;
+    }
+}

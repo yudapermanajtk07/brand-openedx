@@ -20,13 +20,24 @@ html {
 }
 
 // Outline and Secondary buttons styles
-.btn-outline-primary, .btn-outline-secondary, .btn-tertiary {
+.btn-outline-primary, .btn-outline-secondary {
     color: #0B1F3F !important;
     border-color: #0B1F3F !important;
     
     &:hover, &:focus, &:active {
         color: #0B1F3F !important;
         border-color: #0B1F3F !important;
+    }
+}
+
+// Tertiary buttons (often used for headers, inline text) should not have borders
+.btn-tertiary {
+    color: #0B1F3F !important;
+    border-color: transparent !important;
+    
+    &:hover, &:focus, &:active {
+        color: #0B1F3F !important;
+        border-color: transparent !important;
     }
 }
 
@@ -40,11 +51,18 @@ body {
 // Course Authoring Outline Section
 .course-outline-section {
 
+  // Update release date text font (including all child elements)
+  .text-muted, .small, .outline-item-status, .release-date,
+  .text-muted *, .small *, .outline-item-status *, .release-date * {
+     font-family: 'IBM Plex Mono', monospace !important;
+  }
+
   .pt-4 > .mx-0.row {
     background: var(--pgn-color-body-bg) !important;
     box-shadow: var(--pgn-course-card-shadow) !important;
     border-left-color: var(--pgn-color-primary-base) !important;
-    &:has(.badge-success), &:has(.text-success), &.published, &.is-published {
+
+    &:has(.badge-success), &:has(.text-success), &:has(.badge-outline-success), &:has(.btn-outline-success), &:has([class*="success"]), &.published, &.is-published, &.is-live {
        border-left-color: #063970 !important;
     }
   }
@@ -55,7 +73,7 @@ body {
   > .mx-0.row {
     background: var(--pgn-color-bg-hover) !important;
     border-left-color: var(--pgn-color-primary-base) !important;
-    &:has(.badge-success), &:has(.text-success), &.published, &.is-published {
+    &:has(.badge-success), &:has(.text-success), &:has(.badge-outline-success), &:has(.btn-outline-success), &:has([class*="success"]), &.published, &.is-published, &.is-live {
        border-left-color: #063970 !important;
     }
   }

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 /**
  * Do not edit directly, this file was auto-generated.
  * See <PARAGON_ROOT>/tokens/README.md for more details.
@@ -986,19 +987,23 @@ a.course-card-title {
 body {
   background: var(--pgn-color-body-bg) !important;
 }
+.course-outline-section .text-muted, .course-outline-section .small, .course-outline-section .outline-item-status, .course-outline-section .release-date,
+.course-outline-section .text-muted *, .course-outline-section .small *, .course-outline-section .outline-item-status *, .course-outline-section .release-date * {
+  font-family: "IBM Plex Mono", monospace !important;
+}
 .course-outline-section .pt-4 > .mx-0.row {
   background: var(--pgn-color-body-bg) !important;
   box-shadow: var(--pgn-course-card-shadow) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
 }
-.course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published {
+.course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline-section .pt-4 > .mx-0.row:has([class*=success]), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published, .course-outline-section .pt-4 > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
 .section-card__subsections > .mx-0.row {
   background: var(--pgn-color-bg-hover) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
 }
-.section-card__subsections > .mx-0.row:has(.badge-success), .section-card__subsections > .mx-0.row:has(.text-success), .section-card__subsections > .mx-0.row.published, .section-card__subsections > .mx-0.row.is-published {
+.section-card__subsections > .mx-0.row:has(.badge-success), .section-card__subsections > .mx-0.row:has(.text-success), .section-card__subsections > .mx-0.row:has(.badge-outline-success), .section-card__subsections > .mx-0.row:has(.btn-outline-success), .section-card__subsections > .mx-0.row:has([class*=success]), .section-card__subsections > .mx-0.row.published, .section-card__subsections > .mx-0.row.is-published, .section-card__subsections > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
 .subsection-card__units > .mx-0.row {
@@ -1370,6 +1375,9 @@ body {
 }
 #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
+}
+#root .studio-header .course-title-lockup span:first-child, #root .studio-header .course-title-lockup span:first-child * {
+  font-family: "IBM Plex Mono", monospace !important;
 }
 #root .studio-header nav, #root .studio-header .nav, #root .studio-header .navbar-nav, #root .studio-header .main-nav {
   border: none !important;
@@ -3879,6 +3887,26 @@ html[data-mce-style] {
   border-color: #D1D5DB !important;
   color: #374151;
 }
+.login-provider,
+.login-providers button,
+.social-auth-button,
+.social-login-btn,
+.third-party-auth-button,
+[class*=provider],
+.login-register .btn-outline-primary,
+.logistration-container .btn-outline-primary {
+  color: #0B1F3F !important;
+}
+.login-provider span,
+.login-providers button span,
+.social-auth-button span,
+.social-login-btn span,
+.third-party-auth-button span,
+[class*=provider] span,
+.login-register .btn-outline-primary span,
+.logistration-container .btn-outline-primary span {
+  color: #0B1F3F !important;
+}
 @media (min-width: 992px) {
   .profile-page {
     min-height: calc(100vh - 142px);
@@ -4480,6 +4508,11 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 .theme-toggle-button .toggle-switch .switch .slider.round::before {
   border-radius: 50%;
 }
+[data-paragon-theme-variant=dark] {
+  @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+  color: var(--pgn-color-text-base) !important;
+  background: var(--pgn-color-body-bg) !important;
+}
 [data-paragon-theme-variant=dark] #root {
   position: relative;
   z-index: 1;
@@ -4502,6 +4535,9 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
+}
+[data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child, [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child * {
+  font-family: "IBM Plex Mono", monospace !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
   border: none !important;
@@ -7129,6 +7165,26 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   background: none !important;
   color: var(--pgn-color-text-base);
 }
+[data-paragon-theme-variant=dark] .login-provider,
+[data-paragon-theme-variant=dark] .login-providers button,
+[data-paragon-theme-variant=dark] .social-auth-button,
+[data-paragon-theme-variant=dark] .social-login-btn,
+[data-paragon-theme-variant=dark] .third-party-auth-button,
+[data-paragon-theme-variant=dark] [class*=provider],
+[data-paragon-theme-variant=dark] .login-register .btn-outline-primary,
+[data-paragon-theme-variant=dark] .logistration-container .btn-outline-primary {
+  color: #0B1F3F !important;
+}
+[data-paragon-theme-variant=dark] .login-provider span,
+[data-paragon-theme-variant=dark] .login-providers button span,
+[data-paragon-theme-variant=dark] .social-auth-button span,
+[data-paragon-theme-variant=dark] .social-login-btn span,
+[data-paragon-theme-variant=dark] .third-party-auth-button span,
+[data-paragon-theme-variant=dark] [class*=provider] span,
+[data-paragon-theme-variant=dark] .login-register .btn-outline-primary span,
+[data-paragon-theme-variant=dark] .logistration-container .btn-outline-primary span {
+  color: #0B1F3F !important;
+}
 @media (min-width: 992px) {
   [data-paragon-theme-variant=dark] .profile-page {
     min-height: calc(100vh - 142px);
@@ -9021,8 +9077,4 @@ p > [data-paragon-theme-variant=dark] a.muted-link[href]:not(.btn):hover, [data-
 [data-paragon-theme-variant=dark] .theme-toggle-button .toggle-switch .switch .slider {
   background-color: #ccc;
   box-shadow: 0 0 1px #ccc;
-}
-[data-paragon-theme-variant=dark] {
-  color: var(--pgn-color-text-base) !important;
-  background: var(--pgn-color-body-bg) !important;
 }
