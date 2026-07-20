@@ -49,11 +49,15 @@ body {
   background: var(--pgn-color-body-bg) !important;
 }
 // Course Authoring Outline Section
-.course-outline-section {
+.course-outline, .course-outline-section {
 
   // Update release date text font (including all child elements)
-  .text-muted, .small, .outline-item-status, .release-date,
-  .text-muted *, .small *, .outline-item-status *, .release-date * {
+  .outline-item-status, .release-date, 
+  .course-outline-item-status,
+  .x-small.text-secondary-400,
+  .outline-item-status *, .release-date *,
+  .course-outline-item-status *,
+  .x-small.text-secondary-400 * {
      font-family: 'IBM Plex Mono', monospace !important;
   }
 

@@ -995,16 +995,25 @@ a.course-card-title {
 body {
   background: var(--pgn-color-body-bg) !important;
 }
-.course-outline-section .text-muted, .course-outline-section .small, .course-outline-section .outline-item-status, .course-outline-section .release-date,
-.course-outline-section .text-muted *, .course-outline-section .small *, .course-outline-section .outline-item-status *, .course-outline-section .release-date * {
+.course-outline .outline-item-status, .course-outline .release-date,
+.course-outline .course-outline-item-status,
+.course-outline .x-small.text-secondary-400,
+.course-outline .outline-item-status *, .course-outline .release-date *,
+.course-outline .course-outline-item-status *,
+.course-outline .x-small.text-secondary-400 *, .course-outline-section .outline-item-status, .course-outline-section .release-date,
+.course-outline-section .course-outline-item-status,
+.course-outline-section .x-small.text-secondary-400,
+.course-outline-section .outline-item-status *, .course-outline-section .release-date *,
+.course-outline-section .course-outline-item-status *,
+.course-outline-section .x-small.text-secondary-400 * {
   font-family: "IBM Plex Mono", monospace !important;
 }
-.course-outline-section .pt-4 > .mx-0.row {
+.course-outline .pt-4 > .mx-0.row, .course-outline-section .pt-4 > .mx-0.row {
   background: var(--pgn-color-body-bg) !important;
   box-shadow: var(--pgn-course-card-shadow) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
 }
-.course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline-section .pt-4 > .mx-0.row:has([class*=success]), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published, .course-outline-section .pt-4 > .mx-0.row.is-live {
+.course-outline .pt-4 > .mx-0.row:has(.badge-success), .course-outline .pt-4 > .mx-0.row:has(.text-success), .course-outline .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline .pt-4 > .mx-0.row:has([class*=success]), .course-outline .pt-4 > .mx-0.row.published, .course-outline .pt-4 > .mx-0.row.is-published, .course-outline .pt-4 > .mx-0.row.is-live, .course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline-section .pt-4 > .mx-0.row:has([class*=success]), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published, .course-outline-section .pt-4 > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
 .section-card__subsections > .mx-0.row {
