@@ -972,6 +972,14 @@ html {
 #root .btn:before {
   border-color: transparent !important;
 }
+.btn-outline-primary, .btn-outline-secondary, .btn-tertiary {
+  color: #0B1F3F !important;
+  border-color: #0B1F3F !important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active {
+  color: #0B1F3F !important;
+  border-color: #0B1F3F !important;
+}
 a.course-card-title {
   color: var(--pgn-color-text-primary) !important;
 }

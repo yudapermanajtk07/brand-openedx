@@ -19,6 +19,17 @@ html {
     border-color: transparent !important;
 }
 
+// Outline and Secondary buttons styles
+.btn-outline-primary, .btn-outline-secondary, .btn-tertiary {
+    color: #0B1F3F !important;
+    border-color: #0B1F3F !important;
+    
+    &:hover, &:focus, &:active {
+        color: #0B1F3F !important;
+        border-color: #0B1F3F !important;
+    }
+}
+
 a.course-card-title {
   color: var(--pgn-color-text-primary) !important;
 }
