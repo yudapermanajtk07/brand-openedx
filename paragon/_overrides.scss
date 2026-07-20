@@ -33,6 +33,9 @@ body {
     background: var(--pgn-color-body-bg) !important;
     box-shadow: var(--pgn-course-card-shadow) !important;
     border-left-color: var(--pgn-color-primary-base) !important;
+    &:has(.badge-success), &:has(.text-success), &.published, &.is-published {
+       border-left-color: #063970 !important;
+    }
   }
 }
 
@@ -41,6 +44,9 @@ body {
   > .mx-0.row {
     background: var(--pgn-color-bg-hover) !important;
     border-left-color: var(--pgn-color-primary-base) !important;
+    &:has(.badge-success), &:has(.text-success), &.published, &.is-published {
+       border-left-color: #063970 !important;
+    }
   }
 }
 
@@ -49,6 +55,9 @@ body {
   > .mx-0.row {
     background: var(--pgn-color-body-bg) !important;
     border-left-color: var(--pgn-color-primary-base) !important;
+    &:has(.badge-success), &:has(.text-success), &.published, &.is-published {
+       border-left-color: #063970 !important;
+    }
   }
 }
 

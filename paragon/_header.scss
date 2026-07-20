@@ -18,12 +18,16 @@
         height: 3rem;
       }
       .course-title-lockup {
+        border: none !important;
+        border-right: none !important;
         span {
           color: var(--pgn-color-primary-500);
         }
       }
       // Center the navigation block
       nav, .nav, .navbar-nav, .main-nav {
+        border: none !important;
+        border-left: none !important;
         flex-grow: 1 !important;
         display: flex !important;
         justify-content: center !important;

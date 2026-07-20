@@ -983,13 +983,22 @@ body {
   box-shadow: var(--pgn-course-card-shadow) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
 }
+.course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published {
+  border-left-color: #063970 !important;
+}
 .section-card__subsections > .mx-0.row {
   background: var(--pgn-color-bg-hover) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
 }
+.section-card__subsections > .mx-0.row:has(.badge-success), .section-card__subsections > .mx-0.row:has(.text-success), .section-card__subsections > .mx-0.row.published, .section-card__subsections > .mx-0.row.is-published {
+  border-left-color: #063970 !important;
+}
 .subsection-card__units > .mx-0.row {
   background: var(--pgn-color-body-bg) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
+}
+.subsection-card__units > .mx-0.row:has(.badge-success), .subsection-card__units > .mx-0.row:has(.text-success), .subsection-card__units > .mx-0.row.published, .subsection-card__units > .mx-0.row.is-published {
+  border-left-color: #063970 !important;
 }
 #root .x-small {
   font-size: 14px;
@@ -1347,10 +1356,16 @@ body {
   padding: 0.37rem 0;
   height: 3rem;
 }
+#root .studio-header .course-title-lockup {
+  border: none !important;
+  border-right: none !important;
+}
 #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
 }
 #root .studio-header nav, #root .studio-header .nav, #root .studio-header .navbar-nav, #root .studio-header .main-nav {
+  border: none !important;
+  border-left: none !important;
   flex-grow: 1 !important;
   display: flex !important;
   justify-content: center !important;
@@ -4417,10 +4432,16 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   padding: 0.37rem 0;
   height: 3rem;
 }
+[data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup {
+  border: none !important;
+  border-right: none !important;
+}
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
 }
 [data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
+  border: none !important;
+  border-left: none !important;
   flex-grow: 1 !important;
   display: flex !important;
   justify-content: center !important;
