@@ -973,13 +973,21 @@ html {
 #root .btn:before {
   border-color: transparent !important;
 }
-.btn-outline-primary, .btn-outline-secondary, .btn-tertiary {
+.btn-outline-primary, .btn-outline-secondary {
   color: #0B1F3F !important;
   border-color: #0B1F3F !important;
 }
-.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active {
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
   color: #0B1F3F !important;
   border-color: #0B1F3F !important;
+}
+.btn-tertiary {
+  color: #0B1F3F !important;
+  border-color: transparent !important;
+}
+.btn-tertiary:hover, .btn-tertiary:focus, .btn-tertiary:active {
+  color: #0B1F3F !important;
+  border-color: transparent !important;
 }
 a.course-card-title {
   color: var(--pgn-color-text-primary) !important;
@@ -2084,6 +2092,10 @@ footer.footer .footer-bottom, footer.footer .pgn__footer-copyright, footer.foote
   margin: 0 auto !important;
   text-align: center !important;
   font-size: 14px !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+footer.footer .footer-bottom p, footer.footer .footer-bottom span, footer.footer .footer-bottom div, footer.footer .pgn__footer-copyright p, footer.footer .pgn__footer-copyright span, footer.footer .pgn__footer-copyright div, footer.footer .copyright p, footer.footer .copyright span, footer.footer .copyright div, footer .footer-bottom p, footer .footer-bottom span, footer .footer-bottom div, footer .pgn__footer-copyright p, footer .pgn__footer-copyright span, footer .pgn__footer-copyright div, footer .copyright p, footer .copyright span, footer .copyright div, .wrapper-footer .footer-bottom p, .wrapper-footer .footer-bottom span, .wrapper-footer .footer-bottom div, .wrapper-footer .pgn__footer-copyright p, .wrapper-footer .pgn__footer-copyright span, .wrapper-footer .pgn__footer-copyright div, .wrapper-footer .copyright p, .wrapper-footer .copyright span, .wrapper-footer .copyright div, .pgn__footer .footer-bottom p, .pgn__footer .footer-bottom span, .pgn__footer .footer-bottom div, .pgn__footer .pgn__footer-copyright p, .pgn__footer .pgn__footer-copyright span, .pgn__footer .pgn__footer-copyright div, .pgn__footer .copyright p, .pgn__footer .copyright span, .pgn__footer .copyright div {
+  color: rgba(255, 255, 255, 0.4) !important;
 }
 footer.footer a, footer.footer a:hover, footer.footer a:focus, footer a, footer a:hover, footer a:focus, .wrapper-footer a, .wrapper-footer a:hover, .wrapper-footer a:focus, .pgn__footer a, .pgn__footer a:hover, .pgn__footer a:focus {
   color: #F6DB00 !important;
@@ -5289,6 +5301,10 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   margin: 0 auto !important;
   text-align: center !important;
   font-size: 14px !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+[data-paragon-theme-variant=dark] footer.footer .footer-bottom p, [data-paragon-theme-variant=dark] footer.footer .footer-bottom span, [data-paragon-theme-variant=dark] footer.footer .footer-bottom div, [data-paragon-theme-variant=dark] footer.footer .pgn__footer-copyright p, [data-paragon-theme-variant=dark] footer.footer .pgn__footer-copyright span, [data-paragon-theme-variant=dark] footer.footer .pgn__footer-copyright div, [data-paragon-theme-variant=dark] footer.footer .copyright p, [data-paragon-theme-variant=dark] footer.footer .copyright span, [data-paragon-theme-variant=dark] footer.footer .copyright div, [data-paragon-theme-variant=dark] footer .footer-bottom p, [data-paragon-theme-variant=dark] footer .footer-bottom span, [data-paragon-theme-variant=dark] footer .footer-bottom div, [data-paragon-theme-variant=dark] footer .pgn__footer-copyright p, [data-paragon-theme-variant=dark] footer .pgn__footer-copyright span, [data-paragon-theme-variant=dark] footer .pgn__footer-copyright div, [data-paragon-theme-variant=dark] footer .copyright p, [data-paragon-theme-variant=dark] footer .copyright span, [data-paragon-theme-variant=dark] footer .copyright div, [data-paragon-theme-variant=dark] .wrapper-footer .footer-bottom p, [data-paragon-theme-variant=dark] .wrapper-footer .footer-bottom span, [data-paragon-theme-variant=dark] .wrapper-footer .footer-bottom div, [data-paragon-theme-variant=dark] .wrapper-footer .pgn__footer-copyright p, [data-paragon-theme-variant=dark] .wrapper-footer .pgn__footer-copyright span, [data-paragon-theme-variant=dark] .wrapper-footer .pgn__footer-copyright div, [data-paragon-theme-variant=dark] .wrapper-footer .copyright p, [data-paragon-theme-variant=dark] .wrapper-footer .copyright span, [data-paragon-theme-variant=dark] .wrapper-footer .copyright div, [data-paragon-theme-variant=dark] .pgn__footer .footer-bottom p, [data-paragon-theme-variant=dark] .pgn__footer .footer-bottom span, [data-paragon-theme-variant=dark] .pgn__footer .footer-bottom div, [data-paragon-theme-variant=dark] .pgn__footer .pgn__footer-copyright p, [data-paragon-theme-variant=dark] .pgn__footer .pgn__footer-copyright span, [data-paragon-theme-variant=dark] .pgn__footer .pgn__footer-copyright div, [data-paragon-theme-variant=dark] .pgn__footer .copyright p, [data-paragon-theme-variant=dark] .pgn__footer .copyright span, [data-paragon-theme-variant=dark] .pgn__footer .copyright div {
+  color: rgba(255, 255, 255, 0.4) !important;
 }
 [data-paragon-theme-variant=dark] footer.footer a, [data-paragon-theme-variant=dark] footer.footer a:hover, [data-paragon-theme-variant=dark] footer.footer a:focus, [data-paragon-theme-variant=dark] footer a, [data-paragon-theme-variant=dark] footer a:hover, [data-paragon-theme-variant=dark] footer a:focus, [data-paragon-theme-variant=dark] .wrapper-footer a, [data-paragon-theme-variant=dark] .wrapper-footer a:hover, [data-paragon-theme-variant=dark] .wrapper-footer a:focus, [data-paragon-theme-variant=dark] .pgn__footer a, [data-paragon-theme-variant=dark] .pgn__footer a:hover, [data-paragon-theme-variant=dark] .pgn__footer a:focus {
   color: #F6DB00 !important;
