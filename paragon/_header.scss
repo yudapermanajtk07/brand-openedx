@@ -170,13 +170,20 @@
             padding: 0 15px;
         }
         .secondary-menu-container {
+            a, .nav-link, .btn-link {
+                color: #0B1F3F !important;
+            }
+            a:hover, a:focus,
             .nav-link:hover,
             .nav-link:focus,
             .nav-link.active,
             .expanded .nav-link {
-            background: transparent;
-            color: var(--pgn-color-primary-base);
-            text-decoration: underline;
+                background: transparent;
+                color: #0B1F3F !important;
+                text-decoration: underline;
+            }
+            .btn {
+                color: #0B1F3F !important;
             }
         }
         .logo {
@@ -197,15 +204,15 @@
                 font-weight: 500;
                 line-height: 22px;
                 padding: 20px 0;
-                color: var(--pgn-color-primary-base);
+                color: #0B1F3F !important;
                 margin: 0 16px 0 0;
                 display: block;
                 border-bottom: 2px solid transparent;
                 background: none;
                 &:hover {
-                    color: var(--pgn-color-text-base);
+                    color: #0B1F3F !important;
                     text-decoration: none;
-                    border-bottom: 2px solid var(--pgn-color-primary-base);
+                    border-bottom: 2px solid #0B1F3F !important;
                 }
             }
         }
