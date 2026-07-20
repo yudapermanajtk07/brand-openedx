@@ -1350,6 +1350,16 @@ body {
 #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
 }
+#root .studio-header .btn-primary, #root .studio-header [data-paragon-theme-variant=dark] .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, #root .studio-header .btn-brand, #root .studio-header .btn {
+  background-color: #F6DB00 !important;
+  border-color: #F6DB00 !important;
+  color: #0B1F3F !important;
+}
+#root .studio-header .btn-primary:hover, #root .studio-header [data-paragon-theme-variant=dark] .modal button:hover, [data-paragon-theme-variant=dark] .modal #root .studio-header button:hover, #root .studio-header .btn-primary:focus, #root .studio-header [data-paragon-theme-variant=dark] .modal button:focus, [data-paragon-theme-variant=dark] .modal #root .studio-header button:focus, #root .studio-header .btn-primary:active, #root .studio-header [data-paragon-theme-variant=dark] .modal button:active, [data-paragon-theme-variant=dark] .modal #root .studio-header button:active, #root .studio-header .btn-brand:hover, #root .studio-header .btn-brand:focus, #root .studio-header .btn-brand:active, #root .studio-header .btn:hover, #root .studio-header .btn:focus, #root .studio-header .btn:active {
+  background-color: #F6DB00 !important;
+  border-color: #F6DB00 !important;
+  color: #0B1F3F !important;
+}
 #root header.site-header-mobile {
   padding: 0 15px;
   height: auto;
@@ -4402,6 +4412,16 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
+}
+[data-paragon-theme-variant=dark] #root .studio-header .btn-primary, [data-paragon-theme-variant=dark] #root .studio-header .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand, [data-paragon-theme-variant=dark] #root .studio-header .btn {
+  background-color: #F6DB00 !important;
+  border-color: #F6DB00 !important;
+  color: #0B1F3F !important;
+}
+[data-paragon-theme-variant=dark] #root .studio-header .btn-primary:hover, [data-paragon-theme-variant=dark] #root .studio-header .modal button:hover, [data-paragon-theme-variant=dark] .modal #root .studio-header button:hover, [data-paragon-theme-variant=dark] #root .studio-header .btn-primary:focus, [data-paragon-theme-variant=dark] #root .studio-header .modal button:focus, [data-paragon-theme-variant=dark] .modal #root .studio-header button:focus, [data-paragon-theme-variant=dark] #root .studio-header .btn-primary:active, [data-paragon-theme-variant=dark] #root .studio-header .modal button:active, [data-paragon-theme-variant=dark] .modal #root .studio-header button:active, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand:hover, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand:focus, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand:active, [data-paragon-theme-variant=dark] #root .studio-header .btn:hover, [data-paragon-theme-variant=dark] #root .studio-header .btn:focus, [data-paragon-theme-variant=dark] #root .studio-header .btn:active {
+  background-color: #F6DB00 !important;
+  border-color: #F6DB00 !important;
+  color: #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] #root header.site-header-mobile {
   padding: 0 15px;

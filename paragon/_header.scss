@@ -22,6 +22,16 @@
           color: var(--pgn-color-primary-500);
         }
       }
+      .btn-primary, .btn-brand, .btn {
+          background-color: #F6DB00 !important;
+          border-color: #F6DB00 !important;
+          color: #0B1F3F !important;
+          &:hover, &:focus, &:active {
+              background-color: #F6DB00 !important;
+              border-color: #F6DB00 !important;
+              color: #0B1F3F !important;
+          }
+      }
     }
     header.site-header-mobile {
         padding: 0 15px;
