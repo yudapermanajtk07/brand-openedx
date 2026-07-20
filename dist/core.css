@@ -1337,7 +1337,7 @@ body {
   z-index: 1;
   width: 100%;
 }
-#root header, #root .studio-header, #root .learner-variant-header {
+#root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .studio-header, #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -1349,6 +1349,13 @@ body {
 }
 #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
+}
+#root .studio-header nav, #root .studio-header .nav, #root .studio-header .navbar-nav, #root .studio-header .main-nav {
+  flex-grow: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 #root .studio-header .btn-primary, #root .studio-header [data-paragon-theme-variant=dark] .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, #root .studio-header .btn-brand, #root .studio-header .btn {
   background-color: #F6DB00 !important;
@@ -4400,7 +4407,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
+[data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {
@@ -4412,6 +4419,13 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span {
   color: var(--pgn-color-primary-500);
+}
+[data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
+  flex-grow: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header .btn-primary, [data-paragon-theme-variant=dark] #root .studio-header .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand, [data-paragon-theme-variant=dark] #root .studio-header .btn {
   background-color: #F6DB00 !important;

@@ -3,7 +3,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    header, .studio-header, .learner-variant-header {
+    header.site-header, header.site-header-desktop, header.site-header-mobile, header.customise.learning-header, .studio-header, .learner-variant-header {
         background-color: #F6DB00 !important;
     }
     .logo {
@@ -21,6 +21,14 @@
         span {
           color: var(--pgn-color-primary-500);
         }
+      }
+      // Center the navigation block
+      nav, .nav, .navbar-nav, .main-nav {
+        flex-grow: 1 !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
       }
       .btn-primary, .btn-brand, .btn {
           background-color: #F6DB00 !important;
