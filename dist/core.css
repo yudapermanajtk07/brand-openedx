@@ -965,11 +965,8 @@ html {
   width: 100%;
   overflow-x: hidden;
 }
-.container-xl,
-main.container-fluid, main .container-fluid,
-main.container, main .container {
-  max-width: 1280px !important;
-  margin: 0 auto !important;
+.container-xl {
+  max-width: 1600px !important;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -1394,13 +1391,6 @@ body {
 #root .logo img {
   height: 48px;
 }
-#root .studio-header {
-  height: 64px !important;
-}
-#root .studio-header .container-fluid {
-  max-width: 1280px !important;
-  margin: 0 auto;
-}
 #root .studio-header .logo {
   padding: 0.37rem 0;
   height: 3rem;
@@ -1414,10 +1404,6 @@ body {
 }
 #root .studio-header .course-title-lockup span:first-child, #root .studio-header .course-title-lockup span:first-child * {
   font-family: "IBM Plex Mono", monospace !important;
-  font-size: 12px !important;
-}
-#root .studio-header .course-title-lockup span:last-child {
-  font-size: 14px !important;
 }
 #root .studio-header nav, #root .studio-header .nav, #root .studio-header .navbar-nav, #root .studio-header .main-nav {
   border: none !important;
@@ -1428,12 +1414,6 @@ body {
   margin-left: auto !important;
   margin-right: 2rem !important;
   gap: 1.5rem !important;
-}
-#root .studio-header nav a, #root .studio-header nav button, #root .studio-header nav span, #root .studio-header .nav a, #root .studio-header .nav button, #root .studio-header .nav span, #root .studio-header .navbar-nav a, #root .studio-header .navbar-nav button, #root .studio-header .navbar-nav span, #root .studio-header .main-nav a, #root .studio-header .main-nav button, #root .studio-header .main-nav span {
-  font-size: 14px !important;
-}
-#root .studio-header .pgn__menu-dropdown, #root .studio-header .dropdown-toggle {
-  font-size: 14px !important;
 }
 #root .studio-header .btn-primary, #root .studio-header [data-paragon-theme-variant=dark] .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, #root .studio-header .btn-brand, #root .studio-header .btn {
   background-color: #F6DB00 !important;
@@ -4576,13 +4556,6 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 [data-paragon-theme-variant=dark] #root .logo img {
   height: 48px;
 }
-[data-paragon-theme-variant=dark] #root .studio-header {
-  height: 64px !important;
-}
-[data-paragon-theme-variant=dark] #root .studio-header .container-fluid {
-  max-width: 1280px !important;
-  margin: 0 auto;
-}
 [data-paragon-theme-variant=dark] #root .studio-header .logo {
   padding: 0.37rem 0;
   height: 3rem;
@@ -4596,10 +4569,6 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child, [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child * {
   font-family: "IBM Plex Mono", monospace !important;
-  font-size: 12px !important;
-}
-[data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:last-child {
-  font-size: 14px !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
   border: none !important;
@@ -4610,12 +4579,6 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   margin-left: auto !important;
   margin-right: 2rem !important;
   gap: 1.5rem !important;
-}
-[data-paragon-theme-variant=dark] #root .studio-header nav a, [data-paragon-theme-variant=dark] #root .studio-header nav button, [data-paragon-theme-variant=dark] #root .studio-header nav span, [data-paragon-theme-variant=dark] #root .studio-header .nav a, [data-paragon-theme-variant=dark] #root .studio-header .nav button, [data-paragon-theme-variant=dark] #root .studio-header .nav span, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav a, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav button, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav span, [data-paragon-theme-variant=dark] #root .studio-header .main-nav a, [data-paragon-theme-variant=dark] #root .studio-header .main-nav button, [data-paragon-theme-variant=dark] #root .studio-header .main-nav span {
-  font-size: 14px !important;
-}
-[data-paragon-theme-variant=dark] #root .studio-header .pgn__menu-dropdown, [data-paragon-theme-variant=dark] #root .studio-header .dropdown-toggle {
-  font-size: 14px !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header .btn-primary, [data-paragon-theme-variant=dark] #root .studio-header .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand, [data-paragon-theme-variant=dark] #root .studio-header .btn {
   background-color: #F6DB00 !important;

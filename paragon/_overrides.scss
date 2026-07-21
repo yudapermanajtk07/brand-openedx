@@ -10,17 +10,16 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
-.container-xl, 
-main.container-fluid, main .container-fluid, 
-main.container, main .container {
-    max-width: 1280px !important;
-    margin: 0 auto !important;
+.container-xl {
+    max-width: 1600px !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
 #root .btn:before {
     border-color: transparent !important;
 }
+
+
 
 // Outline and Secondary buttons styles
 .btn-outline-primary, .btn-outline-secondary {
