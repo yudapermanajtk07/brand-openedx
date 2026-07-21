@@ -585,6 +585,34 @@ header + .bg-primary, .pgn__header + .bg-primary,
   background-color: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
+  
+  // Enforce exactly 58px height and vertical centering
+  height: 58px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  .container-xl {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 100% !important;
+    align-items: center !important; // Overrides align-items-start
+  }
+
+  .my-1, .mt-1, .py-3 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .col-form-label {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+  }
+
   *, .text-dark, .text-primary {
     color: #FFFFFF !important;
   }
@@ -594,6 +622,13 @@ header + .bg-primary, .pgn__header + .bg-primary,
     background-color: transparent !important;
     border-color: #FFFFFF !important;
     color: #FFFFFF !important;
+    height: 32px !important; // Fits perfectly inside 58px
+    padding: 0 16px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+
     &:hover, &:focus, &:active, &[aria-expanded="true"], &.active, &.show {
       background-color: #FFFFFF !important;
       color: #191A1A !important;

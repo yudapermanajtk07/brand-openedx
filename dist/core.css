@@ -1642,6 +1642,43 @@ header + .bg-primary, .pgn__header + .bg-primary,
   background-color: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
+  height: 58px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.masquerade-widget .container-xl, .course-status-banner .container-xl, .alert-primary .container-xl,
+header + .bg-primary .container-xl, .pgn__header + .bg-primary .container-xl,
+#root > .bg-primary .container-xl, .page-wrapper > .bg-primary .container-xl, main > .bg-primary:first-child .container-xl,
+.bg-primary:has(button.dropdown-toggle) .container-xl {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 100% !important;
+  align-items: center !important;
+}
+.masquerade-widget .my-1, .masquerade-widget .mt-1, .masquerade-widget .py-3, .course-status-banner .my-1, .course-status-banner .mt-1, .course-status-banner .py-3, .alert-primary .my-1, .alert-primary .mt-1, .alert-primary .py-3,
+header + .bg-primary .my-1,
+header + .bg-primary .mt-1,
+header + .bg-primary .py-3, .pgn__header + .bg-primary .my-1, .pgn__header + .bg-primary .mt-1, .pgn__header + .bg-primary .py-3,
+#root > .bg-primary .my-1,
+#root > .bg-primary .mt-1,
+#root > .bg-primary .py-3, .page-wrapper > .bg-primary .my-1, .page-wrapper > .bg-primary .mt-1, .page-wrapper > .bg-primary .py-3, main > .bg-primary:first-child .my-1, main > .bg-primary:first-child .mt-1, main > .bg-primary:first-child .py-3,
+.bg-primary:has(button.dropdown-toggle) .my-1,
+.bg-primary:has(button.dropdown-toggle) .mt-1,
+.bg-primary:has(button.dropdown-toggle) .py-3 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.masquerade-widget .col-form-label, .course-status-banner .col-form-label, .alert-primary .col-form-label,
+header + .bg-primary .col-form-label, .pgn__header + .bg-primary .col-form-label,
+#root > .bg-primary .col-form-label, .page-wrapper > .bg-primary .col-form-label, main > .bg-primary:first-child .col-form-label,
+.bg-primary:has(button.dropdown-toggle) .col-form-label {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  line-height: 1;
 }
 .masquerade-widget *, .masquerade-widget .text-dark, .masquerade-widget .text-primary, .course-status-banner *, .course-status-banner .text-dark, .course-status-banner .text-primary, .alert-primary *, .alert-primary .text-dark, .alert-primary .text-primary,
 header + .bg-primary *,
@@ -1668,6 +1705,12 @@ header + .bg-primary .dropdown-toggle, .pgn__header + .bg-primary .btn, .pgn__he
   background-color: transparent !important;
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
+  height: 32px !important;
+  padding: 0 16px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
 }
 .masquerade-widget .btn:hover, .masquerade-widget .btn:focus, .masquerade-widget .btn:active, .masquerade-widget .btn[aria-expanded=true], .masquerade-widget .btn.active, .masquerade-widget .btn.show, .masquerade-widget button:hover, .masquerade-widget button:focus, .masquerade-widget button:active, .masquerade-widget button[aria-expanded=true], .masquerade-widget button.active, .masquerade-widget button.show, .masquerade-widget .dropdown-toggle:hover, .masquerade-widget .dropdown-toggle:focus, .masquerade-widget .dropdown-toggle:active, .masquerade-widget .dropdown-toggle[aria-expanded=true], .masquerade-widget .dropdown-toggle.active, .masquerade-widget .dropdown-toggle.show, .course-status-banner .btn:hover, .course-status-banner .btn:focus, .course-status-banner .btn:active, .course-status-banner .btn[aria-expanded=true], .course-status-banner .btn.active, .course-status-banner .btn.show, .course-status-banner button:hover, .course-status-banner button:focus, .course-status-banner button:active, .course-status-banner button[aria-expanded=true], .course-status-banner button.active, .course-status-banner button.show, .course-status-banner .dropdown-toggle:hover, .course-status-banner .dropdown-toggle:focus, .course-status-banner .dropdown-toggle:active, .course-status-banner .dropdown-toggle[aria-expanded=true], .course-status-banner .dropdown-toggle.active, .course-status-banner .dropdown-toggle.show, .alert-primary .btn:hover, .alert-primary .btn:focus, .alert-primary .btn:active, .alert-primary .btn[aria-expanded=true], .alert-primary .btn.active, .alert-primary .btn.show, .alert-primary button:hover, .alert-primary button:focus, .alert-primary button:active, .alert-primary button[aria-expanded=true], .alert-primary button.active, .alert-primary button.show, .alert-primary .dropdown-toggle:hover, .alert-primary .dropdown-toggle:focus, .alert-primary .dropdown-toggle:active, .alert-primary .dropdown-toggle[aria-expanded=true], .alert-primary .dropdown-toggle.active, .alert-primary .dropdown-toggle.show,
 header + .bg-primary .btn:hover,
@@ -1789,7 +1832,7 @@ header + .bg-primary .dropdown-toggle.show *, .pgn__header + .bg-primary .btn:ho
   z-index: 1;
   width: 100%;
 }
-#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .studio-header, #root .learner-variant-header {
+#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -4954,7 +4997,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
+[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {
