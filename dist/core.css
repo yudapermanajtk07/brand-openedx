@@ -1635,12 +1635,32 @@ body {
 input[type=checkbox]:checked, .custom-control-input:checked ~ .custom-control-label::before {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
 }
+.masquerade-widget, .course-status-banner, .alert-primary {
+  background-color: #191A1A !important;
+  border-color: #191A1A !important;
+  color: #FFFFFF !important;
+}
+.masquerade-widget *, .masquerade-widget .text-dark, .masquerade-widget .text-primary, .course-status-banner *, .course-status-banner .text-dark, .course-status-banner .text-primary, .alert-primary *, .alert-primary .text-dark, .alert-primary .text-primary {
+  color: #FFFFFF !important;
+}
+.masquerade-widget .btn, .masquerade-widget button, .masquerade-widget .dropdown-toggle, .course-status-banner .btn, .course-status-banner button, .course-status-banner .dropdown-toggle, .alert-primary .btn, .alert-primary button, .alert-primary .dropdown-toggle {
+  background-color: transparent !important;
+  border-color: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+.masquerade-widget .btn:hover, .masquerade-widget .btn:focus, .masquerade-widget .btn:active, .masquerade-widget .btn[aria-expanded=true], .masquerade-widget .btn.active, .masquerade-widget .btn.show, .masquerade-widget button:hover, .masquerade-widget button:focus, .masquerade-widget button:active, .masquerade-widget button[aria-expanded=true], .masquerade-widget button.active, .masquerade-widget button.show, .masquerade-widget .dropdown-toggle:hover, .masquerade-widget .dropdown-toggle:focus, .masquerade-widget .dropdown-toggle:active, .masquerade-widget .dropdown-toggle[aria-expanded=true], .masquerade-widget .dropdown-toggle.active, .masquerade-widget .dropdown-toggle.show, .course-status-banner .btn:hover, .course-status-banner .btn:focus, .course-status-banner .btn:active, .course-status-banner .btn[aria-expanded=true], .course-status-banner .btn.active, .course-status-banner .btn.show, .course-status-banner button:hover, .course-status-banner button:focus, .course-status-banner button:active, .course-status-banner button[aria-expanded=true], .course-status-banner button.active, .course-status-banner button.show, .course-status-banner .dropdown-toggle:hover, .course-status-banner .dropdown-toggle:focus, .course-status-banner .dropdown-toggle:active, .course-status-banner .dropdown-toggle[aria-expanded=true], .course-status-banner .dropdown-toggle.active, .course-status-banner .dropdown-toggle.show, .alert-primary .btn:hover, .alert-primary .btn:focus, .alert-primary .btn:active, .alert-primary .btn[aria-expanded=true], .alert-primary .btn.active, .alert-primary .btn.show, .alert-primary button:hover, .alert-primary button:focus, .alert-primary button:active, .alert-primary button[aria-expanded=true], .alert-primary button.active, .alert-primary button.show, .alert-primary .dropdown-toggle:hover, .alert-primary .dropdown-toggle:focus, .alert-primary .dropdown-toggle:active, .alert-primary .dropdown-toggle[aria-expanded=true], .alert-primary .dropdown-toggle.active, .alert-primary .dropdown-toggle.show {
+  background-color: #FFFFFF !important;
+  color: #191A1A !important;
+}
+.masquerade-widget .btn:hover *, .masquerade-widget .btn:focus *, .masquerade-widget .btn:active *, .masquerade-widget .btn[aria-expanded=true] *, .masquerade-widget .btn.active *, .masquerade-widget .btn.show *, .masquerade-widget button:hover *, .masquerade-widget button:focus *, .masquerade-widget button:active *, .masquerade-widget button[aria-expanded=true] *, .masquerade-widget button.active *, .masquerade-widget button.show *, .masquerade-widget .dropdown-toggle:hover *, .masquerade-widget .dropdown-toggle:focus *, .masquerade-widget .dropdown-toggle:active *, .masquerade-widget .dropdown-toggle[aria-expanded=true] *, .masquerade-widget .dropdown-toggle.active *, .masquerade-widget .dropdown-toggle.show *, .course-status-banner .btn:hover *, .course-status-banner .btn:focus *, .course-status-banner .btn:active *, .course-status-banner .btn[aria-expanded=true] *, .course-status-banner .btn.active *, .course-status-banner .btn.show *, .course-status-banner button:hover *, .course-status-banner button:focus *, .course-status-banner button:active *, .course-status-banner button[aria-expanded=true] *, .course-status-banner button.active *, .course-status-banner button.show *, .course-status-banner .dropdown-toggle:hover *, .course-status-banner .dropdown-toggle:focus *, .course-status-banner .dropdown-toggle:active *, .course-status-banner .dropdown-toggle[aria-expanded=true] *, .course-status-banner .dropdown-toggle.active *, .course-status-banner .dropdown-toggle.show *, .alert-primary .btn:hover *, .alert-primary .btn:focus *, .alert-primary .btn:active *, .alert-primary .btn[aria-expanded=true] *, .alert-primary .btn.active *, .alert-primary .btn.show *, .alert-primary button:hover *, .alert-primary button:focus *, .alert-primary button:active *, .alert-primary button[aria-expanded=true] *, .alert-primary button.active *, .alert-primary button.show *, .alert-primary .dropdown-toggle:hover *, .alert-primary .dropdown-toggle:focus *, .alert-primary .dropdown-toggle:active *, .alert-primary .dropdown-toggle[aria-expanded=true] *, .alert-primary .dropdown-toggle.active *, .alert-primary .dropdown-toggle.show * {
+  color: #191A1A !important;
+}
 #root {
   position: relative;
   z-index: 1;
   width: 100%;
 }
-#root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .studio-header, #root .learner-variant-header {
+#root header, #root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .studio-header, #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -4805,7 +4825,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
+[data-paragon-theme-variant=dark] #root header, [data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {

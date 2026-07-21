@@ -577,6 +577,30 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
 }
 
+// Masquerade / Course Status Banner in Learning MFE
+.masquerade-widget, .course-status-banner, .alert-primary {
+  background-color: #191A1A !important;
+  border-color: #191A1A !important;
+  color: #FFFFFF !important;
+  *, .text-dark, .text-primary {
+    color: #FFFFFF !important;
+  }
+  
+  // Buttons inside the banner (e.g., Staff/Studio dropdown buttons)
+  .btn, button, .dropdown-toggle {
+    background-color: transparent !important;
+    border-color: #FFFFFF !important;
+    color: #FFFFFF !important;
+    &:hover, &:focus, &:active, &[aria-expanded="true"], &.active, &.show {
+      background-color: #FFFFFF !important;
+      color: #191A1A !important;
+      * {
+        color: #191A1A !important;
+      }
+    }
+  }
+}
+
 @import "./header";
 @import "./footer";
 @import "./login";
