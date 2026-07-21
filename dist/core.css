@@ -1635,24 +1635,153 @@ body {
 input[type=checkbox]:checked, .custom-control-input:checked ~ .custom-control-label::before {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
 }
-.masquerade-widget, .course-status-banner, .alert-primary {
+.masquerade-widget, .course-status-banner, .alert-primary,
+header + .bg-primary, .pgn__header + .bg-primary,
+#root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
+.bg-primary:has(button.dropdown-toggle) {
   background-color: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
 }
-.masquerade-widget *, .masquerade-widget .text-dark, .masquerade-widget .text-primary, .course-status-banner *, .course-status-banner .text-dark, .course-status-banner .text-primary, .alert-primary *, .alert-primary .text-dark, .alert-primary .text-primary {
+.masquerade-widget *, .masquerade-widget .text-dark, .masquerade-widget .text-primary, .course-status-banner *, .course-status-banner .text-dark, .course-status-banner .text-primary, .alert-primary *, .alert-primary .text-dark, .alert-primary .text-primary,
+header + .bg-primary *,
+header + .bg-primary .text-dark,
+header + .bg-primary .text-primary, .pgn__header + .bg-primary *, .pgn__header + .bg-primary .text-dark, .pgn__header + .bg-primary .text-primary,
+#root > .bg-primary *,
+#root > .bg-primary .text-dark,
+#root > .bg-primary .text-primary, .page-wrapper > .bg-primary *, .page-wrapper > .bg-primary .text-dark, .page-wrapper > .bg-primary .text-primary, main > .bg-primary:first-child *, main > .bg-primary:first-child .text-dark, main > .bg-primary:first-child .text-primary,
+.bg-primary:has(button.dropdown-toggle) *,
+.bg-primary:has(button.dropdown-toggle) .text-dark,
+.bg-primary:has(button.dropdown-toggle) .text-primary {
   color: #FFFFFF !important;
 }
-.masquerade-widget .btn, .masquerade-widget button, .masquerade-widget .dropdown-toggle, .course-status-banner .btn, .course-status-banner button, .course-status-banner .dropdown-toggle, .alert-primary .btn, .alert-primary button, .alert-primary .dropdown-toggle {
+.masquerade-widget .btn, .masquerade-widget button, .masquerade-widget .dropdown-toggle, .course-status-banner .btn, .course-status-banner button, .course-status-banner .dropdown-toggle, .alert-primary .btn, .alert-primary button, .alert-primary .dropdown-toggle,
+header + .bg-primary .btn,
+header + .bg-primary button,
+header + .bg-primary .dropdown-toggle, .pgn__header + .bg-primary .btn, .pgn__header + .bg-primary button, .pgn__header + .bg-primary .dropdown-toggle,
+#root > .bg-primary .btn,
+#root > .bg-primary button,
+#root > .bg-primary .dropdown-toggle, .page-wrapper > .bg-primary .btn, .page-wrapper > .bg-primary button, .page-wrapper > .bg-primary .dropdown-toggle, main > .bg-primary:first-child .btn, main > .bg-primary:first-child button, main > .bg-primary:first-child .dropdown-toggle,
+.bg-primary:has(button.dropdown-toggle) .btn,
+.bg-primary:has(button.dropdown-toggle) button,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle {
   background-color: transparent !important;
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
 }
-.masquerade-widget .btn:hover, .masquerade-widget .btn:focus, .masquerade-widget .btn:active, .masquerade-widget .btn[aria-expanded=true], .masquerade-widget .btn.active, .masquerade-widget .btn.show, .masquerade-widget button:hover, .masquerade-widget button:focus, .masquerade-widget button:active, .masquerade-widget button[aria-expanded=true], .masquerade-widget button.active, .masquerade-widget button.show, .masquerade-widget .dropdown-toggle:hover, .masquerade-widget .dropdown-toggle:focus, .masquerade-widget .dropdown-toggle:active, .masquerade-widget .dropdown-toggle[aria-expanded=true], .masquerade-widget .dropdown-toggle.active, .masquerade-widget .dropdown-toggle.show, .course-status-banner .btn:hover, .course-status-banner .btn:focus, .course-status-banner .btn:active, .course-status-banner .btn[aria-expanded=true], .course-status-banner .btn.active, .course-status-banner .btn.show, .course-status-banner button:hover, .course-status-banner button:focus, .course-status-banner button:active, .course-status-banner button[aria-expanded=true], .course-status-banner button.active, .course-status-banner button.show, .course-status-banner .dropdown-toggle:hover, .course-status-banner .dropdown-toggle:focus, .course-status-banner .dropdown-toggle:active, .course-status-banner .dropdown-toggle[aria-expanded=true], .course-status-banner .dropdown-toggle.active, .course-status-banner .dropdown-toggle.show, .alert-primary .btn:hover, .alert-primary .btn:focus, .alert-primary .btn:active, .alert-primary .btn[aria-expanded=true], .alert-primary .btn.active, .alert-primary .btn.show, .alert-primary button:hover, .alert-primary button:focus, .alert-primary button:active, .alert-primary button[aria-expanded=true], .alert-primary button.active, .alert-primary button.show, .alert-primary .dropdown-toggle:hover, .alert-primary .dropdown-toggle:focus, .alert-primary .dropdown-toggle:active, .alert-primary .dropdown-toggle[aria-expanded=true], .alert-primary .dropdown-toggle.active, .alert-primary .dropdown-toggle.show {
+.masquerade-widget .btn:hover, .masquerade-widget .btn:focus, .masquerade-widget .btn:active, .masquerade-widget .btn[aria-expanded=true], .masquerade-widget .btn.active, .masquerade-widget .btn.show, .masquerade-widget button:hover, .masquerade-widget button:focus, .masquerade-widget button:active, .masquerade-widget button[aria-expanded=true], .masquerade-widget button.active, .masquerade-widget button.show, .masquerade-widget .dropdown-toggle:hover, .masquerade-widget .dropdown-toggle:focus, .masquerade-widget .dropdown-toggle:active, .masquerade-widget .dropdown-toggle[aria-expanded=true], .masquerade-widget .dropdown-toggle.active, .masquerade-widget .dropdown-toggle.show, .course-status-banner .btn:hover, .course-status-banner .btn:focus, .course-status-banner .btn:active, .course-status-banner .btn[aria-expanded=true], .course-status-banner .btn.active, .course-status-banner .btn.show, .course-status-banner button:hover, .course-status-banner button:focus, .course-status-banner button:active, .course-status-banner button[aria-expanded=true], .course-status-banner button.active, .course-status-banner button.show, .course-status-banner .dropdown-toggle:hover, .course-status-banner .dropdown-toggle:focus, .course-status-banner .dropdown-toggle:active, .course-status-banner .dropdown-toggle[aria-expanded=true], .course-status-banner .dropdown-toggle.active, .course-status-banner .dropdown-toggle.show, .alert-primary .btn:hover, .alert-primary .btn:focus, .alert-primary .btn:active, .alert-primary .btn[aria-expanded=true], .alert-primary .btn.active, .alert-primary .btn.show, .alert-primary button:hover, .alert-primary button:focus, .alert-primary button:active, .alert-primary button[aria-expanded=true], .alert-primary button.active, .alert-primary button.show, .alert-primary .dropdown-toggle:hover, .alert-primary .dropdown-toggle:focus, .alert-primary .dropdown-toggle:active, .alert-primary .dropdown-toggle[aria-expanded=true], .alert-primary .dropdown-toggle.active, .alert-primary .dropdown-toggle.show,
+header + .bg-primary .btn:hover,
+header + .bg-primary .btn:focus,
+header + .bg-primary .btn:active,
+header + .bg-primary .btn[aria-expanded=true],
+header + .bg-primary .btn.active,
+header + .bg-primary .btn.show,
+header + .bg-primary button:hover,
+header + .bg-primary button:focus,
+header + .bg-primary button:active,
+header + .bg-primary button[aria-expanded=true],
+header + .bg-primary button.active,
+header + .bg-primary button.show,
+header + .bg-primary .dropdown-toggle:hover,
+header + .bg-primary .dropdown-toggle:focus,
+header + .bg-primary .dropdown-toggle:active,
+header + .bg-primary .dropdown-toggle[aria-expanded=true],
+header + .bg-primary .dropdown-toggle.active,
+header + .bg-primary .dropdown-toggle.show, .pgn__header + .bg-primary .btn:hover, .pgn__header + .bg-primary .btn:focus, .pgn__header + .bg-primary .btn:active, .pgn__header + .bg-primary .btn[aria-expanded=true], .pgn__header + .bg-primary .btn.active, .pgn__header + .bg-primary .btn.show, .pgn__header + .bg-primary button:hover, .pgn__header + .bg-primary button:focus, .pgn__header + .bg-primary button:active, .pgn__header + .bg-primary button[aria-expanded=true], .pgn__header + .bg-primary button.active, .pgn__header + .bg-primary button.show, .pgn__header + .bg-primary .dropdown-toggle:hover, .pgn__header + .bg-primary .dropdown-toggle:focus, .pgn__header + .bg-primary .dropdown-toggle:active, .pgn__header + .bg-primary .dropdown-toggle[aria-expanded=true], .pgn__header + .bg-primary .dropdown-toggle.active, .pgn__header + .bg-primary .dropdown-toggle.show,
+#root > .bg-primary .btn:hover,
+#root > .bg-primary .btn:focus,
+#root > .bg-primary .btn:active,
+#root > .bg-primary .btn[aria-expanded=true],
+#root > .bg-primary .btn.active,
+#root > .bg-primary .btn.show,
+#root > .bg-primary button:hover,
+#root > .bg-primary button:focus,
+#root > .bg-primary button:active,
+#root > .bg-primary button[aria-expanded=true],
+#root > .bg-primary button.active,
+#root > .bg-primary button.show,
+#root > .bg-primary .dropdown-toggle:hover,
+#root > .bg-primary .dropdown-toggle:focus,
+#root > .bg-primary .dropdown-toggle:active,
+#root > .bg-primary .dropdown-toggle[aria-expanded=true],
+#root > .bg-primary .dropdown-toggle.active,
+#root > .bg-primary .dropdown-toggle.show, .page-wrapper > .bg-primary .btn:hover, .page-wrapper > .bg-primary .btn:focus, .page-wrapper > .bg-primary .btn:active, .page-wrapper > .bg-primary .btn[aria-expanded=true], .page-wrapper > .bg-primary .btn.active, .page-wrapper > .bg-primary .btn.show, .page-wrapper > .bg-primary button:hover, .page-wrapper > .bg-primary button:focus, .page-wrapper > .bg-primary button:active, .page-wrapper > .bg-primary button[aria-expanded=true], .page-wrapper > .bg-primary button.active, .page-wrapper > .bg-primary button.show, .page-wrapper > .bg-primary .dropdown-toggle:hover, .page-wrapper > .bg-primary .dropdown-toggle:focus, .page-wrapper > .bg-primary .dropdown-toggle:active, .page-wrapper > .bg-primary .dropdown-toggle[aria-expanded=true], .page-wrapper > .bg-primary .dropdown-toggle.active, .page-wrapper > .bg-primary .dropdown-toggle.show, main > .bg-primary:first-child .btn:hover, main > .bg-primary:first-child .btn:focus, main > .bg-primary:first-child .btn:active, main > .bg-primary:first-child .btn[aria-expanded=true], main > .bg-primary:first-child .btn.active, main > .bg-primary:first-child .btn.show, main > .bg-primary:first-child button:hover, main > .bg-primary:first-child button:focus, main > .bg-primary:first-child button:active, main > .bg-primary:first-child button[aria-expanded=true], main > .bg-primary:first-child button.active, main > .bg-primary:first-child button.show, main > .bg-primary:first-child .dropdown-toggle:hover, main > .bg-primary:first-child .dropdown-toggle:focus, main > .bg-primary:first-child .dropdown-toggle:active, main > .bg-primary:first-child .dropdown-toggle[aria-expanded=true], main > .bg-primary:first-child .dropdown-toggle.active, main > .bg-primary:first-child .dropdown-toggle.show,
+.bg-primary:has(button.dropdown-toggle) .btn:hover,
+.bg-primary:has(button.dropdown-toggle) .btn:focus,
+.bg-primary:has(button.dropdown-toggle) .btn:active,
+.bg-primary:has(button.dropdown-toggle) .btn[aria-expanded=true],
+.bg-primary:has(button.dropdown-toggle) .btn.active,
+.bg-primary:has(button.dropdown-toggle) .btn.show,
+.bg-primary:has(button.dropdown-toggle) button:hover,
+.bg-primary:has(button.dropdown-toggle) button:focus,
+.bg-primary:has(button.dropdown-toggle) button:active,
+.bg-primary:has(button.dropdown-toggle) button[aria-expanded=true],
+.bg-primary:has(button.dropdown-toggle) button.active,
+.bg-primary:has(button.dropdown-toggle) button.show,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle:hover,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle:focus,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle:active,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle[aria-expanded=true],
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.active,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show {
   background-color: #FFFFFF !important;
   color: #191A1A !important;
 }
-.masquerade-widget .btn:hover *, .masquerade-widget .btn:focus *, .masquerade-widget .btn:active *, .masquerade-widget .btn[aria-expanded=true] *, .masquerade-widget .btn.active *, .masquerade-widget .btn.show *, .masquerade-widget button:hover *, .masquerade-widget button:focus *, .masquerade-widget button:active *, .masquerade-widget button[aria-expanded=true] *, .masquerade-widget button.active *, .masquerade-widget button.show *, .masquerade-widget .dropdown-toggle:hover *, .masquerade-widget .dropdown-toggle:focus *, .masquerade-widget .dropdown-toggle:active *, .masquerade-widget .dropdown-toggle[aria-expanded=true] *, .masquerade-widget .dropdown-toggle.active *, .masquerade-widget .dropdown-toggle.show *, .course-status-banner .btn:hover *, .course-status-banner .btn:focus *, .course-status-banner .btn:active *, .course-status-banner .btn[aria-expanded=true] *, .course-status-banner .btn.active *, .course-status-banner .btn.show *, .course-status-banner button:hover *, .course-status-banner button:focus *, .course-status-banner button:active *, .course-status-banner button[aria-expanded=true] *, .course-status-banner button.active *, .course-status-banner button.show *, .course-status-banner .dropdown-toggle:hover *, .course-status-banner .dropdown-toggle:focus *, .course-status-banner .dropdown-toggle:active *, .course-status-banner .dropdown-toggle[aria-expanded=true] *, .course-status-banner .dropdown-toggle.active *, .course-status-banner .dropdown-toggle.show *, .alert-primary .btn:hover *, .alert-primary .btn:focus *, .alert-primary .btn:active *, .alert-primary .btn[aria-expanded=true] *, .alert-primary .btn.active *, .alert-primary .btn.show *, .alert-primary button:hover *, .alert-primary button:focus *, .alert-primary button:active *, .alert-primary button[aria-expanded=true] *, .alert-primary button.active *, .alert-primary button.show *, .alert-primary .dropdown-toggle:hover *, .alert-primary .dropdown-toggle:focus *, .alert-primary .dropdown-toggle:active *, .alert-primary .dropdown-toggle[aria-expanded=true] *, .alert-primary .dropdown-toggle.active *, .alert-primary .dropdown-toggle.show * {
+.masquerade-widget .btn:hover *, .masquerade-widget .btn:focus *, .masquerade-widget .btn:active *, .masquerade-widget .btn[aria-expanded=true] *, .masquerade-widget .btn.active *, .masquerade-widget .btn.show *, .masquerade-widget button:hover *, .masquerade-widget button:focus *, .masquerade-widget button:active *, .masquerade-widget button[aria-expanded=true] *, .masquerade-widget button.active *, .masquerade-widget button.show *, .masquerade-widget .dropdown-toggle:hover *, .masquerade-widget .dropdown-toggle:focus *, .masquerade-widget .dropdown-toggle:active *, .masquerade-widget .dropdown-toggle[aria-expanded=true] *, .masquerade-widget .dropdown-toggle.active *, .masquerade-widget .dropdown-toggle.show *, .course-status-banner .btn:hover *, .course-status-banner .btn:focus *, .course-status-banner .btn:active *, .course-status-banner .btn[aria-expanded=true] *, .course-status-banner .btn.active *, .course-status-banner .btn.show *, .course-status-banner button:hover *, .course-status-banner button:focus *, .course-status-banner button:active *, .course-status-banner button[aria-expanded=true] *, .course-status-banner button.active *, .course-status-banner button.show *, .course-status-banner .dropdown-toggle:hover *, .course-status-banner .dropdown-toggle:focus *, .course-status-banner .dropdown-toggle:active *, .course-status-banner .dropdown-toggle[aria-expanded=true] *, .course-status-banner .dropdown-toggle.active *, .course-status-banner .dropdown-toggle.show *, .alert-primary .btn:hover *, .alert-primary .btn:focus *, .alert-primary .btn:active *, .alert-primary .btn[aria-expanded=true] *, .alert-primary .btn.active *, .alert-primary .btn.show *, .alert-primary button:hover *, .alert-primary button:focus *, .alert-primary button:active *, .alert-primary button[aria-expanded=true] *, .alert-primary button.active *, .alert-primary button.show *, .alert-primary .dropdown-toggle:hover *, .alert-primary .dropdown-toggle:focus *, .alert-primary .dropdown-toggle:active *, .alert-primary .dropdown-toggle[aria-expanded=true] *, .alert-primary .dropdown-toggle.active *, .alert-primary .dropdown-toggle.show *,
+header + .bg-primary .btn:hover *,
+header + .bg-primary .btn:focus *,
+header + .bg-primary .btn:active *,
+header + .bg-primary .btn[aria-expanded=true] *,
+header + .bg-primary .btn.active *,
+header + .bg-primary .btn.show *,
+header + .bg-primary button:hover *,
+header + .bg-primary button:focus *,
+header + .bg-primary button:active *,
+header + .bg-primary button[aria-expanded=true] *,
+header + .bg-primary button.active *,
+header + .bg-primary button.show *,
+header + .bg-primary .dropdown-toggle:hover *,
+header + .bg-primary .dropdown-toggle:focus *,
+header + .bg-primary .dropdown-toggle:active *,
+header + .bg-primary .dropdown-toggle[aria-expanded=true] *,
+header + .bg-primary .dropdown-toggle.active *,
+header + .bg-primary .dropdown-toggle.show *, .pgn__header + .bg-primary .btn:hover *, .pgn__header + .bg-primary .btn:focus *, .pgn__header + .bg-primary .btn:active *, .pgn__header + .bg-primary .btn[aria-expanded=true] *, .pgn__header + .bg-primary .btn.active *, .pgn__header + .bg-primary .btn.show *, .pgn__header + .bg-primary button:hover *, .pgn__header + .bg-primary button:focus *, .pgn__header + .bg-primary button:active *, .pgn__header + .bg-primary button[aria-expanded=true] *, .pgn__header + .bg-primary button.active *, .pgn__header + .bg-primary button.show *, .pgn__header + .bg-primary .dropdown-toggle:hover *, .pgn__header + .bg-primary .dropdown-toggle:focus *, .pgn__header + .bg-primary .dropdown-toggle:active *, .pgn__header + .bg-primary .dropdown-toggle[aria-expanded=true] *, .pgn__header + .bg-primary .dropdown-toggle.active *, .pgn__header + .bg-primary .dropdown-toggle.show *,
+#root > .bg-primary .btn:hover *,
+#root > .bg-primary .btn:focus *,
+#root > .bg-primary .btn:active *,
+#root > .bg-primary .btn[aria-expanded=true] *,
+#root > .bg-primary .btn.active *,
+#root > .bg-primary .btn.show *,
+#root > .bg-primary button:hover *,
+#root > .bg-primary button:focus *,
+#root > .bg-primary button:active *,
+#root > .bg-primary button[aria-expanded=true] *,
+#root > .bg-primary button.active *,
+#root > .bg-primary button.show *,
+#root > .bg-primary .dropdown-toggle:hover *,
+#root > .bg-primary .dropdown-toggle:focus *,
+#root > .bg-primary .dropdown-toggle:active *,
+#root > .bg-primary .dropdown-toggle[aria-expanded=true] *,
+#root > .bg-primary .dropdown-toggle.active *,
+#root > .bg-primary .dropdown-toggle.show *, .page-wrapper > .bg-primary .btn:hover *, .page-wrapper > .bg-primary .btn:focus *, .page-wrapper > .bg-primary .btn:active *, .page-wrapper > .bg-primary .btn[aria-expanded=true] *, .page-wrapper > .bg-primary .btn.active *, .page-wrapper > .bg-primary .btn.show *, .page-wrapper > .bg-primary button:hover *, .page-wrapper > .bg-primary button:focus *, .page-wrapper > .bg-primary button:active *, .page-wrapper > .bg-primary button[aria-expanded=true] *, .page-wrapper > .bg-primary button.active *, .page-wrapper > .bg-primary button.show *, .page-wrapper > .bg-primary .dropdown-toggle:hover *, .page-wrapper > .bg-primary .dropdown-toggle:focus *, .page-wrapper > .bg-primary .dropdown-toggle:active *, .page-wrapper > .bg-primary .dropdown-toggle[aria-expanded=true] *, .page-wrapper > .bg-primary .dropdown-toggle.active *, .page-wrapper > .bg-primary .dropdown-toggle.show *, main > .bg-primary:first-child .btn:hover *, main > .bg-primary:first-child .btn:focus *, main > .bg-primary:first-child .btn:active *, main > .bg-primary:first-child .btn[aria-expanded=true] *, main > .bg-primary:first-child .btn.active *, main > .bg-primary:first-child .btn.show *, main > .bg-primary:first-child button:hover *, main > .bg-primary:first-child button:focus *, main > .bg-primary:first-child button:active *, main > .bg-primary:first-child button[aria-expanded=true] *, main > .bg-primary:first-child button.active *, main > .bg-primary:first-child button.show *, main > .bg-primary:first-child .dropdown-toggle:hover *, main > .bg-primary:first-child .dropdown-toggle:focus *, main > .bg-primary:first-child .dropdown-toggle:active *, main > .bg-primary:first-child .dropdown-toggle[aria-expanded=true] *, main > .bg-primary:first-child .dropdown-toggle.active *, main > .bg-primary:first-child .dropdown-toggle.show *,
+.bg-primary:has(button.dropdown-toggle) .btn:hover *,
+.bg-primary:has(button.dropdown-toggle) .btn:focus *,
+.bg-primary:has(button.dropdown-toggle) .btn:active *,
+.bg-primary:has(button.dropdown-toggle) .btn[aria-expanded=true] *,
+.bg-primary:has(button.dropdown-toggle) .btn.active *,
+.bg-primary:has(button.dropdown-toggle) .btn.show *,
+.bg-primary:has(button.dropdown-toggle) button:hover *,
+.bg-primary:has(button.dropdown-toggle) button:focus *,
+.bg-primary:has(button.dropdown-toggle) button:active *,
+.bg-primary:has(button.dropdown-toggle) button[aria-expanded=true] *,
+.bg-primary:has(button.dropdown-toggle) button.active *,
+.bg-primary:has(button.dropdown-toggle) button.show *,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle:hover *,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle:focus *,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle:active *,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle[aria-expanded=true] *,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.active *,
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show * {
   color: #191A1A !important;
 }
 #root {
@@ -1660,7 +1789,7 @@ input[type=checkbox]:checked, .custom-control-input:checked ~ .custom-control-la
   z-index: 1;
   width: 100%;
 }
-#root header, #root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .studio-header, #root .learner-variant-header {
+#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .studio-header, #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -4825,7 +4954,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root header, [data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
+[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {

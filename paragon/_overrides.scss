@@ -578,7 +578,10 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
 }
 
 // Masquerade / Course Status Banner in Learning MFE
-.masquerade-widget, .course-status-banner, .alert-primary {
+.masquerade-widget, .course-status-banner, .alert-primary,
+header + .bg-primary, .pgn__header + .bg-primary,
+#root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
+.bg-primary:has(button.dropdown-toggle) {
   background-color: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
