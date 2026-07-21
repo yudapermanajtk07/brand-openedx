@@ -965,8 +965,11 @@ html {
   width: 100%;
   overflow-x: hidden;
 }
-.container-xl {
-  max-width: 1200px !important;
+.container-xl,
+main.container-fluid, main .container-fluid,
+main.container, main .container {
+  max-width: 1280px !important;
+  margin: 0 auto !important;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -1391,8 +1394,11 @@ body {
 #root .logo img {
   height: 48px;
 }
+#root .studio-header {
+  height: 64px !important;
+}
 #root .studio-header .container-fluid {
-  max-width: 1200px !important;
+  max-width: 1280px !important;
   margin: 0 auto;
 }
 #root .studio-header .logo {
@@ -4570,8 +4576,11 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 [data-paragon-theme-variant=dark] #root .logo img {
   height: 48px;
 }
+[data-paragon-theme-variant=dark] #root .studio-header {
+  height: 64px !important;
+}
 [data-paragon-theme-variant=dark] #root .studio-header .container-fluid {
-  max-width: 1200px !important;
+  max-width: 1280px !important;
   margin: 0 auto;
 }
 [data-paragon-theme-variant=dark] #root .studio-header .logo {

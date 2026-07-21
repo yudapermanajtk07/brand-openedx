@@ -10,8 +10,11 @@ html {
     width: 100%;
     overflow-x: hidden;
 }
-.container-xl {
-    max-width: 1200px !important;
+.container-xl, 
+main.container-fluid, main .container-fluid, 
+main.container, main .container {
+    max-width: 1280px !important;
+    margin: 0 auto !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
