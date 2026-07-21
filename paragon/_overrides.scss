@@ -50,6 +50,24 @@ a.course-card-title {
 body {
   background: var(--pgn-color-body-bg) !important;
 }
+
+// Global action icons (3-dot menu, etc)
+.btn-icon {
+  color: #0B1F3F !important;
+  &:hover, &:focus, &:active {
+    color: #0B1F3F !important;
+  }
+}
+
+// Ensure all icons inside buttons, links, and headings are dark blue
+.btn, .btn-icon, button, a, h1, h2, h3, h4, h5, h6, .page-header, .page-title {
+  &, &:hover, &:focus, &:active, &.active {
+    > .pgn__icon, > svg, .pgn__icon, svg {
+      color: #0B1F3F !important;
+      fill: currentColor;
+    }
+  }
+}
 // Course Authoring Outline Section
 .course-outline, .course-outline-section {
   
