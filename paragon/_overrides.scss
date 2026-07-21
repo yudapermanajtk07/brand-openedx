@@ -72,10 +72,12 @@ body {
 .course-outline, .course-outline-section {
   
   // 3-dot menu and general action icons
-  .btn-icon {
+  .btn-icon, [aria-label*="More actions"], [title*="More actions"], [aria-label*="more actions"], [title*="more actions"] {
     color: #0B1F3F !important;
-    &:hover, &:focus, &:active {
+    &:hover, &:focus, &:active, &.active, &.show, &[aria-expanded="true"] {
       color: #0B1F3F !important;
+      background-color: #F6DB00 !important;
+      border-color: #F6DB00 !important;
     }
   }
   // Rename button and primary icon buttons
@@ -98,16 +100,20 @@ body {
   [aria-label*="Reorder"], [aria-label*="reorder"], [title*="Reorder"], [title*="reorder"],
   [aria-label*="Move"], [aria-label*="move"], [title*="Move"], [title*="move"] {
     background-color: transparent !important;
-    &, &:hover, &:focus, &:active {
+    &, &:hover, &:focus, &:active, &.active, &.focus {
       background-color: transparent !important;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
       color: #555555 !important;
       .pgn__icon, svg, * {
         color: #555555 !important;
       }
     }
   }
-  // Badges and Counters (like the section highlights counter)
-  .badge, [class*="badge"], .bg-primary, .bg-warning, [class*="count"], [class*="highlight"], .rounded-circle {
+  // Badges, Counters, and Bubbles (like the section highlights counter)
+  .badge, [class*="badge"], .bg-primary, .bg-warning, [class*="count"], [class*="highlight"], [class*="bubble"], .pgn__bubble-primary, .rounded-circle {
+    --pgn-bubble-color: #0B1F3F !important;
     color: #0B1F3F !important;
     &, span, *, .text-white, .text-light {
       color: #0B1F3F !important;
