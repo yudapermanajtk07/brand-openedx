@@ -995,6 +995,65 @@ a.course-card-title {
 body {
   background: var(--pgn-color-body-bg) !important;
 }
+.course-outline .btn-icon, .course-outline-section .btn-icon {
+  color: #0B1F3F !important;
+}
+.course-outline .btn-icon:hover, .course-outline .btn-icon:focus, .course-outline .btn-icon:active, .course-outline-section .btn-icon:hover, .course-outline-section .btn-icon:focus, .course-outline-section .btn-icon:active {
+  color: #0B1F3F !important;
+}
+.course-outline button[title*=Rename], .course-outline button[aria-label*=Rename],
+.course-outline .edit-button, .course-outline .btn-icon-primary, .course-outline-section button[title*=Rename], .course-outline-section button[aria-label*=Rename],
+.course-outline-section .edit-button, .course-outline-section .btn-icon-primary {
+  color: #0B1F3F !important;
+}
+.course-outline button[title*=Rename] .pgn__icon, .course-outline button[title*=Rename] svg, .course-outline button[title*=Rename] *, .course-outline button[aria-label*=Rename] .pgn__icon, .course-outline button[aria-label*=Rename] svg, .course-outline button[aria-label*=Rename] *,
+.course-outline .edit-button .pgn__icon,
+.course-outline .edit-button svg,
+.course-outline .edit-button *, .course-outline .btn-icon-primary .pgn__icon, .course-outline .btn-icon-primary svg, .course-outline .btn-icon-primary *, .course-outline-section button[title*=Rename] .pgn__icon, .course-outline-section button[title*=Rename] svg, .course-outline-section button[title*=Rename] *, .course-outline-section button[aria-label*=Rename] .pgn__icon, .course-outline-section button[aria-label*=Rename] svg, .course-outline-section button[aria-label*=Rename] *,
+.course-outline-section .edit-button .pgn__icon,
+.course-outline-section .edit-button svg,
+.course-outline-section .edit-button *, .course-outline-section .btn-icon-primary .pgn__icon, .course-outline-section .btn-icon-primary svg, .course-outline-section .btn-icon-primary * {
+  color: #0B1F3F !important;
+}
+.course-outline button[title*=Rename]:hover, .course-outline button[title*=Rename]:focus, .course-outline button[title*=Rename]:active, .course-outline button[aria-label*=Rename]:hover, .course-outline button[aria-label*=Rename]:focus, .course-outline button[aria-label*=Rename]:active,
+.course-outline .edit-button:hover,
+.course-outline .edit-button:focus,
+.course-outline .edit-button:active, .course-outline .btn-icon-primary:hover, .course-outline .btn-icon-primary:focus, .course-outline .btn-icon-primary:active, .course-outline-section button[title*=Rename]:hover, .course-outline-section button[title*=Rename]:focus, .course-outline-section button[title*=Rename]:active, .course-outline-section button[aria-label*=Rename]:hover, .course-outline-section button[aria-label*=Rename]:focus, .course-outline-section button[aria-label*=Rename]:active,
+.course-outline-section .edit-button:hover,
+.course-outline-section .edit-button:focus,
+.course-outline-section .edit-button:active, .course-outline-section .btn-icon-primary:hover, .course-outline-section .btn-icon-primary:focus, .course-outline-section .btn-icon-primary:active {
+  color: #0B1F3F !important;
+}
+.course-outline button[title*=Rename]:hover .pgn__icon, .course-outline button[title*=Rename]:hover svg, .course-outline button[title*=Rename]:hover *, .course-outline button[title*=Rename]:focus .pgn__icon, .course-outline button[title*=Rename]:focus svg, .course-outline button[title*=Rename]:focus *, .course-outline button[title*=Rename]:active .pgn__icon, .course-outline button[title*=Rename]:active svg, .course-outline button[title*=Rename]:active *, .course-outline button[aria-label*=Rename]:hover .pgn__icon, .course-outline button[aria-label*=Rename]:hover svg, .course-outline button[aria-label*=Rename]:hover *, .course-outline button[aria-label*=Rename]:focus .pgn__icon, .course-outline button[aria-label*=Rename]:focus svg, .course-outline button[aria-label*=Rename]:focus *, .course-outline button[aria-label*=Rename]:active .pgn__icon, .course-outline button[aria-label*=Rename]:active svg, .course-outline button[aria-label*=Rename]:active *,
+.course-outline .edit-button:hover .pgn__icon,
+.course-outline .edit-button:hover svg,
+.course-outline .edit-button:hover *,
+.course-outline .edit-button:focus .pgn__icon,
+.course-outline .edit-button:focus svg,
+.course-outline .edit-button:focus *,
+.course-outline .edit-button:active .pgn__icon,
+.course-outline .edit-button:active svg,
+.course-outline .edit-button:active *, .course-outline .btn-icon-primary:hover .pgn__icon, .course-outline .btn-icon-primary:hover svg, .course-outline .btn-icon-primary:hover *, .course-outline .btn-icon-primary:focus .pgn__icon, .course-outline .btn-icon-primary:focus svg, .course-outline .btn-icon-primary:focus *, .course-outline .btn-icon-primary:active .pgn__icon, .course-outline .btn-icon-primary:active svg, .course-outline .btn-icon-primary:active *, .course-outline-section button[title*=Rename]:hover .pgn__icon, .course-outline-section button[title*=Rename]:hover svg, .course-outline-section button[title*=Rename]:hover *, .course-outline-section button[title*=Rename]:focus .pgn__icon, .course-outline-section button[title*=Rename]:focus svg, .course-outline-section button[title*=Rename]:focus *, .course-outline-section button[title*=Rename]:active .pgn__icon, .course-outline-section button[title*=Rename]:active svg, .course-outline-section button[title*=Rename]:active *, .course-outline-section button[aria-label*=Rename]:hover .pgn__icon, .course-outline-section button[aria-label*=Rename]:hover svg, .course-outline-section button[aria-label*=Rename]:hover *, .course-outline-section button[aria-label*=Rename]:focus .pgn__icon, .course-outline-section button[aria-label*=Rename]:focus svg, .course-outline-section button[aria-label*=Rename]:focus *, .course-outline-section button[aria-label*=Rename]:active .pgn__icon, .course-outline-section button[aria-label*=Rename]:active svg, .course-outline-section button[aria-label*=Rename]:active *,
+.course-outline-section .edit-button:hover .pgn__icon,
+.course-outline-section .edit-button:hover svg,
+.course-outline-section .edit-button:hover *,
+.course-outline-section .edit-button:focus .pgn__icon,
+.course-outline-section .edit-button:focus svg,
+.course-outline-section .edit-button:focus *,
+.course-outline-section .edit-button:active .pgn__icon,
+.course-outline-section .edit-button:active svg,
+.course-outline-section .edit-button:active *, .course-outline-section .btn-icon-primary:hover .pgn__icon, .course-outline-section .btn-icon-primary:hover svg, .course-outline-section .btn-icon-primary:hover *, .course-outline-section .btn-icon-primary:focus .pgn__icon, .course-outline-section .btn-icon-primary:focus svg, .course-outline-section .btn-icon-primary:focus *, .course-outline-section .btn-icon-primary:active .pgn__icon, .course-outline-section .btn-icon-primary:active svg, .course-outline-section .btn-icon-primary:active * {
+  color: #0B1F3F !important;
+}
+.course-outline .drag-handle, .course-outline [data-rbd-drag-handle-draggable-id], .course-outline [data-rbd-drag-handle-context-id], .course-outline-section .drag-handle, .course-outline-section [data-rbd-drag-handle-draggable-id], .course-outline-section [data-rbd-drag-handle-context-id] {
+  color: #555555 !important;
+}
+.course-outline .drag-handle .pgn__icon, .course-outline .drag-handle svg, .course-outline .drag-handle *, .course-outline [data-rbd-drag-handle-draggable-id] .pgn__icon, .course-outline [data-rbd-drag-handle-draggable-id] svg, .course-outline [data-rbd-drag-handle-draggable-id] *, .course-outline [data-rbd-drag-handle-context-id] .pgn__icon, .course-outline [data-rbd-drag-handle-context-id] svg, .course-outline [data-rbd-drag-handle-context-id] *, .course-outline-section .drag-handle .pgn__icon, .course-outline-section .drag-handle svg, .course-outline-section .drag-handle *, .course-outline-section [data-rbd-drag-handle-draggable-id] .pgn__icon, .course-outline-section [data-rbd-drag-handle-draggable-id] svg, .course-outline-section [data-rbd-drag-handle-draggable-id] *, .course-outline-section [data-rbd-drag-handle-context-id] .pgn__icon, .course-outline-section [data-rbd-drag-handle-context-id] svg, .course-outline-section [data-rbd-drag-handle-context-id] * {
+  color: #555555 !important;
+}
+.course-outline .badge, .course-outline .pgn__badge, .course-outline .badge-primary, .course-outline-section .badge, .course-outline-section .pgn__badge, .course-outline-section .badge-primary {
+  color: #0B1F3F !important;
+}
 .course-outline .outline-item-status, .course-outline .release-date,
 .course-outline .course-outline-item-status,
 .course-outline .x-small.text-secondary-400,
@@ -1016,7 +1075,7 @@ body {
 .course-outline .pt-4 > .mx-0.row:has(.badge-success), .course-outline .pt-4 > .mx-0.row:has(.text-success), .course-outline .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline .pt-4 > .mx-0.row:has([class*=success]), .course-outline .pt-4 > .mx-0.row.published, .course-outline .pt-4 > .mx-0.row.is-published, .course-outline .pt-4 > .mx-0.row.is-live, .course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline-section .pt-4 > .mx-0.row:has([class*=success]), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published, .course-outline-section .pt-4 > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
-.course-outline .pt-4 > .mx-0.row:has(.badge-warning), .course-outline .pt-4 > .mx-0.row:has(.text-warning), .course-outline .pt-4 > .mx-0.row:has(.badge-outline-warning), .course-outline .pt-4 > .mx-0.row:has(.btn-outline-warning), .course-outline .pt-4 > .mx-0.row:has([class*=warning]), .course-outline .pt-4 > .mx-0.row.draft, .course-outline .pt-4 > .mx-0.row.is-draft, .course-outline .pt-4 > .mx-0.row.has-draft, .course-outline .pt-4 > .mx-0.row.has-unpublished-changes, .course-outline .pt-4 > .mx-0.row:has([class*=draft]), .course-outline .pt-4 > .mx-0.row:has([class*=unpublished]), .course-outline-section .pt-4 > .mx-0.row:has(.badge-warning), .course-outline-section .pt-4 > .mx-0.row:has(.text-warning), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-warning), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-warning), .course-outline-section .pt-4 > .mx-0.row:has([class*=warning]), .course-outline-section .pt-4 > .mx-0.row.draft, .course-outline-section .pt-4 > .mx-0.row.is-draft, .course-outline-section .pt-4 > .mx-0.row.has-draft, .course-outline-section .pt-4 > .mx-0.row.has-unpublished-changes, .course-outline-section .pt-4 > .mx-0.row:has([class*=draft]), .course-outline-section .pt-4 > .mx-0.row:has([class*=unpublished]) {
+.course-outline .pt-4 > .mx-0.row:has(.badge-warning), .course-outline .pt-4 > .mx-0.row:has(.text-warning), .course-outline .pt-4 > .mx-0.row:has(.badge-outline-warning), .course-outline .pt-4 > .mx-0.row:has(.btn-outline-warning), .course-outline .pt-4 > .mx-0.row:has([class*=warning]), .course-outline .pt-4 > .mx-0.row.draft, .course-outline .pt-4 > .mx-0.row.is-draft, .course-outline .pt-4 > .mx-0.row.has-draft, .course-outline .pt-4 > .mx-0.row.has-unpublished-changes, .course-outline .pt-4 > .mx-0.row:has([class*=draft]), .course-outline .pt-4 > .mx-0.row:has([class*=unpublished]), .course-outline .pt-4 > .mx-0.row:has([title*=Unpublished]), .course-outline .pt-4 > .mx-0.row:has([aria-label*=Unpublished]), .course-outline .pt-4 > .mx-0.row:has([title*=Draft]), .course-outline .pt-4 > .mx-0.row:has([aria-label*=Draft]), .course-outline-section .pt-4 > .mx-0.row:has(.badge-warning), .course-outline-section .pt-4 > .mx-0.row:has(.text-warning), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-warning), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-warning), .course-outline-section .pt-4 > .mx-0.row:has([class*=warning]), .course-outline-section .pt-4 > .mx-0.row.draft, .course-outline-section .pt-4 > .mx-0.row.is-draft, .course-outline-section .pt-4 > .mx-0.row.has-draft, .course-outline-section .pt-4 > .mx-0.row.has-unpublished-changes, .course-outline-section .pt-4 > .mx-0.row:has([class*=draft]), .course-outline-section .pt-4 > .mx-0.row:has([class*=unpublished]), .course-outline-section .pt-4 > .mx-0.row:has([title*=Unpublished]), .course-outline-section .pt-4 > .mx-0.row:has([aria-label*=Unpublished]), .course-outline-section .pt-4 > .mx-0.row:has([title*=Draft]), .course-outline-section .pt-4 > .mx-0.row:has([aria-label*=Draft]) {
   border-left-color: #F6DB00 !important;
 }
 .section-card__subsections > .mx-0.row {
@@ -1026,7 +1085,7 @@ body {
 .section-card__subsections > .mx-0.row:has(.badge-success), .section-card__subsections > .mx-0.row:has(.text-success), .section-card__subsections > .mx-0.row:has(.badge-outline-success), .section-card__subsections > .mx-0.row:has(.btn-outline-success), .section-card__subsections > .mx-0.row:has([class*=success]), .section-card__subsections > .mx-0.row.published, .section-card__subsections > .mx-0.row.is-published, .section-card__subsections > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
-.section-card__subsections > .mx-0.row:has(.badge-warning), .section-card__subsections > .mx-0.row:has(.text-warning), .section-card__subsections > .mx-0.row:has(.badge-outline-warning), .section-card__subsections > .mx-0.row:has(.btn-outline-warning), .section-card__subsections > .mx-0.row:has([class*=warning]), .section-card__subsections > .mx-0.row.draft, .section-card__subsections > .mx-0.row.is-draft, .section-card__subsections > .mx-0.row.has-draft, .section-card__subsections > .mx-0.row.has-unpublished-changes, .section-card__subsections > .mx-0.row:has([class*=draft]), .section-card__subsections > .mx-0.row:has([class*=unpublished]) {
+.section-card__subsections > .mx-0.row:has(.badge-warning), .section-card__subsections > .mx-0.row:has(.text-warning), .section-card__subsections > .mx-0.row:has(.badge-outline-warning), .section-card__subsections > .mx-0.row:has(.btn-outline-warning), .section-card__subsections > .mx-0.row:has([class*=warning]), .section-card__subsections > .mx-0.row.draft, .section-card__subsections > .mx-0.row.is-draft, .section-card__subsections > .mx-0.row.has-draft, .section-card__subsections > .mx-0.row.has-unpublished-changes, .section-card__subsections > .mx-0.row:has([class*=draft]), .section-card__subsections > .mx-0.row:has([class*=unpublished]), .section-card__subsections > .mx-0.row:has([title*=Unpublished]), .section-card__subsections > .mx-0.row:has([aria-label*=Unpublished]), .section-card__subsections > .mx-0.row:has([title*=Draft]), .section-card__subsections > .mx-0.row:has([aria-label*=Draft]) {
   border-left-color: #F6DB00 !important;
 }
 .subsection-card__units > .mx-0.row {
@@ -1036,7 +1095,7 @@ body {
 .subsection-card__units > .mx-0.row:has(.badge-success), .subsection-card__units > .mx-0.row:has(.text-success), .subsection-card__units > .mx-0.row:has(.badge-outline-success), .subsection-card__units > .mx-0.row:has(.btn-outline-success), .subsection-card__units > .mx-0.row:has([class*=success]), .subsection-card__units > .mx-0.row.published, .subsection-card__units > .mx-0.row.is-published, .subsection-card__units > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
-.subsection-card__units > .mx-0.row:has(.badge-warning), .subsection-card__units > .mx-0.row:has(.text-warning), .subsection-card__units > .mx-0.row:has(.badge-outline-warning), .subsection-card__units > .mx-0.row:has(.btn-outline-warning), .subsection-card__units > .mx-0.row:has([class*=warning]), .subsection-card__units > .mx-0.row.draft, .subsection-card__units > .mx-0.row.is-draft, .subsection-card__units > .mx-0.row.has-draft, .subsection-card__units > .mx-0.row.has-unpublished-changes, .subsection-card__units > .mx-0.row:has([class*=draft]), .subsection-card__units > .mx-0.row:has([class*=unpublished]) {
+.subsection-card__units > .mx-0.row:has(.badge-warning), .subsection-card__units > .mx-0.row:has(.text-warning), .subsection-card__units > .mx-0.row:has(.badge-outline-warning), .subsection-card__units > .mx-0.row:has(.btn-outline-warning), .subsection-card__units > .mx-0.row:has([class*=warning]), .subsection-card__units > .mx-0.row.draft, .subsection-card__units > .mx-0.row.is-draft, .subsection-card__units > .mx-0.row.has-draft, .subsection-card__units > .mx-0.row.has-unpublished-changes, .subsection-card__units > .mx-0.row:has([class*=draft]), .subsection-card__units > .mx-0.row:has([class*=unpublished]), .subsection-card__units > .mx-0.row:has([title*=Unpublished]), .subsection-card__units > .mx-0.row:has([aria-label*=Unpublished]), .subsection-card__units > .mx-0.row:has([title*=Draft]), .subsection-card__units > .mx-0.row:has([aria-label*=Draft]) {
   border-left-color: #F6DB00 !important;
 }
 #root .x-small {
@@ -1379,6 +1438,29 @@ body {
 }
 #sheet-root.sheet-container .pgn__sheet-component .filter-form-row input[type=checkbox] {
   border-radius: 4px;
+}
+.nav-tabs .nav-link.active, .nav-pills .nav-link.active, .pgn__tabs .nav-link.active {
+  color: #0B1F3F !important;
+}
+.nav-tabs .badge, .nav-pills .badge, .pgn__tabs .badge {
+  background-color: #F6DB00 !important;
+  color: #0B1F3F !important;
+}
+.modal-header .close, .modal-header .btn-icon, .modal-header .pgn__modal-close, .modal-header button[aria-label=Close], .modal-header button[aria-label=close] {
+  color: #0B1F3F !important;
+}
+.modal-header .close svg, .modal-header .close span, .modal-header .close *, .modal-header .btn-icon svg, .modal-header .btn-icon span, .modal-header .btn-icon *, .modal-header .pgn__modal-close svg, .modal-header .pgn__modal-close span, .modal-header .pgn__modal-close *, .modal-header button[aria-label=Close] svg, .modal-header button[aria-label=Close] span, .modal-header button[aria-label=Close] *, .modal-header button[aria-label=close] svg, .modal-header button[aria-label=close] span, .modal-header button[aria-label=close] * {
+  color: #0B1F3F !important;
+  fill: currentColor;
+}
+.modal-header .close:hover, .modal-header .close:focus, .modal-header .close:active, .modal-header .btn-icon:hover, .modal-header .btn-icon:focus, .modal-header .btn-icon:active, .modal-header .pgn__modal-close:hover, .modal-header .pgn__modal-close:focus, .modal-header .pgn__modal-close:active, .modal-header button[aria-label=Close]:hover, .modal-header button[aria-label=Close]:focus, .modal-header button[aria-label=Close]:active, .modal-header button[aria-label=close]:hover, .modal-header button[aria-label=close]:focus, .modal-header button[aria-label=close]:active {
+  color: #0B1F3F !important;
+}
+.modal-header .close:hover svg, .modal-header .close:hover span, .modal-header .close:hover *, .modal-header .close:focus svg, .modal-header .close:focus span, .modal-header .close:focus *, .modal-header .close:active svg, .modal-header .close:active span, .modal-header .close:active *, .modal-header .btn-icon:hover svg, .modal-header .btn-icon:hover span, .modal-header .btn-icon:hover *, .modal-header .btn-icon:focus svg, .modal-header .btn-icon:focus span, .modal-header .btn-icon:focus *, .modal-header .btn-icon:active svg, .modal-header .btn-icon:active span, .modal-header .btn-icon:active *, .modal-header .pgn__modal-close:hover svg, .modal-header .pgn__modal-close:hover span, .modal-header .pgn__modal-close:hover *, .modal-header .pgn__modal-close:focus svg, .modal-header .pgn__modal-close:focus span, .modal-header .pgn__modal-close:focus *, .modal-header .pgn__modal-close:active svg, .modal-header .pgn__modal-close:active span, .modal-header .pgn__modal-close:active *, .modal-header button[aria-label=Close]:hover svg, .modal-header button[aria-label=Close]:hover span, .modal-header button[aria-label=Close]:hover *, .modal-header button[aria-label=Close]:focus svg, .modal-header button[aria-label=Close]:focus span, .modal-header button[aria-label=Close]:focus *, .modal-header button[aria-label=Close]:active svg, .modal-header button[aria-label=Close]:active span, .modal-header button[aria-label=Close]:active *, .modal-header button[aria-label=close]:hover svg, .modal-header button[aria-label=close]:hover span, .modal-header button[aria-label=close]:hover *, .modal-header button[aria-label=close]:focus svg, .modal-header button[aria-label=close]:focus span, .modal-header button[aria-label=close]:focus *, .modal-header button[aria-label=close]:active svg, .modal-header button[aria-label=close]:active span, .modal-header button[aria-label=close]:active * {
+  color: #0B1F3F !important;
+}
+input[type=checkbox]:checked, .custom-control-input:checked ~ .custom-control-label::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
 }
 #root {
   position: relative;

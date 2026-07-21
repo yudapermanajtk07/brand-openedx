@@ -52,7 +52,39 @@ body {
 }
 // Course Authoring Outline Section
 .course-outline, .course-outline-section {
-
+  
+  // 3-dot menu and general action icons
+  .btn-icon {
+    color: #0B1F3F !important;
+    &:hover, &:focus, &:active {
+      color: #0B1F3F !important;
+    }
+  }
+  // Rename button and primary icon buttons
+  button[title*="Rename"], button[aria-label*="Rename"],
+  .edit-button, .btn-icon-primary {
+    color: #0B1F3F !important;
+    .pgn__icon, svg, * {
+      color: #0B1F3F !important;
+    }
+    &:hover, &:focus, &:active {
+      color: #0B1F3F !important;
+      .pgn__icon, svg, * {
+        color: #0B1F3F !important;
+      }
+    }
+  }
+  // 6-dot drag handles
+  .drag-handle, [data-rbd-drag-handle-draggable-id], [data-rbd-drag-handle-context-id] {
+    color: #555555 !important;
+    .pgn__icon, svg, * {
+      color: #555555 !important;
+    }
+  }
+  // Badges (like the section highlights counter)
+  .badge, .pgn__badge, .badge-primary {
+    color: #0B1F3F !important;
+  }
   // Update release date text font (including all child elements)
   .outline-item-status, .release-date, 
   .course-outline-item-status,
@@ -72,7 +104,7 @@ body {
        border-left-color: #063970 !important;
     }
     
-    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]) {
+    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]), &:has([title*="Unpublished"]), &:has([aria-label*="Unpublished"]), &:has([title*="Draft"]), &:has([aria-label*="Draft"]) {
        border-left-color: #F6DB00 !important;
     }
   }
@@ -87,7 +119,7 @@ body {
        border-left-color: #063970 !important;
     }
     
-    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]) {
+    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]), &:has([title*="Unpublished"]), &:has([aria-label*="Unpublished"]), &:has([title*="Draft"]), &:has([aria-label*="Draft"]) {
        border-left-color: #F6DB00 !important;
     }
   }
@@ -102,7 +134,7 @@ body {
        border-left-color: #063970 !important;
     }
     
-    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]) {
+    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]), &:has([title*="Unpublished"]), &:has([aria-label*="Unpublished"]), &:has([title*="Draft"]), &:has([aria-label*="Draft"]) {
        border-left-color: #F6DB00 !important;
     }
   }
@@ -477,6 +509,40 @@ body {
         }
     }
 }
+
+// Tab styling
+.nav-tabs, .nav-pills, .pgn__tabs {
+    .nav-link.active {
+        color: #0B1F3F !important;
+    }
+    .badge {
+        background-color: #F6DB00 !important;
+        color: #0B1F3F !important;
+    }
+}
+
+// Modal Close Button
+.modal-header {
+  .close, .btn-icon, .pgn__modal-close, button[aria-label="Close"], button[aria-label="close"] {
+    color: #0B1F3F !important;
+    svg, span, * {
+      color: #0B1F3F !important;
+      fill: currentColor;
+    }
+    &:hover, &:focus, &:active {
+      color: #0B1F3F !important;
+      svg, span, * {
+        color: #0B1F3F !important;
+      }
+    }
+  }
+}
+
+// Global Checkbox Checkmark Color
+input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-label::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
+}
+
 @import "./header";
 @import "./footer";
 @import "./login";
