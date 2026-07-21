@@ -27,17 +27,29 @@
         }
         span:first-child, span:first-child * {
           font-family: 'IBM Plex Mono', monospace !important;
+          font-size: 12px !important;
+        }
+        span:last-child {
+          font-size: 14px !important;
         }
       }
-      // Center the navigation block
+      // Align the navigation block to the right
       nav, .nav, .navbar-nav, .main-nav {
         border: none !important;
         border-left: none !important;
         flex-grow: 1 !important;
         display: flex !important;
-        justify-content: center !important;
+        justify-content: flex-end !important;
         margin-left: auto !important;
-        margin-right: auto !important;
+        margin-right: 2rem !important;
+        gap: 1.5rem !important;
+        a, button, span {
+          font-size: 14px !important;
+        }
+      }
+      // Set the user profile text size
+      .pgn__menu-dropdown, .dropdown-toggle {
+        font-size: 14px !important;
       }
       .btn-primary, .btn-brand, .btn {
           background-color: #F6DB00 !important;

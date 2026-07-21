@@ -1016,6 +1016,9 @@ body {
 .course-outline .pt-4 > .mx-0.row:has(.badge-success), .course-outline .pt-4 > .mx-0.row:has(.text-success), .course-outline .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline .pt-4 > .mx-0.row:has([class*=success]), .course-outline .pt-4 > .mx-0.row.published, .course-outline .pt-4 > .mx-0.row.is-published, .course-outline .pt-4 > .mx-0.row.is-live, .course-outline-section .pt-4 > .mx-0.row:has(.badge-success), .course-outline-section .pt-4 > .mx-0.row:has(.text-success), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-success), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-success), .course-outline-section .pt-4 > .mx-0.row:has([class*=success]), .course-outline-section .pt-4 > .mx-0.row.published, .course-outline-section .pt-4 > .mx-0.row.is-published, .course-outline-section .pt-4 > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
+.course-outline .pt-4 > .mx-0.row:has(.badge-warning), .course-outline .pt-4 > .mx-0.row:has(.text-warning), .course-outline .pt-4 > .mx-0.row:has(.badge-outline-warning), .course-outline .pt-4 > .mx-0.row:has(.btn-outline-warning), .course-outline .pt-4 > .mx-0.row:has([class*=warning]), .course-outline .pt-4 > .mx-0.row.draft, .course-outline .pt-4 > .mx-0.row.is-draft, .course-outline .pt-4 > .mx-0.row.has-draft, .course-outline .pt-4 > .mx-0.row.has-unpublished-changes, .course-outline .pt-4 > .mx-0.row:has([class*=draft]), .course-outline .pt-4 > .mx-0.row:has([class*=unpublished]), .course-outline-section .pt-4 > .mx-0.row:has(.badge-warning), .course-outline-section .pt-4 > .mx-0.row:has(.text-warning), .course-outline-section .pt-4 > .mx-0.row:has(.badge-outline-warning), .course-outline-section .pt-4 > .mx-0.row:has(.btn-outline-warning), .course-outline-section .pt-4 > .mx-0.row:has([class*=warning]), .course-outline-section .pt-4 > .mx-0.row.draft, .course-outline-section .pt-4 > .mx-0.row.is-draft, .course-outline-section .pt-4 > .mx-0.row.has-draft, .course-outline-section .pt-4 > .mx-0.row.has-unpublished-changes, .course-outline-section .pt-4 > .mx-0.row:has([class*=draft]), .course-outline-section .pt-4 > .mx-0.row:has([class*=unpublished]) {
+  border-left-color: #F6DB00 !important;
+}
 .section-card__subsections > .mx-0.row {
   background: var(--pgn-color-bg-hover) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
@@ -1023,12 +1026,18 @@ body {
 .section-card__subsections > .mx-0.row:has(.badge-success), .section-card__subsections > .mx-0.row:has(.text-success), .section-card__subsections > .mx-0.row:has(.badge-outline-success), .section-card__subsections > .mx-0.row:has(.btn-outline-success), .section-card__subsections > .mx-0.row:has([class*=success]), .section-card__subsections > .mx-0.row.published, .section-card__subsections > .mx-0.row.is-published, .section-card__subsections > .mx-0.row.is-live {
   border-left-color: #063970 !important;
 }
+.section-card__subsections > .mx-0.row:has(.badge-warning), .section-card__subsections > .mx-0.row:has(.text-warning), .section-card__subsections > .mx-0.row:has(.badge-outline-warning), .section-card__subsections > .mx-0.row:has(.btn-outline-warning), .section-card__subsections > .mx-0.row:has([class*=warning]), .section-card__subsections > .mx-0.row.draft, .section-card__subsections > .mx-0.row.is-draft, .section-card__subsections > .mx-0.row.has-draft, .section-card__subsections > .mx-0.row.has-unpublished-changes, .section-card__subsections > .mx-0.row:has([class*=draft]), .section-card__subsections > .mx-0.row:has([class*=unpublished]) {
+  border-left-color: #F6DB00 !important;
+}
 .subsection-card__units > .mx-0.row {
   background: var(--pgn-color-body-bg) !important;
   border-left-color: var(--pgn-color-primary-base) !important;
 }
-.subsection-card__units > .mx-0.row:has(.badge-success), .subsection-card__units > .mx-0.row:has(.text-success), .subsection-card__units > .mx-0.row.published, .subsection-card__units > .mx-0.row.is-published {
+.subsection-card__units > .mx-0.row:has(.badge-success), .subsection-card__units > .mx-0.row:has(.text-success), .subsection-card__units > .mx-0.row:has(.badge-outline-success), .subsection-card__units > .mx-0.row:has(.btn-outline-success), .subsection-card__units > .mx-0.row:has([class*=success]), .subsection-card__units > .mx-0.row.published, .subsection-card__units > .mx-0.row.is-published, .subsection-card__units > .mx-0.row.is-live {
   border-left-color: #063970 !important;
+}
+.subsection-card__units > .mx-0.row:has(.badge-warning), .subsection-card__units > .mx-0.row:has(.text-warning), .subsection-card__units > .mx-0.row:has(.badge-outline-warning), .subsection-card__units > .mx-0.row:has(.btn-outline-warning), .subsection-card__units > .mx-0.row:has([class*=warning]), .subsection-card__units > .mx-0.row.draft, .subsection-card__units > .mx-0.row.is-draft, .subsection-card__units > .mx-0.row.has-draft, .subsection-card__units > .mx-0.row.has-unpublished-changes, .subsection-card__units > .mx-0.row:has([class*=draft]), .subsection-card__units > .mx-0.row:has([class*=unpublished]) {
+  border-left-color: #F6DB00 !important;
 }
 #root .x-small {
   font-size: 14px;
@@ -1395,15 +1404,26 @@ body {
 }
 #root .studio-header .course-title-lockup span:first-child, #root .studio-header .course-title-lockup span:first-child * {
   font-family: "IBM Plex Mono", monospace !important;
+  font-size: 12px !important;
+}
+#root .studio-header .course-title-lockup span:last-child {
+  font-size: 14px !important;
 }
 #root .studio-header nav, #root .studio-header .nav, #root .studio-header .navbar-nav, #root .studio-header .main-nav {
   border: none !important;
   border-left: none !important;
   flex-grow: 1 !important;
   display: flex !important;
-  justify-content: center !important;
+  justify-content: flex-end !important;
   margin-left: auto !important;
-  margin-right: auto !important;
+  margin-right: 2rem !important;
+  gap: 1.5rem !important;
+}
+#root .studio-header nav a, #root .studio-header nav button, #root .studio-header nav span, #root .studio-header .nav a, #root .studio-header .nav button, #root .studio-header .nav span, #root .studio-header .navbar-nav a, #root .studio-header .navbar-nav button, #root .studio-header .navbar-nav span, #root .studio-header .main-nav a, #root .studio-header .main-nav button, #root .studio-header .main-nav span {
+  font-size: 14px !important;
+}
+#root .studio-header .pgn__menu-dropdown, #root .studio-header .dropdown-toggle {
+  font-size: 14px !important;
 }
 #root .studio-header .btn-primary, #root .studio-header [data-paragon-theme-variant=dark] .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, #root .studio-header .btn-brand, #root .studio-header .btn {
   background-color: #F6DB00 !important;
@@ -4559,15 +4579,26 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child, [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child * {
   font-family: "IBM Plex Mono", monospace !important;
+  font-size: 12px !important;
+}
+[data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:last-child {
+  font-size: 14px !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
   border: none !important;
   border-left: none !important;
   flex-grow: 1 !important;
   display: flex !important;
-  justify-content: center !important;
+  justify-content: flex-end !important;
   margin-left: auto !important;
-  margin-right: auto !important;
+  margin-right: 2rem !important;
+  gap: 1.5rem !important;
+}
+[data-paragon-theme-variant=dark] #root .studio-header nav a, [data-paragon-theme-variant=dark] #root .studio-header nav button, [data-paragon-theme-variant=dark] #root .studio-header nav span, [data-paragon-theme-variant=dark] #root .studio-header .nav a, [data-paragon-theme-variant=dark] #root .studio-header .nav button, [data-paragon-theme-variant=dark] #root .studio-header .nav span, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav a, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav button, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav span, [data-paragon-theme-variant=dark] #root .studio-header .main-nav a, [data-paragon-theme-variant=dark] #root .studio-header .main-nav button, [data-paragon-theme-variant=dark] #root .studio-header .main-nav span {
+  font-size: 14px !important;
+}
+[data-paragon-theme-variant=dark] #root .studio-header .pgn__menu-dropdown, [data-paragon-theme-variant=dark] #root .studio-header .dropdown-toggle {
+  font-size: 14px !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header .btn-primary, [data-paragon-theme-variant=dark] #root .studio-header .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand, [data-paragon-theme-variant=dark] #root .studio-header .btn {
   background-color: #F6DB00 !important;

@@ -69,6 +69,10 @@ body {
     &:has(.badge-success), &:has(.text-success), &:has(.badge-outline-success), &:has(.btn-outline-success), &:has([class*="success"]), &.published, &.is-published, &.is-live {
        border-left-color: #063970 !important;
     }
+    
+    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]) {
+       border-left-color: #F6DB00 !important;
+    }
   }
 }
 
@@ -80,6 +84,10 @@ body {
     &:has(.badge-success), &:has(.text-success), &:has(.badge-outline-success), &:has(.btn-outline-success), &:has([class*="success"]), &.published, &.is-published, &.is-live {
        border-left-color: #063970 !important;
     }
+    
+    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]) {
+       border-left-color: #F6DB00 !important;
+    }
   }
 }
 
@@ -88,8 +96,12 @@ body {
   > .mx-0.row {
     background: var(--pgn-color-body-bg) !important;
     border-left-color: var(--pgn-color-primary-base) !important;
-    &:has(.badge-success), &:has(.text-success), &.published, &.is-published {
+    &:has(.badge-success), &:has(.text-success), &:has(.badge-outline-success), &:has(.btn-outline-success), &:has([class*="success"]), &.published, &.is-published, &.is-live {
        border-left-color: #063970 !important;
+    }
+    
+    &:has(.badge-warning), &:has(.text-warning), &:has(.badge-outline-warning), &:has(.btn-outline-warning), &:has([class*="warning"]), &.draft, &.is-draft, &.has-draft, &.has-unpublished-changes, &:has([class*="draft"]), &:has([class*="unpublished"]) {
+       border-left-color: #F6DB00 !important;
     }
   }
 }
