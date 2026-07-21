@@ -966,7 +966,7 @@ html {
   overflow-x: hidden;
 }
 .container-xl {
-  max-width: 1600px !important;
+  max-width: 1200px !important;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -1390,6 +1390,10 @@ body {
 }
 #root .logo img {
   height: 48px;
+}
+#root .studio-header .container-fluid {
+  max-width: 1200px !important;
+  margin: 0 auto;
 }
 #root .studio-header .logo {
   padding: 0.37rem 0;
@@ -4565,6 +4569,10 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 }
 [data-paragon-theme-variant=dark] #root .logo img {
   height: 48px;
+}
+[data-paragon-theme-variant=dark] #root .studio-header .container-fluid {
+  max-width: 1200px !important;
+  margin: 0 auto;
 }
 [data-paragon-theme-variant=dark] #root .studio-header .logo {
   padding: 0.37rem 0;

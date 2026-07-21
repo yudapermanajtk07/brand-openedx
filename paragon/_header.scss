@@ -15,6 +15,11 @@
     }
     // Styles for studio header (Authoring MFE)
     .studio-header {
+      // Center and constrain the header content width to match the body
+      .container-fluid {
+        max-width: 1200px !important;
+        margin: 0 auto;
+      }
       .logo {
         padding: 0.37rem 0;
         height: 3rem;
