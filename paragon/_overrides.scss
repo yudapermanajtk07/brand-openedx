@@ -93,15 +93,22 @@ body {
     }
   }
   // 6-dot drag handles
-  .drag-handle, [data-rbd-drag-handle-draggable-id], [data-rbd-drag-handle-context-id] {
-    color: #555555 !important;
-    .pgn__icon, svg, * {
+  .drag-handle, [data-rbd-drag-handle-draggable-id], [data-rbd-drag-handle-context-id], .pgn__drag-handle {
+    background-color: transparent !important;
+    &, &:hover, &:focus, &:active {
+      background-color: transparent !important;
       color: #555555 !important;
+      .pgn__icon, svg, * {
+        color: #555555 !important;
+      }
     }
   }
   // Badges (like the section highlights counter)
-  .badge, .pgn__badge, .badge-primary {
+  .badge, .pgn__badge, .badge-primary, .bg-primary {
     color: #0B1F3F !important;
+    &, span, * {
+      color: #0B1F3F !important;
+    }
   }
   // Update release date text font (including all child elements)
   .outline-item-status, .release-date, 
