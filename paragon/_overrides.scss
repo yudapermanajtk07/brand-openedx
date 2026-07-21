@@ -93,7 +93,10 @@ body {
     }
   }
   // 6-dot drag handles
-  .drag-handle, [data-rbd-drag-handle-draggable-id], [data-rbd-drag-handle-context-id], .pgn__drag-handle {
+  .drag-handle, [data-rbd-drag-handle-draggable-id], [data-rbd-drag-handle-context-id], .pgn__drag-handle,
+  [aria-label*="Drag"], [aria-label*="drag"], [title*="Drag"], [title*="drag"],
+  [aria-label*="Reorder"], [aria-label*="reorder"], [title*="Reorder"], [title*="reorder"],
+  [aria-label*="Move"], [aria-label*="move"], [title*="Move"], [title*="move"] {
     background-color: transparent !important;
     &, &:hover, &:focus, &:active {
       background-color: transparent !important;
@@ -103,10 +106,10 @@ body {
       }
     }
   }
-  // Badges (like the section highlights counter)
-  .badge, .pgn__badge, .badge-primary, .bg-primary {
+  // Badges and Counters (like the section highlights counter)
+  .badge, [class*="badge"], .bg-primary, .bg-warning, [class*="count"], [class*="highlight"], .rounded-circle {
     color: #0B1F3F !important;
-    &, span, * {
+    &, span, *, .text-white, .text-light {
       color: #0B1F3F !important;
     }
   }
