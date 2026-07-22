@@ -4867,7 +4867,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot
   border: 2px solid #D1D5DB !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  border: 2px solid #0B1F3F !important;
   background: white !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot.border.bg-warning-300:after {
@@ -4875,7 +4875,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot
   left: 50%;
   top: 50%;
   content: "";
-  background: var(--pgn-color-primary-base);
+  background: #0B1F3F;
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -4911,11 +4911,11 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .d-inline-
   border-radius: 12px;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-line-bottom {
-  border-color: var(--pgn-color-primary-base) !important;
+  border-color: #0B1F3F !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: var(--pgn-color-primary-base) !important;
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  background: #0B1F3F !important;
+  border: 2px solid #0B1F3F !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -4930,15 +4930,15 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-
   margin: -3px 0 0 -4px;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  border: 2px solid #0B1F3F !important;
   background: white !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.bg-warning-300:before {
   display: none !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: var(--pgn-color-primary-base) !important;
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  background: #0B1F3F !important;
+  border: 2px solid #0B1F3F !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -4953,7 +4953,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb
   margin: -3px 0 0 -4px;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  border: 2px solid #0B1F3F !important;
   background: white !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.bg-warning-300:before {
@@ -8200,7 +8200,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   background: var(--pgn-color-primary-light) !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  border: 2px solid #0B1F3F !important;
   background: white !important;
   background: var(--pgn-color-primary-light) !important;
 }
@@ -8209,7 +8209,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   left: 50%;
   top: 50%;
   content: "";
-  background: var(--pgn-color-primary-base);
+  background: #0B1F3F;
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -8245,11 +8245,11 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   border-radius: 12px;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-line-bottom {
-  border-color: var(--pgn-color-primary-base) !important;
+  border-color: #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: var(--pgn-color-primary-base) !important;
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  background: #0B1F3F !important;
+  border: 2px solid #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -8265,7 +8265,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   border-color: var(--pgn-color-text-button);
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  border: 2px solid #0B1F3F !important;
   background: white !important;
   background: var(--pgn-color-primary-light) !important;
 }
@@ -8273,8 +8273,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   display: none !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: var(--pgn-color-primary-base) !important;
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  background: #0B1F3F !important;
+  border: 2px solid #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -8290,7 +8290,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   border-color: var(--pgn-color-text-button);
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid var(--pgn-color-primary-base) !important;
+  border: 2px solid #0B1F3F !important;
   background: white !important;
   background: var(--pgn-color-primary-light) !important;
 }
