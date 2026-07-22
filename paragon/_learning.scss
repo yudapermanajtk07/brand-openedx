@@ -240,21 +240,40 @@ div[data-learner-type=b2c_learner] {
             font-weight: 400 !important;
         }
     }
+}
+
+// Global overrides for Dates tab and widget icons
+.dates-dot {
+    &[class*="bg-warning"], &[class*="bg-primary"] {
+        background-color: #0B1F3F !important;
+        border-color: #0B1F3F !important;
+    }
     
-    // Style the checkmark, dot, and connecting lines that are active
-    .dates-dot {
-        &[class*="bg-warning"], &[class*="bg-primary"] {
-            background-color: #0B1F3F !important;
-            border-color: #0B1F3F !important;
-            
-            // To ensure inner SVG dot gets colored properly if it uses text color
+    &[class*="border-warning"], &[class*="border-primary"] {
+        border-color: #0B1F3F !important;
+        color: #0B1F3F !important;
+    }
+    
+    svg {
+        circle[fill="var(--pgn-color-primary-base)"], circle[fill="var(--pgn-color-warning-300)"], circle[fill="#F6DB00"],
+        path[fill="var(--pgn-color-primary-base)"], path[fill="var(--pgn-color-warning-300)"], path[fill="#F6DB00"] {
+            fill: #0B1F3F !important;
+        }
+        circle[stroke="var(--pgn-color-primary-base)"], circle[stroke="var(--pgn-color-warning-300)"], circle[stroke="#F6DB00"],
+        path[stroke="var(--pgn-color-primary-base)"], path[stroke="var(--pgn-color-warning-300)"], path[stroke="#F6DB00"] {
+            stroke: #0B1F3F !important;
+        }
+        
+        // Also sometimes it uses currentColor via text classes on SVG
+        &.text-warning-300, &.text-primary, &.text-brand {
             color: #0B1F3F !important;
         }
     }
-    .dates-line-top, .dates-line-bottom {
-        &[class*="bg-warning"], &[class*="bg-primary"] {
-            background-color: #0B1F3F !important;
-            border-color: #0B1F3F !important;
-        }
+}
+
+.dates-line-top, .dates-line-bottom {
+    &[class*="bg-warning"], &[class*="bg-primary"] {
+        background-color: #0B1F3F !important;
+        border-color: #0B1F3F !important;
     }
 }
