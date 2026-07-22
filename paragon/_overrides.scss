@@ -639,6 +639,20 @@ header + .bg-primary, .pgn__header + .bg-primary,
   }
 }
 
+// Brand button color override for Submit buttons and others
+.btn-brand, .pgn__stateful-btn.btn-brand {
+    color: #0B1F3F !important;
+    span {
+        color: #0B1F3F !important;
+    }
+    &:hover, &:focus, &:active {
+        color: #0B1F3F !important;
+        span {
+            color: #0B1F3F !important;
+        }
+    }
+}
+
 @import "./header";
 @import "./footer";
 @import "./login";

@@ -1827,6 +1827,18 @@ header + .bg-primary .dropdown-toggle.show *, .pgn__header + .bg-primary .btn:ho
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show * {
   color: #191A1A !important;
 }
+.btn-brand, .pgn__stateful-btn.btn-brand {
+  color: #0B1F3F !important;
+}
+.btn-brand span, .pgn__stateful-btn.btn-brand span {
+  color: #0B1F3F !important;
+}
+.btn-brand:hover, .btn-brand:focus, .btn-brand:active, .pgn__stateful-btn.btn-brand:hover, .pgn__stateful-btn.btn-brand:focus, .pgn__stateful-btn.btn-brand:active {
+  color: #0B1F3F !important;
+}
+.btn-brand:hover span, .btn-brand:focus span, .btn-brand:active span, .pgn__stateful-btn.btn-brand:hover span, .pgn__stateful-btn.btn-brand:focus span, .pgn__stateful-btn.btn-brand:active span {
+  color: #0B1F3F !important;
+}
 #root {
   position: relative;
   z-index: 1;
