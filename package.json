@@ -25,6 +25,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "exports": {
+    ".": "./dist/index.js",
+    "./light.min.css": "./dist/light.min.css",
+    "./dark.min.css": "./dist/dark.min.css",
+    "./*": "./*"
+  },
   "release": {
     "tagFormat": "indigo-${version}",
     "branches": [

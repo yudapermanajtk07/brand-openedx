@@ -3342,7 +3342,7 @@ footer.footer {
   color: var(--pgn-color-primary-base);
 }
 .course-tabs-navigation + .container-xl .donut-ring.complete-stroke, .course-tabs-navigation + .container-xl .donut-segment.complete-stroke, .course-tabs-navigation + .container-xl .donut-hole.complete-stroke {
-  stroke: var(--pgn-color-primary-base);
+  stroke: #0B1F3F !important;
 }
 .course-tabs-navigation + .container-xl .donut-ring.incomplete-stroke, .course-tabs-navigation + .container-xl .donut-segment.incomplete-stroke, .course-tabs-navigation + .container-xl .donut-hole.incomplete-stroke {
   stroke: var(--pgn-color-primary-light);
@@ -3358,13 +3358,45 @@ footer.footer {
   }
 }
 .course-tabs-navigation + .container-xl .donut-chart-text .donut-chart-number {
-  color: var(--pgn-color-text-base);
+  fill: #0B1F3F !important;
+  color: #0B1F3F !important;
 }
 .course-tabs-navigation + .container-xl .donut-chart-text .donut-chart-label {
-  color: #4B5563;
+  fill: #0B1F3F !important;
+  color: #0B1F3F !important;
 }
 .course-tabs-navigation + .container-xl .grade-bar .grade-bar__base {
   fill: var(--pgn-color-primary-light);
+}
+.course-tabs-navigation + .container-xl .grade-bar .grade-bar--passing,
+.course-tabs-navigation + .container-xl .grade-bar .grade-bar--current-non-passing,
+.course-tabs-navigation + .container-xl .grade-bar .grade-bar--current-passing {
+  fill: #15803D !important;
+  stroke: #15803D !important;
+}
+.course-tabs-navigation + .container-xl .grade-bar-marker--current,
+.course-tabs-navigation + .container-xl .grade-bar__marker--current,
+.course-tabs-navigation + .container-xl .grade-bar__tooltip {
+  background-color: #15803D !important;
+  color: #fff !important;
+}
+.course-tabs-navigation + .container-xl .grade-bar-marker--current::after, .course-tabs-navigation + .container-xl .grade-bar-marker--current::before,
+.course-tabs-navigation + .container-xl .grade-bar__marker--current::after,
+.course-tabs-navigation + .container-xl .grade-bar__marker--current::before,
+.course-tabs-navigation + .container-xl .grade-bar__tooltip::after,
+.course-tabs-navigation + .container-xl .grade-bar__tooltip::before {
+  border-top-color: #15803D !important;
+}
+.course-tabs-navigation + .container-xl .grade-bar-marker--current .tooltip-inner,
+.course-tabs-navigation + .container-xl .grade-bar__marker--current .tooltip-inner,
+.course-tabs-navigation + .container-xl .grade-bar__tooltip .tooltip-inner {
+  background-color: #15803D !important;
+  color: #fff !important;
+}
+.course-tabs-navigation + .container-xl .grade-bar-marker--current .tooltip-arrow::before,
+.course-tabs-navigation + .container-xl .grade-bar__marker--current .tooltip-arrow::before,
+.course-tabs-navigation + .container-xl .grade-bar__tooltip .tooltip-arrow::before {
+  border-top-color: #15803D !important;
 }
 #root .grades .pgn__data-table thead th {
   background: none !important;
@@ -3395,15 +3427,15 @@ footer.footer {
   font-size: 14px !important;
 }
 #non-passing-grade-tooltip {
-  background: var(--pgn-color-primary-base);
-  border-color: var(--pgn-color-primary-base);
+  background: #15803D !important;
+  border-color: #15803D !important;
   filter: none;
 }
 #non-passing-grade-tooltip .arrow:before {
-  border-top-color: var(--pgn-color-primary-base) !important;
+  border-top-color: #15803D !important;
 }
 #non-passing-grade-tooltip .arrow:after {
-  border-top-color: var(--pgn-color-primary-base) !important;
+  border-top-color: #15803D !important;
 }
 #non-passing-grade-tooltip .popover-body {
   color: white !important;
@@ -6572,7 +6604,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   color: var(--pgn-color-primary-base);
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-ring.complete-stroke, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-segment.complete-stroke, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-hole.complete-stroke {
-  stroke: var(--pgn-color-primary-base);
+  stroke: #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-ring.incomplete-stroke, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-segment.incomplete-stroke, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-hole.incomplete-stroke {
   stroke: var(--pgn-color-primary-light);
@@ -6588,14 +6620,47 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   }
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-chart-text .donut-chart-number {
+  fill: #0B1F3F !important;
+  color: #0B1F3F !important;
   color: var(--pgn-color-text-base);
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-chart-text .donut-chart-label {
-  color: #4B5563;
+  fill: #0B1F3F !important;
+  color: #0B1F3F !important;
   color: var(--pgn-color-text-primary);
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar .grade-bar__base {
   fill: var(--pgn-color-primary-light);
+}
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar .grade-bar--passing,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar .grade-bar--current-non-passing,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar .grade-bar--current-passing {
+  fill: #15803D !important;
+  stroke: #15803D !important;
+}
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar-marker--current,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__marker--current,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__tooltip {
+  background-color: #15803D !important;
+  color: #fff !important;
+}
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar-marker--current::after, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar-marker--current::before,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__marker--current::after,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__marker--current::before,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__tooltip::after,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__tooltip::before {
+  border-top-color: #15803D !important;
+}
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar-marker--current .tooltip-inner,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__marker--current .tooltip-inner,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__tooltip .tooltip-inner {
+  background-color: #15803D !important;
+  color: #fff !important;
+}
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar-marker--current .tooltip-arrow::before,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__marker--current .tooltip-arrow::before,
+[data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__tooltip .tooltip-arrow::before {
+  border-top-color: #15803D !important;
 }
 [data-paragon-theme-variant=dark] #root .grades .pgn__data-table thead th {
   background: none !important;
@@ -6629,15 +6694,15 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   font-size: 14px !important;
 }
 [data-paragon-theme-variant=dark] #non-passing-grade-tooltip {
-  background: var(--pgn-color-primary-base);
-  border-color: var(--pgn-color-primary-base);
+  background: #15803D !important;
+  border-color: #15803D !important;
   filter: none;
 }
 [data-paragon-theme-variant=dark] #non-passing-grade-tooltip .arrow:before {
-  border-top-color: var(--pgn-color-primary-base) !important;
+  border-top-color: #15803D !important;
 }
 [data-paragon-theme-variant=dark] #non-passing-grade-tooltip .arrow:after {
-  border-top-color: var(--pgn-color-primary-base) !important;
+  border-top-color: #15803D !important;
 }
 [data-paragon-theme-variant=dark] #non-passing-grade-tooltip .popover-body {
   color: white !important;
