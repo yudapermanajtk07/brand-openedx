@@ -3609,7 +3609,7 @@ footer.footer {
   line-height: inherit;
 }
 #root .course-outline-tab .raised-card {
-  background: var(--pgn-color-primary-light);
+  background: #FEF73C !important;
   box-shadow: none !important;
 }
 #root .course-outline-tab .raised-card.alert-content {
@@ -3635,7 +3635,8 @@ footer.footer {
   }
 }
 #root .course-outline-tab .raised-card .pgn__card-header-actions a {
-  background: var(--pgn-color-primary-base);
+  background: #191A1A !important;
+  color: #FFFFFF !important;
   padding: 9px 17px;
   font-size: 16px;
   line-height: 24px;
@@ -3676,7 +3677,7 @@ footer.footer {
 #root .course-outline-tab .col-12.col-md-auto.p-0 .btn {
   font-size: 16px !important;
   background: none !important;
-  color: var(--pgn-color-primary-base) !important;
+  color: #0B1F3F !important;
 }
 .course-tabs-navigation {
   padding-top: 20px;
@@ -3772,14 +3773,15 @@ div[data-learner-type=b2c_learner] div[role=heading].h2 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
-  color: var(--pgn-color-primary-base);
+  color: #0E4596 !important;
   text-decoration: underline;
 }
 .course-outline-tab section.mb-4 ul li a:hover, .course-outline-tab section.mb-4 ul li button:hover {
   text-decoration: none;
+  color: #0E4596 !important;
 }
-.course-outline-tab section.mb-4 ul li a svg, .course-outline-tab section.mb-4 ul li button svg {
-  color: #9CA3AF;
+.course-outline-tab section.mb-4 ul li a svg, .course-outline-tab section.mb-4 ul li a .pgn__icon, .course-outline-tab section.mb-4 ul li button svg, .course-outline-tab section.mb-4 ul li button .pgn__icon {
+  color: #0E4596 !important;
 }
 #courseHome-dates a:hover {
   color: var(--pgn-color-primary-base);
@@ -6850,7 +6852,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   line-height: inherit;
 }
 [data-paragon-theme-variant=dark] #root .course-outline-tab .raised-card {
-  background: var(--pgn-color-primary-light);
+  background: #FEF73C !important;
   box-shadow: none !important;
 }
 [data-paragon-theme-variant=dark] #root .course-outline-tab .raised-card.alert-content {
@@ -6876,7 +6878,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   }
 }
 [data-paragon-theme-variant=dark] #root .course-outline-tab .raised-card .pgn__card-header-actions a {
-  background: var(--pgn-color-primary-base);
+  background: #191A1A !important;
+  color: #FFFFFF !important;
   padding: 9px 17px;
   font-size: 16px;
   line-height: 24px;
@@ -6918,7 +6921,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 [data-paragon-theme-variant=dark] #root .course-outline-tab .col-12.col-md-auto.p-0 .btn {
   font-size: 16px !important;
   background: none !important;
-  color: var(--pgn-color-primary-base) !important;
+  color: #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation {
   padding-top: 20px;
@@ -7017,14 +7020,15 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
-  color: var(--pgn-color-primary-base);
+  color: #0E4596 !important;
   text-decoration: underline;
 }
 [data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li a:hover, [data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li button:hover {
   text-decoration: none;
+  color: #0E4596 !important;
 }
-[data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li a svg, [data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li button svg {
-  color: #9CA3AF;
+[data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li a svg, [data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li a .pgn__icon, [data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li button svg, [data-paragon-theme-variant=dark] .course-outline-tab section.mb-4 ul li button .pgn__icon {
+  color: #0E4596 !important;
 }
 [data-paragon-theme-variant=dark] #courseHome-dates a:hover {
   color: var(--pgn-color-primary-base);
