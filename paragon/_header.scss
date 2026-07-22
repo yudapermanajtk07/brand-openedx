@@ -53,15 +53,6 @@
           }
       }
     }
-
-    // Align general header .nav to the right (e.g. search icon in learner dashboard)
-    .pgn__header .nav, header .nav {
-        margin-left: auto !important;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
     header.site-header-mobile {
         padding: 0 15px;
         height: auto;
