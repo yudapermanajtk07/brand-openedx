@@ -20,7 +20,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                         border: 2px solid  #D1D5DB !important;
                     }
                     &.bg-warning-300 {
-                        border: 2px solid  #0B1F3F !important;
+                        border: 2px solid  var(--pgn-color-primary-base) !important;
                         background: white !important;
                         &:after {
                             position: absolute;
@@ -76,23 +76,23 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                 .dates-dot {
                     &.border {
                         &.border-gray-900 {
-                            background: #0B1F3F !important;
-                            border: 2px solid  #0B1F3F !important;
+                            background: var(--pgn-color-primary-base) !important;
+                            border: 2px solid  var(--pgn-color-primary-base) !important;
                             &:before {
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
                                 width: 10px;
                                 height: 5px;
-                                border: 1px solid white;
-                                border-width: 0 0 1px 1px;
+                                border: 2px solid #0B1F3F;
+                                border-width: 0 0 2px 2px;
                                 content: '';
                                 transform: rotate(-45deg);
                                 margin: -3px 0 0 -4px;
                             }
                         }
                         &.bg-warning-300 {
-                            border: 2px solid  #0B1F3F !important;
+                            border: 2px solid  var(--pgn-color-primary-base) !important;
                             background: white !important;
                             &:before {
                                 display: none !important;
@@ -107,23 +107,23 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                 .dates-dot {
                     &.border {
                         &.border-gray-900 {
-                            background: #0B1F3F !important;
-                            border: 2px solid  #0B1F3F !important;
+                            background: var(--pgn-color-primary-base) !important;
+                            border: 2px solid  var(--pgn-color-primary-base) !important;
                             &:before {
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
                                 width: 10px;
                                 height: 5px;
-                                border: 1px solid white;
-                                border-width: 0 0 1px 1px;
+                                border: 2px solid #0B1F3F;
+                                border-width: 0 0 2px 2px;
                                 content: '';
                                 transform: rotate(-45deg);
                                 margin: -3px 0 0 -4px;
                             }
                         }
                         &.bg-warning-300 {
-                            border: 2px solid  #0B1F3F !important;
+                            border: 2px solid  var(--pgn-color-primary-base) !important;
                             background: white !important;
                             &:before {
                                 display: none !important;

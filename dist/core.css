@@ -4867,7 +4867,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot
   border: 2px solid #D1D5DB !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid #0B1F3F !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
   background: white !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot.border.bg-warning-300:after {
@@ -4914,8 +4914,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-
   border-color: #0B1F3F !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: #0B1F3F !important;
-  border: 2px solid #0B1F3F !important;
+  background: var(--pgn-color-primary-base) !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -4923,22 +4923,22 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-
   left: 50%;
   width: 10px;
   height: 5px;
-  border: 1px solid white;
-  border-width: 0 0 1px 1px;
+  border: 2px solid #0B1F3F;
+  border-width: 0 0 2px 2px;
   content: "";
   transform: rotate(-45deg);
   margin: -3px 0 0 -4px;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid #0B1F3F !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
   background: white !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.bg-warning-300:before {
   display: none !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: #0B1F3F !important;
-  border: 2px solid #0B1F3F !important;
+  background: var(--pgn-color-primary-base) !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -4946,14 +4946,14 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb
   left: 50%;
   width: 10px;
   height: 5px;
-  border: 1px solid white;
-  border-width: 0 0 1px 1px;
+  border: 2px solid #0B1F3F;
+  border-width: 0 0 2px 2px;
   content: "";
   transform: rotate(-45deg);
   margin: -3px 0 0 -4px;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid #0B1F3F !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
   background: white !important;
 }
 div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.bg-warning-300:before {
@@ -8200,7 +8200,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   background: var(--pgn-color-primary-light) !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid #0B1F3F !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
   background: white !important;
   background: var(--pgn-color-primary-light) !important;
 }
@@ -8248,8 +8248,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   border-color: #0B1F3F !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: #0B1F3F !important;
-  border: 2px solid #0B1F3F !important;
+  background: var(--pgn-color-primary-base) !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -8257,15 +8257,15 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   left: 50%;
   width: 10px;
   height: 5px;
-  border: 1px solid white;
-  border-width: 0 0 1px 1px;
+  border: 2px solid #0B1F3F;
+  border-width: 0 0 2px 2px;
   content: "";
   transform: rotate(-45deg);
   margin: -3px 0 0 -4px;
   border-color: var(--pgn-color-text-button);
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:first-child.dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid #0B1F3F !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
   background: white !important;
   background: var(--pgn-color-primary-light) !important;
 }
@@ -8273,8 +8273,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   display: none !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900 {
-  background: #0B1F3F !important;
-  border: 2px solid #0B1F3F !important;
+  background: var(--pgn-color-primary-base) !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.border-gray-900:before {
   position: absolute;
@@ -8282,15 +8282,15 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   left: 50%;
   width: 10px;
   height: 5px;
-  border: 1px solid white;
-  border-width: 0 0 1px 1px;
+  border: 2px solid #0B1F3F;
+  border-width: 0 0 2px 2px;
   content: "";
   transform: rotate(-45deg);
   margin: -3px 0 0 -4px;
   border-color: var(--pgn-color-text-button);
 }
 [data-paragon-theme-variant=dark] div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li:nth-child(2).dates-day.pb-4 .dates-dot.border.bg-warning-300 {
-  border: 2px solid #0B1F3F !important;
+  border: 2px solid var(--pgn-color-primary-base) !important;
   background: white !important;
   background: var(--pgn-color-primary-light) !important;
 }
