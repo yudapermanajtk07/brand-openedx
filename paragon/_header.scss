@@ -364,7 +364,7 @@
             box-shadow: none !important;
             outline: none !important;
             background: #0000001A !important;
-            color: var(--pgn-color-primary-base);
+            color: #0B1F3F !important;
             transition: background-color 0.2s ease;
             &:hover, &:focus {
                 background: #00000033 !important;
@@ -381,7 +381,8 @@
                 display: none;
             }
             &:after {
-                border-color: var(--pgn-color-primary-base) !important;
+                border-top-color: #0B1F3F !important;
+                border-bottom-color: #0B1F3F !important;
                 margin-left: 8px !important;
                 @media (--pgn-size-breakpoint-max-width-md) {
                     display: none;
