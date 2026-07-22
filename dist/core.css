@@ -3339,7 +3339,7 @@ footer.footer {
   list-style: none;
 }
 .course-tabs-navigation + .container-xl > .row > .col-12.col-md-4.p-0.px-md-4 section.mb-4.x-small ul a, .course-tabs-navigation + .container-xl > .row > .col-12.col-md-8.p-0 section.mb-4.x-small ul a {
-  color: var(--pgn-color-primary-base);
+  color: #0E4596 !important;
 }
 .course-tabs-navigation + .container-xl .donut-ring.complete-stroke, .course-tabs-navigation + .container-xl .donut-segment.complete-stroke, .course-tabs-navigation + .container-xl .donut-hole.complete-stroke {
   stroke: #0B1F3F !important;
@@ -3397,6 +3397,9 @@ footer.footer {
 .course-tabs-navigation + .container-xl .grade-bar__marker--current .tooltip-arrow::before,
 .course-tabs-navigation + .container-xl .grade-bar__tooltip .tooltip-arrow::before {
   border-top-color: #15803D !important;
+}
+#root .grades a {
+  color: #0E4596 !important;
 }
 #root .grades .pgn__data-table thead th {
   background: none !important;
@@ -6601,7 +6604,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   list-style: none;
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl > .row > .col-12.col-md-4.p-0.px-md-4 section.mb-4.x-small ul a, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl > .row > .col-12.col-md-8.p-0 section.mb-4.x-small ul a {
-  color: var(--pgn-color-primary-base);
+  color: #0E4596 !important;
 }
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-ring.complete-stroke, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-segment.complete-stroke, [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .donut-hole.complete-stroke {
   stroke: #0B1F3F !important;
@@ -6661,6 +6664,9 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__marker--current .tooltip-arrow::before,
 [data-paragon-theme-variant=dark] .course-tabs-navigation + .container-xl .grade-bar__tooltip .tooltip-arrow::before {
   border-top-color: #15803D !important;
+}
+[data-paragon-theme-variant=dark] #root .grades a {
+  color: #0E4596 !important;
 }
 [data-paragon-theme-variant=dark] #root .grades .pgn__data-table thead th {
   background: none !important;

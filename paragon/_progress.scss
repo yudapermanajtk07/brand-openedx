@@ -86,7 +86,7 @@
                 ul {
                     list-style: none;
                     a {
-                        color: var(--pgn-color-primary-base);
+                        color: #0E4596 !important;
                     }
                 }
             }
@@ -147,6 +147,9 @@
 }
 #root {
     .grades {
+        a {
+            color: #0E4596 !important;
+        }
         .pgn__data-table {
             thead {
                 th {

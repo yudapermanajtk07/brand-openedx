@@ -29,6 +29,7 @@
     ".": "./dist/index.js",
     "./light.min.css": "./dist/light.min.css",
     "./dark.min.css": "./dist/dark.min.css",
+    "./core.min.css": "./dist/core.min.css",
     "./*": "./*"
   },
   "release": {
