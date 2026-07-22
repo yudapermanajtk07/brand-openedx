@@ -363,8 +363,12 @@
             padding: 9px 15px !important;
             box-shadow: none !important;
             outline: none !important;
-            background: #F6DB00 !important;
+            background: #0000001A !important;
             color: var(--pgn-color-primary-base);
+            transition: background-color 0.2s ease;
+            &:hover, &:focus {
+                background: #00000033 !important;
+            }
             font-size: 14px;
             font-weight: 500;
             line-height: 20px;

@@ -157,7 +157,19 @@
             font-size: 14px;
             font-weight: 500;
             margin: 0 10px 0 0;
-            background: none !important;
+            color: #0B1F3F !important;
+            background-color: transparent !important;
+            transition: background-color 0.2s ease;
+            
+            &:hover, &:focus {
+                background-color: #0000001A !important;
+                color: #0B1F3F !important;
+            }
+            
+            &.active {
+                color: #0B1F3F !important;
+            }
+
             @media (--pgn-size-breakpoint-min-width-md) {
                 margin: 0 32px 0 0;
             }
