@@ -240,4 +240,21 @@ div[data-learner-type=b2c_learner] {
             font-weight: 400 !important;
         }
     }
+    
+    // Style the checkmark, dot, and connecting lines that are active
+    .dates-dot {
+        &[class*="bg-warning"], &[class*="bg-primary"] {
+            background-color: #0B1F3F !important;
+            border-color: #0B1F3F !important;
+            
+            // To ensure inner SVG dot gets colored properly if it uses text color
+            color: #0B1F3F !important;
+        }
+    }
+    .dates-line-top, .dates-line-bottom {
+        &[class*="bg-warning"], &[class*="bg-primary"] {
+            background-color: #0B1F3F !important;
+            border-color: #0B1F3F !important;
+        }
+    }
 }
