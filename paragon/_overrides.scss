@@ -618,9 +618,11 @@ html body #root div.bg-primary.text-white {
   box-shadow: inset 0 0 0 9999px #191A1A !important; // Ultimate color override
   
   height: 58px !important;
-  display: flex;
-  align-items: center;
-  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 
   // Force ANY nested element that might be secretly colored to be transparent
   *, *::before, *::after {
@@ -637,34 +639,36 @@ html body #root div.bg-primary.text-white {
     background-color: transparent !important;
   }
 
-  > .container, > .container-xl, > .container-mw-xl, > .container-fluid, > div {
-    height: 58px !important;
-    display: flex;
-    align-items: center;
-    width: 100%;
-
-    > .py-3, > .d-md-flex, > div {
-      height: 100% !important;
-      display: flex;
-      align-items: center !important;
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-      width: 100% !important; // Ensures flex-grow inside it can push elements apart
-    }
+  // Deeply target all containers and flex boxes to enforce height and centering
+  .container, .container-xl, .container-mw-xl, .container-fluid {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
-  .my-1, .mt-1, .py-3 {
+
+  .py-3, .d-md-flex, .d-flex, .row {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  // Target the text spans and button wrappers directly
+  span.mx-1, span.my-1, span.mt-1, span.mr-2, span.col-form-label {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-  }
-
-  .col-form-label {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    display: flex;
-    align-items: center;
-    line-height: 1;
   }
 
   *, .text-dark, .text-primary {

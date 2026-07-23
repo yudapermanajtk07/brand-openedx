@@ -1685,9 +1685,11 @@ html body #root div.bg-primary.text-white {
   border-color: #191A1A !important;
   box-shadow: inset 0 0 0 9999px #191A1A !important;
   height: 58px !important;
-  display: flex;
-  align-items: center;
-  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] *::before, html body #root div[aria-label="Masquerade bar"] *::after,
 html body #root div.bg-primary.text-white *,
@@ -1708,56 +1710,45 @@ html body #root div[aria-label="Masquerade bar"] .btn-inverse-outline-primary,
 html body #root div.bg-primary.text-white .btn-inverse-outline-primary {
   background-color: transparent !important;
 }
-html body #root div[aria-label="Masquerade bar"] > .container, html body #root div[aria-label="Masquerade bar"] > .container-xl, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl, html body #root div[aria-label="Masquerade bar"] > .container-fluid, html body #root div[aria-label="Masquerade bar"] > div,
-html body #root div.bg-primary.text-white > .container,
-html body #root div.bg-primary.text-white > .container-xl,
-html body #root div.bg-primary.text-white > .container-mw-xl,
-html body #root div.bg-primary.text-white > .container-fluid,
-html body #root div.bg-primary.text-white > div {
-  height: 58px !important;
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-html body #root div[aria-label="Masquerade bar"] > .container > .py-3, html body #root div[aria-label="Masquerade bar"] > .container > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container > div, html body #root div[aria-label="Masquerade bar"] > .container-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-xl > div, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > div, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-fluid > div, html body #root div[aria-label="Masquerade bar"] > div > .py-3, html body #root div[aria-label="Masquerade bar"] > div > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > div > div,
-html body #root div.bg-primary.text-white > .container > .py-3,
-html body #root div.bg-primary.text-white > .container > .d-md-flex,
-html body #root div.bg-primary.text-white > .container > div,
-html body #root div.bg-primary.text-white > .container-xl > .py-3,
-html body #root div.bg-primary.text-white > .container-xl > .d-md-flex,
-html body #root div.bg-primary.text-white > .container-xl > div,
-html body #root div.bg-primary.text-white > .container-mw-xl > .py-3,
-html body #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex,
-html body #root div.bg-primary.text-white > .container-mw-xl > div,
-html body #root div.bg-primary.text-white > .container-fluid > .py-3,
-html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex,
-html body #root div.bg-primary.text-white > .container-fluid > div,
-html body #root div.bg-primary.text-white > div > .py-3,
-html body #root div.bg-primary.text-white > div > .d-md-flex,
-html body #root div.bg-primary.text-white > div > div {
+html body #root div[aria-label="Masquerade bar"] .container, html body #root div[aria-label="Masquerade bar"] .container-xl, html body #root div[aria-label="Masquerade bar"] .container-mw-xl, html body #root div[aria-label="Masquerade bar"] .container-fluid,
+html body #root div.bg-primary.text-white .container,
+html body #root div.bg-primary.text-white .container-xl,
+html body #root div.bg-primary.text-white .container-mw-xl,
+html body #root div.bg-primary.text-white .container-fluid {
   height: 100% !important;
-  display: flex;
+  display: flex !important;
   align-items: center !important;
+  width: 100% !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  width: 100% !important;
 }
-html body #root div[aria-label="Masquerade bar"] .my-1, html body #root div[aria-label="Masquerade bar"] .mt-1, html body #root div[aria-label="Masquerade bar"] .py-3,
-html body #root div.bg-primary.text-white .my-1,
-html body #root div.bg-primary.text-white .mt-1,
-html body #root div.bg-primary.text-white .py-3 {
+html body #root div[aria-label="Masquerade bar"] .py-3, html body #root div[aria-label="Masquerade bar"] .d-md-flex, html body #root div[aria-label="Masquerade bar"] .d-flex, html body #root div[aria-label="Masquerade bar"] .row,
+html body #root div.bg-primary.text-white .py-3,
+html body #root div.bg-primary.text-white .d-md-flex,
+html body #root div.bg-primary.text-white .d-flex,
+html body #root div.bg-primary.text-white .row {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+html body #root div[aria-label="Masquerade bar"] span.mx-1, html body #root div[aria-label="Masquerade bar"] span.my-1, html body #root div[aria-label="Masquerade bar"] span.mt-1, html body #root div[aria-label="Masquerade bar"] span.mr-2, html body #root div[aria-label="Masquerade bar"] span.col-form-label,
+html body #root div.bg-primary.text-white span.mx-1,
+html body #root div.bg-primary.text-white span.my-1,
+html body #root div.bg-primary.text-white span.mt-1,
+html body #root div.bg-primary.text-white span.mr-2,
+html body #root div.bg-primary.text-white span.col-form-label {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-}
-html body #root div[aria-label="Masquerade bar"] .col-form-label,
-html body #root div.bg-primary.text-white .col-form-label {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  display: flex;
-  align-items: center;
-  line-height: 1;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] .text-dark, html body #root div[aria-label="Masquerade bar"] .text-primary,
 html body #root div.bg-primary.text-white *,
