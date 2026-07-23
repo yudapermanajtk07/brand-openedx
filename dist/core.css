@@ -1721,18 +1721,9 @@ html body #root div.bg-primary.text-white .container-fluid {
   padding-bottom: 0 !important;
   flex-wrap: wrap !important;
 }
-html body #root div[aria-label="Masquerade bar"] .py-3, html body #root div[aria-label="Masquerade bar"] .d-md-flex, html body #root div[aria-label="Masquerade bar"] .d-flex, html body #root div[aria-label="Masquerade bar"] .row,
-html body #root div.bg-primary.text-white .py-3,
-html body #root div.bg-primary.text-white .d-md-flex,
-html body #root div.bg-primary.text-white .d-flex,
-html body #root div.bg-primary.text-white .row {
-  display: flex !important;
-  align-items: center !important;
+html body #root div[aria-label="Masquerade bar"] .py-3,
+html body #root div.bg-primary.text-white .py-3 {
   width: 100% !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
   flex-wrap: wrap !important;
 }
 html body #root div[aria-label="Masquerade bar"] span.mx-1, html body #root div[aria-label="Masquerade bar"] span.my-1, html body #root div[aria-label="Masquerade bar"] span.mt-1, html body #root div[aria-label="Masquerade bar"] span.mr-2,
@@ -1742,23 +1733,20 @@ html body #root div.bg-primary.text-white span.mt-1,
 html body #root div.bg-primary.text-white span.mr-2 {
   display: flex !important;
   align-items: center !important;
-  margin-top: 4px !important;
-  margin-bottom: 4px !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
   white-space: nowrap !important;
 }
-html body #root div[aria-label="Masquerade bar"] span.col-form-label,
-html body #root div.bg-primary.text-white span.col-form-label {
-  display: flex !important;
-  align-items: center !important;
-  margin-top: 4px !important;
-  margin-bottom: 4px !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  white-space: nowrap !important;
+html body #root div[aria-label="Masquerade bar"] .col-form-label,
+html body #root div.bg-primary.text-white .col-form-label {
   font-size: 14px !important;
   font-weight: 400 !important;
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] .text-dark, html body #root div[aria-label="Masquerade bar"] .text-primary,
 html body #root div.bg-primary.text-white *,
