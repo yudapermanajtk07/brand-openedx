@@ -25,6 +25,13 @@
                 border: none !important;
                 box-shadow: none !important;
             }
+
+            // Hide the account image (avatar) inside the button - explicitly restricted to Instructor Dashboard
+            &#user-nav-dropdown {
+                img.pgn__avatar, .avatar {
+                    display: none !important;
+                }
+            }
         }
     }
     .logo {
