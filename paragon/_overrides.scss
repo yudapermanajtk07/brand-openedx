@@ -607,15 +607,25 @@ div[aria-label="Masquerade bar"] .bg-primary {
 }
 
 // Fallback for Instructor Dashboard masquerade bar
+html body #root div[aria-label="Masquerade bar"],
 html body #root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
   border-color: #191A1A !important;
 
+  * {
+    background-color: transparent;
+  }
+  
+  .btn, button, .dropdown-menu * {
+    background-color: inherit;
+  }
+
   > .container-mw-xl, > .container-fluid {
     height: 58px;
     display: flex;
     align-items: center;
+    background-color: transparent !important;
 
     > .py-3, > .d-md-flex {
       height: 100%;
@@ -623,6 +633,7 @@ html body #root div.bg-primary.text-white {
       padding-top: 0 !important;
       padding-bottom: 0 !important;
       width: 100%; // Ensures flex-grow inside it can push elements apart
+      background-color: transparent !important;
     }
   }
   .my-1, .mt-1, .py-3 {

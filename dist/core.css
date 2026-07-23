@@ -1675,29 +1675,52 @@ div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   height: 100% !important;
   align-items: center !important;
 }
+html body #root div[aria-label="Masquerade bar"],
 html body #root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
   border-color: #191A1A !important;
 }
-html body #root div.bg-primary.text-white > .container-mw-xl, html body #root div.bg-primary.text-white > .container-fluid {
+html body #root div[aria-label="Masquerade bar"] *,
+html body #root div.bg-primary.text-white * {
+  background-color: transparent;
+}
+html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *,
+html body #root div.bg-primary.text-white .btn,
+html body #root div.bg-primary.text-white button,
+html body #root div.bg-primary.text-white .dropdown-menu * {
+  background-color: inherit;
+}
+html body #root div[aria-label="Masquerade bar"] > .container-mw-xl, html body #root div[aria-label="Masquerade bar"] > .container-fluid,
+html body #root div.bg-primary.text-white > .container-mw-xl,
+html body #root div.bg-primary.text-white > .container-fluid {
   height: 58px;
   display: flex;
   align-items: center;
+  background-color: transparent !important;
 }
-html body #root div.bg-primary.text-white > .container-mw-xl > .py-3, html body #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex, html body #root div.bg-primary.text-white > .container-fluid > .py-3, html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
+html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .d-md-flex,
+html body #root div.bg-primary.text-white > .container-mw-xl > .py-3,
+html body #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex,
+html body #root div.bg-primary.text-white > .container-fluid > .py-3,
+html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
   height: 100%;
   align-items: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   width: 100%;
+  background-color: transparent !important;
 }
-html body #root div.bg-primary.text-white .my-1, html body #root div.bg-primary.text-white .mt-1, html body #root div.bg-primary.text-white .py-3 {
+html body #root div[aria-label="Masquerade bar"] .my-1, html body #root div[aria-label="Masquerade bar"] .mt-1, html body #root div[aria-label="Masquerade bar"] .py-3,
+html body #root div.bg-primary.text-white .my-1,
+html body #root div.bg-primary.text-white .mt-1,
+html body #root div.bg-primary.text-white .py-3 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+html body #root div[aria-label="Masquerade bar"] .col-form-label,
 html body #root div.bg-primary.text-white .col-form-label {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -1705,10 +1728,16 @@ html body #root div.bg-primary.text-white .col-form-label {
   align-items: center;
   line-height: 1;
 }
-html body #root div.bg-primary.text-white *, html body #root div.bg-primary.text-white .text-dark, html body #root div.bg-primary.text-white .text-primary {
+html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] .text-dark, html body #root div[aria-label="Masquerade bar"] .text-primary,
+html body #root div.bg-primary.text-white *,
+html body #root div.bg-primary.text-white .text-dark,
+html body #root div.bg-primary.text-white .text-primary {
   color: #FFFFFF !important;
 }
-html body #root div.bg-primary.text-white .btn, html body #root div.bg-primary.text-white button, html body #root div.bg-primary.text-white .dropdown-toggle {
+html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle,
+html body #root div.bg-primary.text-white .btn,
+html body #root div.bg-primary.text-white button,
+html body #root div.bg-primary.text-white .dropdown-toggle {
   background-color: transparent !important;
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
@@ -1719,11 +1748,47 @@ html body #root div.bg-primary.text-white .btn, html body #root div.bg-primary.t
   font-size: 14px !important;
   line-height: 1 !important;
 }
-html body #root div.bg-primary.text-white .btn:hover, html body #root div.bg-primary.text-white .btn:focus, html body #root div.bg-primary.text-white .btn:active, html body #root div.bg-primary.text-white .btn[aria-expanded=true], html body #root div.bg-primary.text-white .btn.active, html body #root div.bg-primary.text-white .btn.show, html body #root div.bg-primary.text-white button:hover, html body #root div.bg-primary.text-white button:focus, html body #root div.bg-primary.text-white button:active, html body #root div.bg-primary.text-white button[aria-expanded=true], html body #root div.bg-primary.text-white button.active, html body #root div.bg-primary.text-white button.show, html body #root div.bg-primary.text-white .dropdown-toggle:hover, html body #root div.bg-primary.text-white .dropdown-toggle:focus, html body #root div.bg-primary.text-white .dropdown-toggle:active, html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true], html body #root div.bg-primary.text-white .dropdown-toggle.active, html body #root div.bg-primary.text-white .dropdown-toggle.show {
+html body #root div[aria-label="Masquerade bar"] .btn:hover, html body #root div[aria-label="Masquerade bar"] .btn:focus, html body #root div[aria-label="Masquerade bar"] .btn:active, html body #root div[aria-label="Masquerade bar"] .btn[aria-expanded=true], html body #root div[aria-label="Masquerade bar"] .btn.active, html body #root div[aria-label="Masquerade bar"] .btn.show, html body #root div[aria-label="Masquerade bar"] button:hover, html body #root div[aria-label="Masquerade bar"] button:focus, html body #root div[aria-label="Masquerade bar"] button:active, html body #root div[aria-label="Masquerade bar"] button[aria-expanded=true], html body #root div[aria-label="Masquerade bar"] button.active, html body #root div[aria-label="Masquerade bar"] button.show, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle:hover, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle:focus, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle:active, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle[aria-expanded=true], html body #root div[aria-label="Masquerade bar"] .dropdown-toggle.active, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle.show,
+html body #root div.bg-primary.text-white .btn:hover,
+html body #root div.bg-primary.text-white .btn:focus,
+html body #root div.bg-primary.text-white .btn:active,
+html body #root div.bg-primary.text-white .btn[aria-expanded=true],
+html body #root div.bg-primary.text-white .btn.active,
+html body #root div.bg-primary.text-white .btn.show,
+html body #root div.bg-primary.text-white button:hover,
+html body #root div.bg-primary.text-white button:focus,
+html body #root div.bg-primary.text-white button:active,
+html body #root div.bg-primary.text-white button[aria-expanded=true],
+html body #root div.bg-primary.text-white button.active,
+html body #root div.bg-primary.text-white button.show,
+html body #root div.bg-primary.text-white .dropdown-toggle:hover,
+html body #root div.bg-primary.text-white .dropdown-toggle:focus,
+html body #root div.bg-primary.text-white .dropdown-toggle:active,
+html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true],
+html body #root div.bg-primary.text-white .dropdown-toggle.active,
+html body #root div.bg-primary.text-white .dropdown-toggle.show {
   background-color: #FFFFFF !important;
   color: #191A1A !important;
 }
-html body #root div.bg-primary.text-white .btn:hover *, html body #root div.bg-primary.text-white .btn:focus *, html body #root div.bg-primary.text-white .btn:active *, html body #root div.bg-primary.text-white .btn[aria-expanded=true] *, html body #root div.bg-primary.text-white .btn.active *, html body #root div.bg-primary.text-white .btn.show *, html body #root div.bg-primary.text-white button:hover *, html body #root div.bg-primary.text-white button:focus *, html body #root div.bg-primary.text-white button:active *, html body #root div.bg-primary.text-white button[aria-expanded=true] *, html body #root div.bg-primary.text-white button.active *, html body #root div.bg-primary.text-white button.show *, html body #root div.bg-primary.text-white .dropdown-toggle:hover *, html body #root div.bg-primary.text-white .dropdown-toggle:focus *, html body #root div.bg-primary.text-white .dropdown-toggle:active *, html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *, html body #root div.bg-primary.text-white .dropdown-toggle.active *, html body #root div.bg-primary.text-white .dropdown-toggle.show * {
+html body #root div[aria-label="Masquerade bar"] .btn:hover *, html body #root div[aria-label="Masquerade bar"] .btn:focus *, html body #root div[aria-label="Masquerade bar"] .btn:active *, html body #root div[aria-label="Masquerade bar"] .btn[aria-expanded=true] *, html body #root div[aria-label="Masquerade bar"] .btn.active *, html body #root div[aria-label="Masquerade bar"] .btn.show *, html body #root div[aria-label="Masquerade bar"] button:hover *, html body #root div[aria-label="Masquerade bar"] button:focus *, html body #root div[aria-label="Masquerade bar"] button:active *, html body #root div[aria-label="Masquerade bar"] button[aria-expanded=true] *, html body #root div[aria-label="Masquerade bar"] button.active *, html body #root div[aria-label="Masquerade bar"] button.show *, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle:hover *, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle:focus *, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle:active *, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle[aria-expanded=true] *, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle.active *, html body #root div[aria-label="Masquerade bar"] .dropdown-toggle.show *,
+html body #root div.bg-primary.text-white .btn:hover *,
+html body #root div.bg-primary.text-white .btn:focus *,
+html body #root div.bg-primary.text-white .btn:active *,
+html body #root div.bg-primary.text-white .btn[aria-expanded=true] *,
+html body #root div.bg-primary.text-white .btn.active *,
+html body #root div.bg-primary.text-white .btn.show *,
+html body #root div.bg-primary.text-white button:hover *,
+html body #root div.bg-primary.text-white button:focus *,
+html body #root div.bg-primary.text-white button:active *,
+html body #root div.bg-primary.text-white button[aria-expanded=true] *,
+html body #root div.bg-primary.text-white button.active *,
+html body #root div.bg-primary.text-white button.show *,
+html body #root div.bg-primary.text-white .dropdown-toggle:hover *,
+html body #root div.bg-primary.text-white .dropdown-toggle:focus *,
+html body #root div.bg-primary.text-white .dropdown-toggle:active *,
+html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *,
+html body #root div.bg-primary.text-white .dropdown-toggle.active *,
+html body #root div.bg-primary.text-white .dropdown-toggle.show * {
   color: #191A1A !important;
 }
 .btn-brand, .pgn__stateful-btn.btn-brand {
