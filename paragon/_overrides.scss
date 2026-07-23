@@ -631,8 +631,8 @@ html body #root div.bg-primary.text-white {
     box-shadow: none !important;
   }
   
-  // Restore button and dropdown backgrounds
-  .btn, button, .dropdown-menu, .dropdown-menu * {
+  // Restore button backgrounds
+  .btn, button {
     background-color: inherit !important;
   }
   .btn-inverse-outline-primary {
@@ -706,6 +706,26 @@ html body #root div.bg-primary.text-white {
       color: #191A1A !important;
       * {
         color: #191A1A !important;
+      }
+    }
+  }
+
+  // RESTORE DROPDOWN MENU
+  // The 'Force ANY nested element' rule above destroyed the dropdown menu's visibility. Rebuilding it here:
+  .dropdown-menu {
+    background-color: #FFFFFF !important;
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    padding: 0.5rem 0 !important;
+    
+    *, .dropdown-item {
+      background-color: transparent !important;
+      color: #0B1F3F !important; // Dark text on white background
+      font-size: 14px !important;
+      
+      &:hover, &:focus, &.active {
+        background-color: #f8f9fa !important; // Light grey on hover
+        color: #000000 !important;
       }
     }
   }

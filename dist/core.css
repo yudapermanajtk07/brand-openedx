@@ -1699,11 +1699,9 @@ html body #root div.bg-primary.text-white *::after {
   background-image: none !important;
   box-shadow: none !important;
 }
-html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button, html body #root div[aria-label="Masquerade bar"] .dropdown-menu, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *,
+html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button,
 html body #root div.bg-primary.text-white .btn,
-html body #root div.bg-primary.text-white button,
-html body #root div.bg-primary.text-white .dropdown-menu,
-html body #root div.bg-primary.text-white .dropdown-menu * {
+html body #root div.bg-primary.text-white button {
   background-color: inherit !important;
 }
 html body #root div[aria-label="Masquerade bar"] .btn-inverse-outline-primary,
@@ -1825,6 +1823,30 @@ html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *
 html body #root div.bg-primary.text-white .dropdown-toggle.active *,
 html body #root div.bg-primary.text-white .dropdown-toggle.show * {
   color: #191A1A !important;
+}
+html body #root div[aria-label="Masquerade bar"] .dropdown-menu,
+html body #root div.bg-primary.text-white .dropdown-menu {
+  background-color: #FFFFFF !important;
+  border: 1px solid #dee2e6 !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  padding: 0.5rem 0 !important;
+}
+html body #root div[aria-label="Masquerade bar"] .dropdown-menu *, html body #root div[aria-label="Masquerade bar"] .dropdown-menu .dropdown-item,
+html body #root div.bg-primary.text-white .dropdown-menu *,
+html body #root div.bg-primary.text-white .dropdown-menu .dropdown-item {
+  background-color: transparent !important;
+  color: #0B1F3F !important;
+  font-size: 14px !important;
+}
+html body #root div[aria-label="Masquerade bar"] .dropdown-menu *:hover, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *:focus, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *.active, html body #root div[aria-label="Masquerade bar"] .dropdown-menu .dropdown-item:hover, html body #root div[aria-label="Masquerade bar"] .dropdown-menu .dropdown-item:focus, html body #root div[aria-label="Masquerade bar"] .dropdown-menu .dropdown-item.active,
+html body #root div.bg-primary.text-white .dropdown-menu *:hover,
+html body #root div.bg-primary.text-white .dropdown-menu *:focus,
+html body #root div.bg-primary.text-white .dropdown-menu *.active,
+html body #root div.bg-primary.text-white .dropdown-menu .dropdown-item:hover,
+html body #root div.bg-primary.text-white .dropdown-menu .dropdown-item:focus,
+html body #root div.bg-primary.text-white .dropdown-menu .dropdown-item.active {
+  background-color: #f8f9fa !important;
+  color: #000000 !important;
 }
 .btn-brand, .pgn__stateful-btn.btn-brand {
   color: #0B1F3F !important;
