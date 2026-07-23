@@ -1743,7 +1743,7 @@ html body #root div.bg-primary.text-white .btn:hover *, html body #root div.bg-p
   z-index: 1;
   width: 100%;
 }
-#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header {
+#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header, #root header.border-bottom {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -4941,7 +4941,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
+[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header, [data-paragon-theme-variant=dark] #root header.border-bottom {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {
