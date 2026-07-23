@@ -1742,6 +1742,10 @@ html body #root div.bg-primary.text-white span.mr-2 {
   white-space: nowrap !important;
   height: 32px !important;
 }
+html body #root div[aria-label="Masquerade bar"] span.mr-2,
+html body #root div.bg-primary.text-white span.mr-2 {
+  margin-right: 12px !important;
+}
 html body #root div[aria-label="Masquerade bar"] .col-form-label,
 html body #root div.bg-primary.text-white .col-form-label {
   font-size: 14px !important;
@@ -1754,15 +1758,15 @@ html body #root div.bg-primary.text-white .col-form-label {
   white-space: nowrap !important;
   height: 32px !important;
 }
-html body #root div[aria-label="Masquerade bar"] .row .col-form-label,
-html body #root div.bg-primary.text-white .row .col-form-label {
-  min-width: 170px !important;
-}
-html body #root div[aria-label="Masquerade bar"] .row .pgn__dropdown, html body #root div[aria-label="Masquerade bar"] .row form,
-html body #root div.bg-primary.text-white .row .pgn__dropdown,
-html body #root div.bg-primary.text-white .row form {
-  margin-left: 0 !important;
+html body #root div[aria-label="Masquerade bar"] .pgn__form-control-decorator-group.col-4, html body #root div[aria-label="Masquerade bar"] form.col-4,
+html body #root div.bg-primary.text-white .pgn__form-control-decorator-group.col-4,
+html body #root div.bg-primary.text-white form.col-4 {
   padding-left: 0 !important;
+}
+html body #root div[aria-label="Masquerade bar"] .row form,
+html body #root div.bg-primary.text-white .row form {
+  flex: 1 !important;
+  max-width: 400px !important;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] .text-dark, html body #root div[aria-label="Masquerade bar"] .text-primary,
 html body #root div.bg-primary.text-white *,

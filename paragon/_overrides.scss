@@ -661,7 +661,7 @@ html body #root div.bg-primary.text-white {
     align-items: center !important;
   }
 
-  // Ensure the text and buttons align perfectly without weird margins
+  // Ensure the text and buttons align perfectly without weird vertical margins
   span.mx-1, span.my-1, span.mt-1, span.mr-2 {
     display: flex !important;
     align-items: center !important;
@@ -669,6 +669,11 @@ html body #root div.bg-primary.text-white {
     padding: 0 !important;
     white-space: nowrap !important; // Prevent text from wrapping to multiple lines
     height: 32px !important; // Match button height perfectly!
+  }
+  
+  // Restore the horizontal gap between "View course in:" and the "Studio" button
+  span.mr-2 {
+    margin-right: 12px !important;
   }
 
   // Fix font size and force height for all labels
@@ -684,15 +689,16 @@ html body #root div.bg-primary.text-white {
     height: 32px !important; // Match button height perfectly!
   }
 
-  // Make the left side labels have a fixed width so the inputs next to them align perfectly
-  .row .col-form-label {
-    min-width: 170px !important;
+
+  // Remove native left padding from the col-4 wrapper of the input field to align it
+  .pgn__form-control-decorator-group.col-4, form.col-4 {
+    padding-left: 0 !important;
   }
 
-  // Remove native padding and margins that push the dropdown and form field out of alignment
-  .row .pgn__dropdown, .row form {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+  // Restore enough width for the form so the Submit button is not squished/hidden
+  .row form {
+    flex: 1 !important;
+    max-width: 400px !important;
   }
 
   *, .text-dark, .text-primary {
