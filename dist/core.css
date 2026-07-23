@@ -1640,7 +1640,7 @@ header + .bg-primary, .pgn__header + .bg-primary,
 #root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
 .bg-primary:has(button.dropdown-toggle),
 div[aria-label="Masquerade bar"] .bg-primary {
-  background-color: #191A1A !important;
+  background: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
   height: 58px !important;
@@ -1659,9 +1659,6 @@ div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   height: 100% !important;
-  align-items: center !important;
-  display: flex;
-  justify-content: flex-end;
 }
 .masquerade-widget .container-xl > .py-3, .masquerade-widget .container-xl > .d-md-flex, .masquerade-widget .container-mw-xl > .py-3, .masquerade-widget .container-mw-xl > .d-md-flex, .course-status-banner .container-xl > .py-3, .course-status-banner .container-xl > .d-md-flex, .course-status-banner .container-mw-xl > .py-3, .course-status-banner .container-mw-xl > .d-md-flex, .alert-primary .container-xl > .py-3, .alert-primary .container-xl > .d-md-flex, .alert-primary .container-mw-xl > .py-3, .alert-primary .container-mw-xl > .d-md-flex,
 header + .bg-primary .container-xl > .py-3,
