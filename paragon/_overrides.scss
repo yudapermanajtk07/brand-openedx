@@ -607,7 +607,7 @@ div[aria-label="Masquerade bar"] .bg-primary {
 }
 
 // Fallback for Instructor Dashboard masquerade bar
-div.bg-primary.text-white {
+#root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
   border-color: #191A1A !important;

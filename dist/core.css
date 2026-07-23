@@ -1675,40 +1675,40 @@ div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   height: 100% !important;
   align-items: center !important;
 }
-div.bg-primary.text-white {
+#root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
   border-color: #191A1A !important;
 }
-div.bg-primary.text-white > .container-mw-xl, div.bg-primary.text-white > .container-fluid {
+#root div.bg-primary.text-white > .container-mw-xl, #root div.bg-primary.text-white > .container-fluid {
   height: 58px;
   display: flex;
   align-items: center;
 }
-div.bg-primary.text-white > .container-mw-xl > .py-3, div.bg-primary.text-white > .container-mw-xl > .d-md-flex, div.bg-primary.text-white > .container-fluid > .py-3, div.bg-primary.text-white > .container-fluid > .d-md-flex {
+#root div.bg-primary.text-white > .container-mw-xl > .py-3, #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex, #root div.bg-primary.text-white > .container-fluid > .py-3, #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
   height: 100%;
   align-items: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   width: 100%;
 }
-div.bg-primary.text-white .my-1, div.bg-primary.text-white .mt-1, div.bg-primary.text-white .py-3 {
+#root div.bg-primary.text-white .my-1, #root div.bg-primary.text-white .mt-1, #root div.bg-primary.text-white .py-3 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-div.bg-primary.text-white .col-form-label {
+#root div.bg-primary.text-white .col-form-label {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   display: flex;
   align-items: center;
   line-height: 1;
 }
-div.bg-primary.text-white *, div.bg-primary.text-white .text-dark, div.bg-primary.text-white .text-primary {
+#root div.bg-primary.text-white *, #root div.bg-primary.text-white .text-dark, #root div.bg-primary.text-white .text-primary {
   color: #FFFFFF !important;
 }
-div.bg-primary.text-white .btn, div.bg-primary.text-white button, div.bg-primary.text-white .dropdown-toggle {
+#root div.bg-primary.text-white .btn, #root div.bg-primary.text-white button, #root div.bg-primary.text-white .dropdown-toggle {
   background-color: transparent !important;
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
@@ -1719,11 +1719,11 @@ div.bg-primary.text-white .btn, div.bg-primary.text-white button, div.bg-primary
   font-size: 14px !important;
   line-height: 1 !important;
 }
-div.bg-primary.text-white .btn:hover, div.bg-primary.text-white .btn:focus, div.bg-primary.text-white .btn:active, div.bg-primary.text-white .btn[aria-expanded=true], div.bg-primary.text-white .btn.active, div.bg-primary.text-white .btn.show, div.bg-primary.text-white button:hover, div.bg-primary.text-white button:focus, div.bg-primary.text-white button:active, div.bg-primary.text-white button[aria-expanded=true], div.bg-primary.text-white button.active, div.bg-primary.text-white button.show, div.bg-primary.text-white .dropdown-toggle:hover, div.bg-primary.text-white .dropdown-toggle:focus, div.bg-primary.text-white .dropdown-toggle:active, div.bg-primary.text-white .dropdown-toggle[aria-expanded=true], div.bg-primary.text-white .dropdown-toggle.active, div.bg-primary.text-white .dropdown-toggle.show {
+#root div.bg-primary.text-white .btn:hover, #root div.bg-primary.text-white .btn:focus, #root div.bg-primary.text-white .btn:active, #root div.bg-primary.text-white .btn[aria-expanded=true], #root div.bg-primary.text-white .btn.active, #root div.bg-primary.text-white .btn.show, #root div.bg-primary.text-white button:hover, #root div.bg-primary.text-white button:focus, #root div.bg-primary.text-white button:active, #root div.bg-primary.text-white button[aria-expanded=true], #root div.bg-primary.text-white button.active, #root div.bg-primary.text-white button.show, #root div.bg-primary.text-white .dropdown-toggle:hover, #root div.bg-primary.text-white .dropdown-toggle:focus, #root div.bg-primary.text-white .dropdown-toggle:active, #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true], #root div.bg-primary.text-white .dropdown-toggle.active, #root div.bg-primary.text-white .dropdown-toggle.show {
   background-color: #FFFFFF !important;
   color: #191A1A !important;
 }
-div.bg-primary.text-white .btn:hover *, div.bg-primary.text-white .btn:focus *, div.bg-primary.text-white .btn:active *, div.bg-primary.text-white .btn[aria-expanded=true] *, div.bg-primary.text-white .btn.active *, div.bg-primary.text-white .btn.show *, div.bg-primary.text-white button:hover *, div.bg-primary.text-white button:focus *, div.bg-primary.text-white button:active *, div.bg-primary.text-white button[aria-expanded=true] *, div.bg-primary.text-white button.active *, div.bg-primary.text-white button.show *, div.bg-primary.text-white .dropdown-toggle:hover *, div.bg-primary.text-white .dropdown-toggle:focus *, div.bg-primary.text-white .dropdown-toggle:active *, div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *, div.bg-primary.text-white .dropdown-toggle.active *, div.bg-primary.text-white .dropdown-toggle.show * {
+#root div.bg-primary.text-white .btn:hover *, #root div.bg-primary.text-white .btn:focus *, #root div.bg-primary.text-white .btn:active *, #root div.bg-primary.text-white .btn[aria-expanded=true] *, #root div.bg-primary.text-white .btn.active *, #root div.bg-primary.text-white .btn.show *, #root div.bg-primary.text-white button:hover *, #root div.bg-primary.text-white button:focus *, #root div.bg-primary.text-white button:active *, #root div.bg-primary.text-white button[aria-expanded=true] *, #root div.bg-primary.text-white button.active *, #root div.bg-primary.text-white button.show *, #root div.bg-primary.text-white .dropdown-toggle:hover *, #root div.bg-primary.text-white .dropdown-toggle:focus *, #root div.bg-primary.text-white .dropdown-toggle:active *, #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *, #root div.bg-primary.text-white .dropdown-toggle.active *, #root div.bg-primary.text-white .dropdown-toggle.show * {
   color: #191A1A !important;
 }
 .btn-brand, .pgn__stateful-btn.btn-brand {
