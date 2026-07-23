@@ -581,7 +581,6 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
 .masquerade-widget, .course-status-banner, .alert-primary,
 header + .bg-primary, .pgn__header + .bg-primary,
 #root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
-.bg-primary:has(button.dropdown-toggle),
 div[aria-label="Masquerade bar"] .bg-primary {
   background: #191A1A !important;
   border-color: #191A1A !important;
@@ -605,6 +604,27 @@ div[aria-label="Masquerade bar"] .bg-primary {
     }
   }
 
+}
+
+// Fallback for Instructor Dashboard masquerade bar
+div.bg-primary.text-white {
+  background: #191A1A !important;
+  background-color: #191A1A !important;
+  border-color: #191A1A !important;
+
+  > .container-mw-xl, > .container-fluid {
+    height: 58px;
+    display: flex;
+    align-items: center;
+
+    > .py-3, > .d-md-flex {
+      height: 100%;
+      align-items: center !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      width: 100%; // Ensures flex-grow inside it can push elements apart
+    }
+  }
   .my-1, .mt-1, .py-3 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
