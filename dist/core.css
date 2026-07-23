@@ -1681,37 +1681,44 @@ html body #root div[aria-label="Masquerade bar"],
 html body #root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
+  background-image: none !important;
   border-color: #191A1A !important;
 }
-html body #root div[aria-label="Masquerade bar"] *,
-html body #root div.bg-primary.text-white * {
-  background-color: transparent;
+html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] *::before, html body #root div[aria-label="Masquerade bar"] *::after,
+html body #root div.bg-primary.text-white *,
+html body #root div.bg-primary.text-white *::before,
+html body #root div.bg-primary.text-white *::after {
+  background-color: transparent !important;
+  background-image: none !important;
 }
-html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *,
+html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button, html body #root div[aria-label="Masquerade bar"] .dropdown-menu, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *,
 html body #root div.bg-primary.text-white .btn,
 html body #root div.bg-primary.text-white button,
+html body #root div.bg-primary.text-white .dropdown-menu,
 html body #root div.bg-primary.text-white .dropdown-menu * {
-  background-color: inherit;
+  background-color: inherit !important;
+}
+html body #root div[aria-label="Masquerade bar"] .btn-inverse-outline-primary,
+html body #root div.bg-primary.text-white .btn-inverse-outline-primary {
+  background-color: transparent !important;
 }
 html body #root div[aria-label="Masquerade bar"] > .container-mw-xl, html body #root div[aria-label="Masquerade bar"] > .container-fluid,
 html body #root div.bg-primary.text-white > .container-mw-xl,
 html body #root div.bg-primary.text-white > .container-fluid {
-  height: 58px;
+  height: 58px !important;
   display: flex;
   align-items: center;
-  background-color: transparent !important;
 }
 html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .d-md-flex,
 html body #root div.bg-primary.text-white > .container-mw-xl > .py-3,
 html body #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex,
 html body #root div.bg-primary.text-white > .container-fluid > .py-3,
 html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
-  height: 100%;
+  height: 100% !important;
   align-items: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  width: 100%;
-  background-color: transparent !important;
+  width: 100% !important;
 }
 html body #root div[aria-label="Masquerade bar"] .my-1, html body #root div[aria-label="Masquerade bar"] .mt-1, html body #root div[aria-label="Masquerade bar"] .py-3,
 html body #root div.bg-primary.text-white .my-1,

@@ -613,29 +613,34 @@ html body #root div[aria-label="Masquerade bar"],
 html body #root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
+  background-image: none !important;
   border-color: #191A1A !important;
 
-  * {
-    background-color: transparent;
+  // Force ANY nested element that might be secretly yellow to be transparent
+  *, *::before, *::after {
+    background-color: transparent !important;
+    background-image: none !important;
   }
   
-  .btn, button, .dropdown-menu * {
-    background-color: inherit;
+  // Restore button and dropdown backgrounds
+  .btn, button, .dropdown-menu, .dropdown-menu * {
+    background-color: inherit !important;
+  }
+  .btn-inverse-outline-primary {
+    background-color: transparent !important;
   }
 
   > .container-mw-xl, > .container-fluid {
-    height: 58px;
+    height: 58px !important;
     display: flex;
     align-items: center;
-    background-color: transparent !important;
 
     > .py-3, > .d-md-flex {
-      height: 100%;
+      height: 100% !important;
       align-items: center !important;
       padding-top: 0 !important;
       padding-bottom: 0 !important;
-      width: 100%; // Ensures flex-grow inside it can push elements apart
-      background-color: transparent !important;
+      width: 100% !important; // Ensures flex-grow inside it can push elements apart
     }
   }
   .my-1, .mt-1, .py-3 {
