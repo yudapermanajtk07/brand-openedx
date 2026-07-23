@@ -686,7 +686,13 @@ html body #root div.bg-primary.text-white {
 
   // Make the left side labels have a fixed width so the inputs next to them align perfectly
   .row .col-form-label {
-    min-width: 155px !important;
+    min-width: 170px !important;
+  }
+
+  // Remove native padding and margins that push the dropdown and form field out of alignment
+  .row .pgn__dropdown, .row form {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
   }
 
   *, .text-dark, .text-primary {

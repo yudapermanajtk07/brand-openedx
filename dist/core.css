@@ -1756,7 +1756,13 @@ html body #root div.bg-primary.text-white .col-form-label {
 }
 html body #root div[aria-label="Masquerade bar"] .row .col-form-label,
 html body #root div.bg-primary.text-white .row .col-form-label {
-  min-width: 155px !important;
+  min-width: 170px !important;
+}
+html body #root div[aria-label="Masquerade bar"] .row .pgn__dropdown, html body #root div[aria-label="Masquerade bar"] .row form,
+html body #root div.bg-primary.text-white .row .pgn__dropdown,
+html body #root div.bg-primary.text-white .row form {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] .text-dark, html body #root div[aria-label="Masquerade bar"] .text-primary,
 html body #root div.bg-primary.text-white *,
