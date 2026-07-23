@@ -1675,40 +1675,40 @@ div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   height: 100% !important;
   align-items: center !important;
 }
-#root div.bg-primary.text-white {
+html body #root div.bg-primary.text-white {
   background: #191A1A !important;
   background-color: #191A1A !important;
   border-color: #191A1A !important;
 }
-#root div.bg-primary.text-white > .container-mw-xl, #root div.bg-primary.text-white > .container-fluid {
+html body #root div.bg-primary.text-white > .container-mw-xl, html body #root div.bg-primary.text-white > .container-fluid {
   height: 58px;
   display: flex;
   align-items: center;
 }
-#root div.bg-primary.text-white > .container-mw-xl > .py-3, #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex, #root div.bg-primary.text-white > .container-fluid > .py-3, #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
+html body #root div.bg-primary.text-white > .container-mw-xl > .py-3, html body #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex, html body #root div.bg-primary.text-white > .container-fluid > .py-3, html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
   height: 100%;
   align-items: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   width: 100%;
 }
-#root div.bg-primary.text-white .my-1, #root div.bg-primary.text-white .mt-1, #root div.bg-primary.text-white .py-3 {
+html body #root div.bg-primary.text-white .my-1, html body #root div.bg-primary.text-white .mt-1, html body #root div.bg-primary.text-white .py-3 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-#root div.bg-primary.text-white .col-form-label {
+html body #root div.bg-primary.text-white .col-form-label {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   display: flex;
   align-items: center;
   line-height: 1;
 }
-#root div.bg-primary.text-white *, #root div.bg-primary.text-white .text-dark, #root div.bg-primary.text-white .text-primary {
+html body #root div.bg-primary.text-white *, html body #root div.bg-primary.text-white .text-dark, html body #root div.bg-primary.text-white .text-primary {
   color: #FFFFFF !important;
 }
-#root div.bg-primary.text-white .btn, #root div.bg-primary.text-white button, #root div.bg-primary.text-white .dropdown-toggle {
+html body #root div.bg-primary.text-white .btn, html body #root div.bg-primary.text-white button, html body #root div.bg-primary.text-white .dropdown-toggle {
   background-color: transparent !important;
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
@@ -1719,11 +1719,11 @@ div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   font-size: 14px !important;
   line-height: 1 !important;
 }
-#root div.bg-primary.text-white .btn:hover, #root div.bg-primary.text-white .btn:focus, #root div.bg-primary.text-white .btn:active, #root div.bg-primary.text-white .btn[aria-expanded=true], #root div.bg-primary.text-white .btn.active, #root div.bg-primary.text-white .btn.show, #root div.bg-primary.text-white button:hover, #root div.bg-primary.text-white button:focus, #root div.bg-primary.text-white button:active, #root div.bg-primary.text-white button[aria-expanded=true], #root div.bg-primary.text-white button.active, #root div.bg-primary.text-white button.show, #root div.bg-primary.text-white .dropdown-toggle:hover, #root div.bg-primary.text-white .dropdown-toggle:focus, #root div.bg-primary.text-white .dropdown-toggle:active, #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true], #root div.bg-primary.text-white .dropdown-toggle.active, #root div.bg-primary.text-white .dropdown-toggle.show {
+html body #root div.bg-primary.text-white .btn:hover, html body #root div.bg-primary.text-white .btn:focus, html body #root div.bg-primary.text-white .btn:active, html body #root div.bg-primary.text-white .btn[aria-expanded=true], html body #root div.bg-primary.text-white .btn.active, html body #root div.bg-primary.text-white .btn.show, html body #root div.bg-primary.text-white button:hover, html body #root div.bg-primary.text-white button:focus, html body #root div.bg-primary.text-white button:active, html body #root div.bg-primary.text-white button[aria-expanded=true], html body #root div.bg-primary.text-white button.active, html body #root div.bg-primary.text-white button.show, html body #root div.bg-primary.text-white .dropdown-toggle:hover, html body #root div.bg-primary.text-white .dropdown-toggle:focus, html body #root div.bg-primary.text-white .dropdown-toggle:active, html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true], html body #root div.bg-primary.text-white .dropdown-toggle.active, html body #root div.bg-primary.text-white .dropdown-toggle.show {
   background-color: #FFFFFF !important;
   color: #191A1A !important;
 }
-#root div.bg-primary.text-white .btn:hover *, #root div.bg-primary.text-white .btn:focus *, #root div.bg-primary.text-white .btn:active *, #root div.bg-primary.text-white .btn[aria-expanded=true] *, #root div.bg-primary.text-white .btn.active *, #root div.bg-primary.text-white .btn.show *, #root div.bg-primary.text-white button:hover *, #root div.bg-primary.text-white button:focus *, #root div.bg-primary.text-white button:active *, #root div.bg-primary.text-white button[aria-expanded=true] *, #root div.bg-primary.text-white button.active *, #root div.bg-primary.text-white button.show *, #root div.bg-primary.text-white .dropdown-toggle:hover *, #root div.bg-primary.text-white .dropdown-toggle:focus *, #root div.bg-primary.text-white .dropdown-toggle:active *, #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *, #root div.bg-primary.text-white .dropdown-toggle.active *, #root div.bg-primary.text-white .dropdown-toggle.show * {
+html body #root div.bg-primary.text-white .btn:hover *, html body #root div.bg-primary.text-white .btn:focus *, html body #root div.bg-primary.text-white .btn:active *, html body #root div.bg-primary.text-white .btn[aria-expanded=true] *, html body #root div.bg-primary.text-white .btn.active *, html body #root div.bg-primary.text-white .btn.show *, html body #root div.bg-primary.text-white button:hover *, html body #root div.bg-primary.text-white button:focus *, html body #root div.bg-primary.text-white button:active *, html body #root div.bg-primary.text-white button[aria-expanded=true] *, html body #root div.bg-primary.text-white button.active *, html body #root div.bg-primary.text-white button.show *, html body #root div.bg-primary.text-white .dropdown-toggle:hover *, html body #root div.bg-primary.text-white .dropdown-toggle:focus *, html body #root div.bg-primary.text-white .dropdown-toggle:active *, html body #root div.bg-primary.text-white .dropdown-toggle[aria-expanded=true] *, html body #root div.bg-primary.text-white .dropdown-toggle.active *, html body #root div.bg-primary.text-white .dropdown-toggle.show * {
   color: #191A1A !important;
 }
 .btn-brand, .pgn__stateful-btn.btn-brand {
@@ -1743,7 +1743,7 @@ div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   z-index: 1;
   width: 100%;
 }
-#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header, #root header {
+#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -4941,7 +4941,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header, [data-paragon-theme-variant=dark] #root header {
+[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {
