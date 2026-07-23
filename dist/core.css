@@ -1683,6 +1683,11 @@ html body #root div.bg-primary.text-white {
   background-color: #191A1A !important;
   background-image: none !important;
   border-color: #191A1A !important;
+  box-shadow: inset 0 0 0 9999px #191A1A !important;
+  height: 58px !important;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] *::before, html body #root div[aria-label="Masquerade bar"] *::after,
 html body #root div.bg-primary.text-white *,
@@ -1690,6 +1695,7 @@ html body #root div.bg-primary.text-white *::before,
 html body #root div.bg-primary.text-white *::after {
   background-color: transparent !important;
   background-image: none !important;
+  box-shadow: none !important;
 }
 html body #root div[aria-label="Masquerade bar"] .btn, html body #root div[aria-label="Masquerade bar"] button, html body #root div[aria-label="Masquerade bar"] .dropdown-menu, html body #root div[aria-label="Masquerade bar"] .dropdown-menu *,
 html body #root div.bg-primary.text-white .btn,
@@ -1702,19 +1708,35 @@ html body #root div[aria-label="Masquerade bar"] .btn-inverse-outline-primary,
 html body #root div.bg-primary.text-white .btn-inverse-outline-primary {
   background-color: transparent !important;
 }
-html body #root div[aria-label="Masquerade bar"] > .container-mw-xl, html body #root div[aria-label="Masquerade bar"] > .container-fluid,
+html body #root div[aria-label="Masquerade bar"] > .container, html body #root div[aria-label="Masquerade bar"] > .container-xl, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl, html body #root div[aria-label="Masquerade bar"] > .container-fluid, html body #root div[aria-label="Masquerade bar"] > div,
+html body #root div.bg-primary.text-white > .container,
+html body #root div.bg-primary.text-white > .container-xl,
 html body #root div.bg-primary.text-white > .container-mw-xl,
-html body #root div.bg-primary.text-white > .container-fluid {
+html body #root div.bg-primary.text-white > .container-fluid,
+html body #root div.bg-primary.text-white > div {
   height: 58px !important;
   display: flex;
   align-items: center;
+  width: 100%;
 }
-html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .d-md-flex,
+html body #root div[aria-label="Masquerade bar"] > .container > .py-3, html body #root div[aria-label="Masquerade bar"] > .container > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container > div, html body #root div[aria-label="Masquerade bar"] > .container-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-xl > div, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-mw-xl > div, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .py-3, html body #root div[aria-label="Masquerade bar"] > .container-fluid > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > .container-fluid > div, html body #root div[aria-label="Masquerade bar"] > div > .py-3, html body #root div[aria-label="Masquerade bar"] > div > .d-md-flex, html body #root div[aria-label="Masquerade bar"] > div > div,
+html body #root div.bg-primary.text-white > .container > .py-3,
+html body #root div.bg-primary.text-white > .container > .d-md-flex,
+html body #root div.bg-primary.text-white > .container > div,
+html body #root div.bg-primary.text-white > .container-xl > .py-3,
+html body #root div.bg-primary.text-white > .container-xl > .d-md-flex,
+html body #root div.bg-primary.text-white > .container-xl > div,
 html body #root div.bg-primary.text-white > .container-mw-xl > .py-3,
 html body #root div.bg-primary.text-white > .container-mw-xl > .d-md-flex,
+html body #root div.bg-primary.text-white > .container-mw-xl > div,
 html body #root div.bg-primary.text-white > .container-fluid > .py-3,
-html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex {
+html body #root div.bg-primary.text-white > .container-fluid > .d-md-flex,
+html body #root div.bg-primary.text-white > .container-fluid > div,
+html body #root div.bg-primary.text-white > div > .py-3,
+html body #root div.bg-primary.text-white > div > .d-md-flex,
+html body #root div.bg-primary.text-white > div > div {
   height: 100% !important;
+  display: flex;
   align-items: center !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
