@@ -8,6 +8,25 @@
     .pgn__header, header.site-header, header.site-header-desktop, header.site-header-mobile, header.customise.learning-header, .learning-header, .studio-header, .learner-variant-header, header.border-bottom {
         background-color: #F6DB00 !important;
     }
+
+    // Match the user dropdown button (admin1) with the Learning MFE style
+    // Only applied to Learning and Instructor Dashboard, NOT Authoring Studio
+    .learning-header, header.customise.learning-header, header.border-bottom, header.site-header-desktop, header.site-header-mobile, .pgn__header:not(.studio-header) {
+        .pgn__user-menu-toggle, .user-dropdown button {
+            border: none !important;
+            padding: 9px 15px !important;
+            box-shadow: none !important;
+            outline: none !important;
+            background: #0000001A !important;
+            color: #0B1F3F !important;
+            transition: background-color 0.2s ease;
+            &:hover, &:focus, &:active, &[aria-expanded="true"] {
+                background: #00000033 !important;
+                border: none !important;
+                box-shadow: none !important;
+            }
+        }
+    }
     .logo {
       img {
         height: 48px;
