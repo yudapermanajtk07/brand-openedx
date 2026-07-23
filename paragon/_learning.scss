@@ -277,3 +277,24 @@ div[data-learner-type=b2c_learner] {
         border-color: #0B1F3F !important;
     }
 }
+
+// Override color for the "Bookmark this page" button and its icons
+.pgn__stateful-btn.btn-link {
+    color: #0E4596 !important;
+    
+    *, .text-primary, .pgn__icon {
+        color: #0E4596 !important;
+    }
+    
+    svg {
+        color: #0E4596 !important;
+        path {
+            fill: #0E4596 !important;
+        }
+    }
+
+    &:hover, &:focus {
+        color: #0E4596 !important;
+        text-decoration: underline !important;
+    }
+}
