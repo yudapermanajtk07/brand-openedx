@@ -656,6 +656,11 @@ html body #root div.bg-primary.text-white {
     flex-wrap: wrap !important;
   }
 
+  // Force rows to vertically center their contents
+  .row {
+    align-items: center !important;
+  }
+
   // Ensure the text and buttons align perfectly without weird margins
   span.mx-1, span.my-1, span.mt-1, span.mr-2 {
     display: flex !important;
@@ -663,9 +668,10 @@ html body #root div.bg-primary.text-white {
     margin: 0 !important;
     padding: 0 !important;
     white-space: nowrap !important; // Prevent text from wrapping to multiple lines
+    height: 32px !important; // Match button height perfectly!
   }
 
-  // Fix font size for "View this course as:" and "Username or email:"
+  // Fix font size and force height for all labels
   .col-form-label {
     font-size: 14px !important;
     font-weight: 400 !important;
@@ -675,6 +681,12 @@ html body #root div.bg-primary.text-white {
     display: flex !important;
     align-items: center !important;
     white-space: nowrap !important;
+    height: 32px !important; // Match button height perfectly!
+  }
+
+  // Make the left side labels have a fixed width so the inputs next to them align perfectly
+  .row .col-form-label {
+    min-width: 155px !important;
   }
 
   *, .text-dark, .text-primary {
