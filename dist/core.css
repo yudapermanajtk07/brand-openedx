@@ -3644,7 +3644,7 @@ footer.footer {
   line-height: inherit;
 }
 #root .course-outline-tab .raised-card {
-  background: #FEF73C !important;
+  background: #FEF7C3 !important;
   box-shadow: none !important;
 }
 #root .course-outline-tab .raised-card.alert-content {
@@ -6946,7 +6946,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   line-height: inherit;
 }
 [data-paragon-theme-variant=dark] #root .course-outline-tab .raised-card {
-  background: #FEF73C !important;
+  background: #FEF7C3 !important;
   box-shadow: none !important;
 }
 [data-paragon-theme-variant=dark] #root .course-outline-tab .raised-card.alert-content {
