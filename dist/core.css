@@ -1736,11 +1736,21 @@ html body #root div.bg-primary.text-white .row {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
-html body #root div[aria-label="Masquerade bar"] span.mx-1, html body #root div[aria-label="Masquerade bar"] span.my-1, html body #root div[aria-label="Masquerade bar"] span.mt-1, html body #root div[aria-label="Masquerade bar"] span.mr-2, html body #root div[aria-label="Masquerade bar"] span.col-form-label,
+html body #root div[aria-label="Masquerade bar"] span.mx-1, html body #root div[aria-label="Masquerade bar"] span.my-1, html body #root div[aria-label="Masquerade bar"] span.mt-1, html body #root div[aria-label="Masquerade bar"] span.mr-2,
 html body #root div.bg-primary.text-white span.mx-1,
 html body #root div.bg-primary.text-white span.my-1,
 html body #root div.bg-primary.text-white span.mt-1,
-html body #root div.bg-primary.text-white span.mr-2,
+html body #root div.bg-primary.text-white span.mr-2 {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  white-space: nowrap !important;
+}
+html body #root div[aria-label="Masquerade bar"] span.col-form-label,
 html body #root div.bg-primary.text-white span.col-form-label {
   display: flex !important;
   align-items: center !important;
@@ -1749,6 +1759,9 @@ html body #root div.bg-primary.text-white span.col-form-label {
   margin-bottom: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  white-space: nowrap !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
 }
 html body #root div[aria-label="Masquerade bar"] *, html body #root div[aria-label="Masquerade bar"] .text-dark, html body #root div[aria-label="Masquerade bar"] .text-primary,
 html body #root div.bg-primary.text-white *,

@@ -661,7 +661,7 @@ html body #root div.bg-primary.text-white {
   }
 
   // Target the text spans and button wrappers directly
-  span.mx-1, span.my-1, span.mt-1, span.mr-2, span.col-form-label {
+  span.mx-1, span.my-1, span.mt-1, span.mr-2 {
     display: flex !important;
     align-items: center !important;
     height: 100% !important;
@@ -669,6 +669,20 @@ html body #root div.bg-primary.text-white {
     margin-bottom: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    white-space: nowrap !important; // Prevent text from wrapping to multiple lines
+  }
+
+  span.col-form-label {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    white-space: nowrap !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
   }
 
   *, .text-dark, .text-primary {
