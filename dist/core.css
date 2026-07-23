@@ -1638,7 +1638,8 @@ input[type=checkbox]:checked, .custom-control-input:checked ~ .custom-control-la
 .masquerade-widget, .course-status-banner, .alert-primary,
 header + .bg-primary, .pgn__header + .bg-primary,
 #root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
-.bg-primary:has(button.dropdown-toggle) {
+.bg-primary:has(button.dropdown-toggle),
+div[aria-label="Masquerade bar"] .bg-primary {
   background-color: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
@@ -1646,10 +1647,39 @@ header + .bg-primary, .pgn__header + .bg-primary,
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-.masquerade-widget .container-xl, .course-status-banner .container-xl, .alert-primary .container-xl,
-header + .bg-primary .container-xl, .pgn__header + .bg-primary .container-xl,
-#root > .bg-primary .container-xl, .page-wrapper > .bg-primary .container-xl, main > .bg-primary:first-child .container-xl,
-.bg-primary:has(button.dropdown-toggle) .container-xl {
+.masquerade-widget .container-xl, .masquerade-widget .container-mw-xl, .course-status-banner .container-xl, .course-status-banner .container-mw-xl, .alert-primary .container-xl, .alert-primary .container-mw-xl,
+header + .bg-primary .container-xl,
+header + .bg-primary .container-mw-xl, .pgn__header + .bg-primary .container-xl, .pgn__header + .bg-primary .container-mw-xl,
+#root > .bg-primary .container-xl,
+#root > .bg-primary .container-mw-xl, .page-wrapper > .bg-primary .container-xl, .page-wrapper > .bg-primary .container-mw-xl, main > .bg-primary:first-child .container-xl, main > .bg-primary:first-child .container-mw-xl,
+.bg-primary:has(button.dropdown-toggle) .container-xl,
+.bg-primary:has(button.dropdown-toggle) .container-mw-xl,
+div[aria-label="Masquerade bar"] .bg-primary .container-xl,
+div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 100% !important;
+  align-items: center !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.masquerade-widget .container-xl > .py-3, .masquerade-widget .container-xl > .d-md-flex, .masquerade-widget .container-mw-xl > .py-3, .masquerade-widget .container-mw-xl > .d-md-flex, .course-status-banner .container-xl > .py-3, .course-status-banner .container-xl > .d-md-flex, .course-status-banner .container-mw-xl > .py-3, .course-status-banner .container-mw-xl > .d-md-flex, .alert-primary .container-xl > .py-3, .alert-primary .container-xl > .d-md-flex, .alert-primary .container-mw-xl > .py-3, .alert-primary .container-mw-xl > .d-md-flex,
+header + .bg-primary .container-xl > .py-3,
+header + .bg-primary .container-xl > .d-md-flex,
+header + .bg-primary .container-mw-xl > .py-3,
+header + .bg-primary .container-mw-xl > .d-md-flex, .pgn__header + .bg-primary .container-xl > .py-3, .pgn__header + .bg-primary .container-xl > .d-md-flex, .pgn__header + .bg-primary .container-mw-xl > .py-3, .pgn__header + .bg-primary .container-mw-xl > .d-md-flex,
+#root > .bg-primary .container-xl > .py-3,
+#root > .bg-primary .container-xl > .d-md-flex,
+#root > .bg-primary .container-mw-xl > .py-3,
+#root > .bg-primary .container-mw-xl > .d-md-flex, .page-wrapper > .bg-primary .container-xl > .py-3, .page-wrapper > .bg-primary .container-xl > .d-md-flex, .page-wrapper > .bg-primary .container-mw-xl > .py-3, .page-wrapper > .bg-primary .container-mw-xl > .d-md-flex, main > .bg-primary:first-child .container-xl > .py-3, main > .bg-primary:first-child .container-xl > .d-md-flex, main > .bg-primary:first-child .container-mw-xl > .py-3, main > .bg-primary:first-child .container-mw-xl > .d-md-flex,
+.bg-primary:has(button.dropdown-toggle) .container-xl > .py-3,
+.bg-primary:has(button.dropdown-toggle) .container-xl > .d-md-flex,
+.bg-primary:has(button.dropdown-toggle) .container-mw-xl > .py-3,
+.bg-primary:has(button.dropdown-toggle) .container-mw-xl > .d-md-flex,
+div[aria-label="Masquerade bar"] .bg-primary .container-xl > .py-3,
+div[aria-label="Masquerade bar"] .bg-primary .container-xl > .d-md-flex,
+div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .py-3,
+div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   height: 100% !important;
@@ -1664,7 +1694,10 @@ header + .bg-primary .py-3, .pgn__header + .bg-primary .my-1, .pgn__header + .bg
 #root > .bg-primary .py-3, .page-wrapper > .bg-primary .my-1, .page-wrapper > .bg-primary .mt-1, .page-wrapper > .bg-primary .py-3, main > .bg-primary:first-child .my-1, main > .bg-primary:first-child .mt-1, main > .bg-primary:first-child .py-3,
 .bg-primary:has(button.dropdown-toggle) .my-1,
 .bg-primary:has(button.dropdown-toggle) .mt-1,
-.bg-primary:has(button.dropdown-toggle) .py-3 {
+.bg-primary:has(button.dropdown-toggle) .py-3,
+div[aria-label="Masquerade bar"] .bg-primary .my-1,
+div[aria-label="Masquerade bar"] .bg-primary .mt-1,
+div[aria-label="Masquerade bar"] .bg-primary .py-3 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding-top: 0 !important;
@@ -1673,7 +1706,8 @@ header + .bg-primary .py-3, .pgn__header + .bg-primary .my-1, .pgn__header + .bg
 .masquerade-widget .col-form-label, .course-status-banner .col-form-label, .alert-primary .col-form-label,
 header + .bg-primary .col-form-label, .pgn__header + .bg-primary .col-form-label,
 #root > .bg-primary .col-form-label, .page-wrapper > .bg-primary .col-form-label, main > .bg-primary:first-child .col-form-label,
-.bg-primary:has(button.dropdown-toggle) .col-form-label {
+.bg-primary:has(button.dropdown-toggle) .col-form-label,
+div[aria-label="Masquerade bar"] .bg-primary .col-form-label {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   display: flex;
@@ -1689,7 +1723,10 @@ header + .bg-primary .text-primary, .pgn__header + .bg-primary *, .pgn__header +
 #root > .bg-primary .text-primary, .page-wrapper > .bg-primary *, .page-wrapper > .bg-primary .text-dark, .page-wrapper > .bg-primary .text-primary, main > .bg-primary:first-child *, main > .bg-primary:first-child .text-dark, main > .bg-primary:first-child .text-primary,
 .bg-primary:has(button.dropdown-toggle) *,
 .bg-primary:has(button.dropdown-toggle) .text-dark,
-.bg-primary:has(button.dropdown-toggle) .text-primary {
+.bg-primary:has(button.dropdown-toggle) .text-primary,
+div[aria-label="Masquerade bar"] .bg-primary *,
+div[aria-label="Masquerade bar"] .bg-primary .text-dark,
+div[aria-label="Masquerade bar"] .bg-primary .text-primary {
   color: #FFFFFF !important;
 }
 .masquerade-widget .btn, .masquerade-widget button, .masquerade-widget .dropdown-toggle, .course-status-banner .btn, .course-status-banner button, .course-status-banner .dropdown-toggle, .alert-primary .btn, .alert-primary button, .alert-primary .dropdown-toggle,
@@ -1701,7 +1738,10 @@ header + .bg-primary .dropdown-toggle, .pgn__header + .bg-primary .btn, .pgn__he
 #root > .bg-primary .dropdown-toggle, .page-wrapper > .bg-primary .btn, .page-wrapper > .bg-primary button, .page-wrapper > .bg-primary .dropdown-toggle, main > .bg-primary:first-child .btn, main > .bg-primary:first-child button, main > .bg-primary:first-child .dropdown-toggle,
 .bg-primary:has(button.dropdown-toggle) .btn,
 .bg-primary:has(button.dropdown-toggle) button,
-.bg-primary:has(button.dropdown-toggle) .dropdown-toggle {
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle,
+div[aria-label="Masquerade bar"] .bg-primary .btn,
+div[aria-label="Masquerade bar"] .bg-primary button,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle {
   background-color: transparent !important;
   border-color: #FFFFFF !important;
   color: #FFFFFF !important;
@@ -1766,7 +1806,25 @@ header + .bg-primary .dropdown-toggle.show, .pgn__header + .bg-primary .btn:hove
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle:active,
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle[aria-expanded=true],
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle.active,
-.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show {
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show,
+div[aria-label="Masquerade bar"] .bg-primary .btn:hover,
+div[aria-label="Masquerade bar"] .bg-primary .btn:focus,
+div[aria-label="Masquerade bar"] .bg-primary .btn:active,
+div[aria-label="Masquerade bar"] .bg-primary .btn[aria-expanded=true],
+div[aria-label="Masquerade bar"] .bg-primary .btn.active,
+div[aria-label="Masquerade bar"] .bg-primary .btn.show,
+div[aria-label="Masquerade bar"] .bg-primary button:hover,
+div[aria-label="Masquerade bar"] .bg-primary button:focus,
+div[aria-label="Masquerade bar"] .bg-primary button:active,
+div[aria-label="Masquerade bar"] .bg-primary button[aria-expanded=true],
+div[aria-label="Masquerade bar"] .bg-primary button.active,
+div[aria-label="Masquerade bar"] .bg-primary button.show,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle:hover,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle:focus,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle:active,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle[aria-expanded=true],
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle.active,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle.show {
   background-color: #FFFFFF !important;
   color: #191A1A !important;
 }
@@ -1824,7 +1882,25 @@ header + .bg-primary .dropdown-toggle.show *, .pgn__header + .bg-primary .btn:ho
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle:active *,
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle[aria-expanded=true] *,
 .bg-primary:has(button.dropdown-toggle) .dropdown-toggle.active *,
-.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show * {
+.bg-primary:has(button.dropdown-toggle) .dropdown-toggle.show *,
+div[aria-label="Masquerade bar"] .bg-primary .btn:hover *,
+div[aria-label="Masquerade bar"] .bg-primary .btn:focus *,
+div[aria-label="Masquerade bar"] .bg-primary .btn:active *,
+div[aria-label="Masquerade bar"] .bg-primary .btn[aria-expanded=true] *,
+div[aria-label="Masquerade bar"] .bg-primary .btn.active *,
+div[aria-label="Masquerade bar"] .bg-primary .btn.show *,
+div[aria-label="Masquerade bar"] .bg-primary button:hover *,
+div[aria-label="Masquerade bar"] .bg-primary button:focus *,
+div[aria-label="Masquerade bar"] .bg-primary button:active *,
+div[aria-label="Masquerade bar"] .bg-primary button[aria-expanded=true] *,
+div[aria-label="Masquerade bar"] .bg-primary button.active *,
+div[aria-label="Masquerade bar"] .bg-primary button.show *,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle:hover *,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle:focus *,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle:active *,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle[aria-expanded=true] *,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle.active *,
+div[aria-label="Masquerade bar"] .bg-primary .dropdown-toggle.show * {
   color: #191A1A !important;
 }
 .btn-brand, .pgn__stateful-btn.btn-brand {
@@ -1844,7 +1920,7 @@ header + .bg-primary .dropdown-toggle.show *, .pgn__header + .bg-primary .btn:ho
   z-index: 1;
   width: 100%;
 }
-#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header {
+#root .pgn__header, #root header.site-header, #root header.site-header-desktop, #root header.site-header-mobile, #root header.customise.learning-header, #root .learning-header, #root .studio-header, #root .learner-variant-header, #root header {
   background-color: #F6DB00 !important;
 }
 #root .logo img {
@@ -5042,7 +5118,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   width: 100%;
   overflow-x: clip;
 }
-[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header {
+[data-paragon-theme-variant=dark] #root .pgn__header, [data-paragon-theme-variant=dark] #root header.site-header, [data-paragon-theme-variant=dark] #root header.site-header-desktop, [data-paragon-theme-variant=dark] #root header.site-header-mobile, [data-paragon-theme-variant=dark] #root header.customise.learning-header, [data-paragon-theme-variant=dark] #root .learning-header, [data-paragon-theme-variant=dark] #root .studio-header, [data-paragon-theme-variant=dark] #root .learner-variant-header, [data-paragon-theme-variant=dark] #root header {
   background-color: #F6DB00 !important;
 }
 [data-paragon-theme-variant=dark] #root .logo img {

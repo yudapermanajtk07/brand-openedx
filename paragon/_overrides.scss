@@ -581,7 +581,8 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
 .masquerade-widget, .course-status-banner, .alert-primary,
 header + .bg-primary, .pgn__header + .bg-primary,
 #root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
-.bg-primary:has(button.dropdown-toggle) {
+.bg-primary:has(button.dropdown-toggle),
+div[aria-label="Masquerade bar"] .bg-primary {
   background-color: #191A1A !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
@@ -591,11 +592,20 @@ header + .bg-primary, .pgn__header + .bg-primary,
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 
-  .container-xl {
+  .container-xl, .container-mw-xl {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 100% !important;
     align-items: center !important; // Overrides align-items-start
+    display: flex;
+    justify-content: flex-end;
+    
+    > .py-3, > .d-md-flex {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      height: 100% !important;
+      align-items: center !important;
+    }
   }
 
   .my-1, .mt-1, .py-3 {
