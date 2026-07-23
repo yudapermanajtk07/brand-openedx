@@ -1635,41 +1635,43 @@ body {
 input[type=checkbox]:checked, .custom-control-input:checked ~ .custom-control-label::before {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
 }
-.masquerade-widget, .course-status-banner, .alert-primary,
-header + .bg-primary, .pgn__header + .bg-primary,
-#root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
-div[aria-label="Masquerade bar"] .bg-primary {
+html body .masquerade-widget, html body .course-status-banner, html body .alert-primary,
+html body header + .bg-primary, html body .pgn__header + .bg-primary,
+html body #root > .bg-primary, html body .page-wrapper > .bg-primary, html body main > .bg-primary:first-child,
+html body div[aria-label="Masquerade bar"] .bg-primary {
   background: #191A1A !important;
+  background-color: #191A1A !important;
+  background-image: none !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
   height: 58px !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-.masquerade-widget .container-xl, .masquerade-widget .container-mw-xl, .course-status-banner .container-xl, .course-status-banner .container-mw-xl, .alert-primary .container-xl, .alert-primary .container-mw-xl,
-header + .bg-primary .container-xl,
-header + .bg-primary .container-mw-xl, .pgn__header + .bg-primary .container-xl, .pgn__header + .bg-primary .container-mw-xl,
-#root > .bg-primary .container-xl,
-#root > .bg-primary .container-mw-xl, .page-wrapper > .bg-primary .container-xl, .page-wrapper > .bg-primary .container-mw-xl, main > .bg-primary:first-child .container-xl, main > .bg-primary:first-child .container-mw-xl,
-div[aria-label="Masquerade bar"] .bg-primary .container-xl,
-div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl {
+html body .masquerade-widget .container-xl, html body .masquerade-widget .container-mw-xl, html body .course-status-banner .container-xl, html body .course-status-banner .container-mw-xl, html body .alert-primary .container-xl, html body .alert-primary .container-mw-xl,
+html body header + .bg-primary .container-xl,
+html body header + .bg-primary .container-mw-xl, html body .pgn__header + .bg-primary .container-xl, html body .pgn__header + .bg-primary .container-mw-xl,
+html body #root > .bg-primary .container-xl,
+html body #root > .bg-primary .container-mw-xl, html body .page-wrapper > .bg-primary .container-xl, html body .page-wrapper > .bg-primary .container-mw-xl, html body main > .bg-primary:first-child .container-xl, html body main > .bg-primary:first-child .container-mw-xl,
+html body div[aria-label="Masquerade bar"] .bg-primary .container-xl,
+html body div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   height: 100% !important;
 }
-.masquerade-widget .container-xl > .py-3, .masquerade-widget .container-xl > .d-md-flex, .masquerade-widget .container-mw-xl > .py-3, .masquerade-widget .container-mw-xl > .d-md-flex, .course-status-banner .container-xl > .py-3, .course-status-banner .container-xl > .d-md-flex, .course-status-banner .container-mw-xl > .py-3, .course-status-banner .container-mw-xl > .d-md-flex, .alert-primary .container-xl > .py-3, .alert-primary .container-xl > .d-md-flex, .alert-primary .container-mw-xl > .py-3, .alert-primary .container-mw-xl > .d-md-flex,
-header + .bg-primary .container-xl > .py-3,
-header + .bg-primary .container-xl > .d-md-flex,
-header + .bg-primary .container-mw-xl > .py-3,
-header + .bg-primary .container-mw-xl > .d-md-flex, .pgn__header + .bg-primary .container-xl > .py-3, .pgn__header + .bg-primary .container-xl > .d-md-flex, .pgn__header + .bg-primary .container-mw-xl > .py-3, .pgn__header + .bg-primary .container-mw-xl > .d-md-flex,
-#root > .bg-primary .container-xl > .py-3,
-#root > .bg-primary .container-xl > .d-md-flex,
-#root > .bg-primary .container-mw-xl > .py-3,
-#root > .bg-primary .container-mw-xl > .d-md-flex, .page-wrapper > .bg-primary .container-xl > .py-3, .page-wrapper > .bg-primary .container-xl > .d-md-flex, .page-wrapper > .bg-primary .container-mw-xl > .py-3, .page-wrapper > .bg-primary .container-mw-xl > .d-md-flex, main > .bg-primary:first-child .container-xl > .py-3, main > .bg-primary:first-child .container-xl > .d-md-flex, main > .bg-primary:first-child .container-mw-xl > .py-3, main > .bg-primary:first-child .container-mw-xl > .d-md-flex,
-div[aria-label="Masquerade bar"] .bg-primary .container-xl > .py-3,
-div[aria-label="Masquerade bar"] .bg-primary .container-xl > .d-md-flex,
-div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .py-3,
-div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
+html body .masquerade-widget .container-xl > .py-3, html body .masquerade-widget .container-xl > .d-md-flex, html body .masquerade-widget .container-mw-xl > .py-3, html body .masquerade-widget .container-mw-xl > .d-md-flex, html body .course-status-banner .container-xl > .py-3, html body .course-status-banner .container-xl > .d-md-flex, html body .course-status-banner .container-mw-xl > .py-3, html body .course-status-banner .container-mw-xl > .d-md-flex, html body .alert-primary .container-xl > .py-3, html body .alert-primary .container-xl > .d-md-flex, html body .alert-primary .container-mw-xl > .py-3, html body .alert-primary .container-mw-xl > .d-md-flex,
+html body header + .bg-primary .container-xl > .py-3,
+html body header + .bg-primary .container-xl > .d-md-flex,
+html body header + .bg-primary .container-mw-xl > .py-3,
+html body header + .bg-primary .container-mw-xl > .d-md-flex, html body .pgn__header + .bg-primary .container-xl > .py-3, html body .pgn__header + .bg-primary .container-xl > .d-md-flex, html body .pgn__header + .bg-primary .container-mw-xl > .py-3, html body .pgn__header + .bg-primary .container-mw-xl > .d-md-flex,
+html body #root > .bg-primary .container-xl > .py-3,
+html body #root > .bg-primary .container-xl > .d-md-flex,
+html body #root > .bg-primary .container-mw-xl > .py-3,
+html body #root > .bg-primary .container-mw-xl > .d-md-flex, html body .page-wrapper > .bg-primary .container-xl > .py-3, html body .page-wrapper > .bg-primary .container-xl > .d-md-flex, html body .page-wrapper > .bg-primary .container-mw-xl > .py-3, html body .page-wrapper > .bg-primary .container-mw-xl > .d-md-flex, html body main > .bg-primary:first-child .container-xl > .py-3, html body main > .bg-primary:first-child .container-xl > .d-md-flex, html body main > .bg-primary:first-child .container-mw-xl > .py-3, html body main > .bg-primary:first-child .container-mw-xl > .d-md-flex,
+html body div[aria-label="Masquerade bar"] .bg-primary .container-xl > .py-3,
+html body div[aria-label="Masquerade bar"] .bg-primary .container-xl > .d-md-flex,
+html body div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .py-3,
+html body div[aria-label="Masquerade bar"] .bg-primary .container-mw-xl > .d-md-flex {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   height: 100% !important;

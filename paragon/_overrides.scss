@@ -578,11 +578,13 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
 }
 
 // Masquerade / Course Status Banner in Learning MFE
-.masquerade-widget, .course-status-banner, .alert-primary,
-header + .bg-primary, .pgn__header + .bg-primary,
-#root > .bg-primary, .page-wrapper > .bg-primary, main > .bg-primary:first-child,
-div[aria-label="Masquerade bar"] .bg-primary {
+html body .masquerade-widget, html body .course-status-banner, html body .alert-primary,
+html body header + .bg-primary, html body .pgn__header + .bg-primary,
+html body #root > .bg-primary, html body .page-wrapper > .bg-primary, html body main > .bg-primary:first-child,
+html body div[aria-label="Masquerade bar"] .bg-primary {
   background: #191A1A !important;
+  background-color: #191A1A !important;
+  background-image: none !important;
   border-color: #191A1A !important;
   color: #FFFFFF !important;
   
