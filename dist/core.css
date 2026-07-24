@@ -2545,6 +2545,14 @@ html body #root div.bg-primary.text-white .dropdown-menu .dropdown-item.active {
   width: 26px;
   height: auto;
 }
+#root button.menu-trigger.btn-outline-primary {
+  background-color: rgba(0, 0, 0, 0.631372549) !important;
+  border-color: transparent !important;
+  transition: background-color 0.2s ease;
+}
+#root button.menu-trigger.btn-outline-primary:hover, #root button.menu-trigger.btn-outline-primary:focus, #root button.menu-trigger.btn-outline-primary:active, #root button.menu-trigger.btn-outline-primary[aria-expanded=true] {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
 [dir=ltr] #root .user-dropdown .dropdown-menu {
   top: 54px;
 }
@@ -5818,6 +5826,14 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
 [data-paragon-theme-variant=dark] #root .learner-variant-header .btn-icon.btn-icon-inverse-primary .pgn__icon.btn-icon__icon {
   width: 26px;
   height: auto;
+}
+[data-paragon-theme-variant=dark] #root button.menu-trigger.btn-outline-primary {
+  background-color: rgba(0, 0, 0, 0.631372549) !important;
+  border-color: transparent !important;
+  transition: background-color 0.2s ease;
+}
+[data-paragon-theme-variant=dark] #root button.menu-trigger.btn-outline-primary:hover, [data-paragon-theme-variant=dark] #root button.menu-trigger.btn-outline-primary:focus, [data-paragon-theme-variant=dark] #root button.menu-trigger.btn-outline-primary:active, [data-paragon-theme-variant=dark] #root button.menu-trigger.btn-outline-primary[aria-expanded=true] {
+  background-color: rgba(0, 0, 0, 0.2) !important;
 }
 [data-paragon-theme-variant=dark] [dir=ltr] #root .user-dropdown .dropdown-menu {
   top: 54px;

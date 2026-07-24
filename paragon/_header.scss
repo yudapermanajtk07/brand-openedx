@@ -569,6 +569,15 @@
             }
         }
     }
+
+    button.menu-trigger.btn-outline-primary {
+        background-color: #000000A1 !important;
+        border-color: transparent !important;
+        transition: background-color 0.2s ease;
+        &:hover, &:focus, &:active, &[aria-expanded="true"] {
+            background-color: #00000033 !important;
+        }
+    }
 }
 [dir="ltr"] #root .user-dropdown .dropdown-menu {
     top: 54px;
