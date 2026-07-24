@@ -571,7 +571,7 @@
     }
 
     button.menu-trigger.btn.btn-outline-primary {
-        background: rgba(0, 0, 0, 0.63) !important;
+        background: rgba(0, 0, 0, 0.1) !important;
         border-color: transparent !important;
         transition: background 0.2s ease;
         &:hover, &:focus, &:active, &[aria-expanded="true"] {

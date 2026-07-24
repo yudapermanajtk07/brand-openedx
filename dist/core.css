@@ -2546,7 +2546,7 @@ html body #root div.bg-primary.text-white .dropdown-menu .dropdown-item.active {
   height: auto;
 }
 #root button.menu-trigger.btn.btn-outline-primary {
-  background: rgba(0, 0, 0, 0.63) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
   border-color: transparent !important;
   transition: background 0.2s ease;
 }
@@ -5828,7 +5828,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   height: auto;
 }
 [data-paragon-theme-variant=dark] #root button.menu-trigger.btn.btn-outline-primary {
-  background: rgba(0, 0, 0, 0.63) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
   border-color: transparent !important;
   transition: background 0.2s ease;
 }
