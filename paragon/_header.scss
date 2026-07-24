@@ -570,12 +570,12 @@
         }
     }
 
-    button.menu-trigger.btn-outline-primary {
-        background-color: #000000A1 !important;
+    button.menu-trigger.btn.btn-outline-primary {
+        background: rgba(0, 0, 0, 0.63) !important;
         border-color: transparent !important;
-        transition: background-color 0.2s ease;
+        transition: background 0.2s ease;
         &:hover, &:focus, &:active, &[aria-expanded="true"] {
-            background-color: #00000033 !important;
+            background: rgba(0, 0, 0, 0.2) !important;
         }
     }
 }
