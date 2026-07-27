@@ -544,13 +544,26 @@ body {
     }
 }
 
-// Tab styling
-.nav-tabs, .nav-pills, .pgn__tabs {
-    .nav-link.active {
+// Tab styling and active tab underline
+.nav, .nav-tabs, .nav-pills, .pgn__tabs, .navbar-nav, .course-tabs-navigation, .nav-underline, [role="tablist"], .navbar {
+    .nav-link.active,
+    .nav-item.active .nav-link,
+    a.active,
+    button.active,
+    [role="tab"][aria-selected="true"],
+    [aria-current="page"],
+    a.course-link.active {
         color: #0B1F3F !important;
+        border-color: transparent transparent #FFD900 transparent !important;
+        border-bottom: 2px solid #FFD900 !important;
+    }
+    .nav-link:hover,
+    [role="tab"]:hover,
+    a:hover {
+        border-bottom-color: #FFD900 !important;
     }
     .badge {
-        background-color: #F6DB00 !important;
+        background-color: #FFD900 !important;
         color: #0B1F3F !important;
     }
 }

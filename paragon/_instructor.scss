@@ -42,6 +42,28 @@ body,
         color: #0B1F3F !important;
     }
 
+    // Active tab underline overrides (garis di bawah tab yang aktif -> #FFD900)
+    .nav, .nav-tabs, .nav-pills, .pgn__tabs, .navbar-nav, .course-tabs-navigation, .nav-underline, [role="tablist"], .navbar {
+        .nav-link.active,
+        .nav-item.active .nav-link,
+        a.active,
+        button.active,
+        [role="tab"][aria-selected="true"],
+        [aria-current="page"],
+        a.course-link.active {
+            color: #0B1F3F !important;
+            border-color: transparent transparent #FFD900 transparent !important;
+            border-bottom: 2px solid #FFD900 !important;
+        }
+        
+        .nav-link:hover,
+        [role="tab"]:hover,
+        a:hover {
+            color: #0B1F3F !important;
+            border-bottom-color: #FFD900 !important;
+        }
+    }
+
     // Ensure interactive icons (such as collapsible chevrons in Pending Tasks) use dark blue
     .pgn__icon {
         &, &.text-primary-500, &.text-primary-700, &.text-primary {
