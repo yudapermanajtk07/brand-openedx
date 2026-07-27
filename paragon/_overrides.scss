@@ -802,9 +802,16 @@ html body main > .bg-primary:first-child {
       height: auto !important;
       min-height: 34px !important;
       max-height: none !important;
-      flex-wrap: wrap !important;
+      flex-wrap: nowrap !important;
+      align-items: flex-start !important;
+      justify-content: space-between !important;
       padding-top: 2px !important;
       padding-bottom: 2px !important;
+    }
+
+    // Ensure left-side content leaves breathing room for "View course in: Studio" to stay anchored on the right
+    .flex-grow-1 {
+      max-width: calc(100% - 220px) !important;
     }
 
     .my-1, .mt-1, .mb-1, span.mx-1, span.my-1, span.mt-1 {
