@@ -594,6 +594,10 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
 html body div[aria-label="Masquerade bar"],
 html body #root div[aria-label="Masquerade bar"],
 html body div[role="region"][aria-label="Masquerade bar"],
+html body div[data-testid="instructor-toolbar"],
+html body #root div[data-testid="instructor-toolbar"],
+html body div.bg-primary.text-white,
+html body #root div.bg-primary.text-white,
 html body .masquerade-widget,
 html body .course-status-banner,
 html body .alert-primary,
@@ -619,16 +623,21 @@ html body main > .bg-primary:first-child {
   align-items: center !important;
   width: 100% !important;
 
-  // Force ANY nested element that might be secretly colored to be transparent
-  *, *::before, *::after {
+  // Force ANY nested element that might be secretly colored to be transparent (exempting .bg-primary, buttons, dropdowns)
+  *:not(.bg-primary):not(.btn):not(button):not(.dropdown-menu):not(.dropdown-item):not(.alert), *::before, *::after {
     background-color: transparent !important;
     background-image: none !important;
     box-shadow: none !important;
   }
   
-  // Zero out spacing on internal wrapper to maintain exact 58px height
-  .bg-primary, .bg-primary.text-white {
-    background-color: transparent !important;
+  // Enforce dark color (#191A1A) and zero spacing on internal .bg-primary wrapper to maintain exact 58px height and block yellow background
+  &, .bg-primary, .bg-primary.text-white, div[class*="bg-primary"] {
+    background: #191A1A !important;
+    background-color: #191A1A !important;
+    background-image: none !important;
+    box-shadow: inset 0 0 0 9999px #191A1A !important; // Ultimate color override against yellow!
+    border-color: #191A1A !important;
+    color: #FFFFFF !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     min-height: 100% !important;
