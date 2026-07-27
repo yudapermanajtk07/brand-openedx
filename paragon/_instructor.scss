@@ -1,24 +1,54 @@
 // Instructor Dashboard style and text color overrides
-#root {
-    .container-mw-xl,
-    .container-mw-xl.container-fluid,
-    [class*="instructor-dashboard"] {
-        // Override primary text color utility classes for titles (e.g. Instructor Dashboard), course titles, section headers, and numbers
+
+// 1. Override CSS variables directly so any utility class (e.g. .text-primary-700) relying on var(--pgn-color-primary-700) evaluates to dark blue (#0B1F3F)
+:root,
+body,
+html body,
+#root,
+.container-mw-xl,
+.container-fluid,
+[class*="instructor"] {
+    --pgn-color-primary-700: #0B1F3F !important;
+    --pgn-color-primary-500: #0B1F3F !important;
+    --pgn-color-primary-300: #0B1F3F !important;
+    --pgn-color-action-default-primary-700: #0B1F3F !important;
+    --pgn-color-action-default-primary-500: #0B1F3F !important;
+}
+
+// 2. Direct high-specificity selector overrides across all dashboard containers and HTML elements
+html body,
+body,
+#root,
+.container-mw-xl,
+.container-fluid,
+[class*="instructor"] {
+    &, h1, h2, h3, h4, h5, h6, p, span, div, a, li, label, .lead, .h1, .h2, .h3, .h4, .h5, .h6 {
+        &.text-primary-700,
+        &.text-primary-500,
+        &.text-primary-300,
+        &.text-primary,
         .text-primary-700,
         .text-primary-500,
         .text-primary-300,
         .text-primary {
             color: #0B1F3F !important;
         }
+    }
 
-        // Ensure interactive icons (such as collapsible chevrons in Pending Tasks) use dark blue
-        .pgn__icon.text-primary-500,
-        .pgn__icon.text-primary-700,
-        .pgn__icon.text-primary {
+    .text-primary-700,
+    .text-primary-500,
+    .text-primary-300,
+    .text-primary {
+        color: #0B1F3F !important;
+    }
+
+    // Ensure interactive icons (such as collapsible chevrons in Pending Tasks) use dark blue
+    .pgn__icon {
+        &, &.text-primary-500, &.text-primary-700, &.text-primary {
             color: #0B1F3F !important;
             svg, path {
                 color: #0B1F3F !important;
-                fill: currentColor;
+                fill: #0B1F3F !important;
             }
         }
     }
