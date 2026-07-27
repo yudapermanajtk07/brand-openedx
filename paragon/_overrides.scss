@@ -590,12 +590,14 @@ input[type="checkbox"]:checked, .custom-control-input:checked ~ .custom-control-
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230B1F3F' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e") !important;
 }
 
-// // Masquerade / Course Status Banner in Learning MFE and Instructor Dashboard
+// Masquerade / Course Status Banner in Learning MFE and Instructor Dashboard
 html body div[aria-label="Masquerade bar"],
 html body #root div[aria-label="Masquerade bar"],
 html body div[role="region"][aria-label="Masquerade bar"],
 html body div[data-testid="instructor-toolbar"],
 html body #root div[data-testid="instructor-toolbar"],
+html body div[data-testid="instructor-toolbar"] > div,
+html body #root div[data-testid="instructor-toolbar"] > div,
 html body div.bg-primary.text-white,
 html body #root div.bg-primary.text-white,
 html body .masquerade-widget,
@@ -613,10 +615,10 @@ html body main > .bg-primary:first-child {
   color: #FFFFFF !important;
   box-shadow: inset 0 0 0 9999px #191A1A !important; // Ultimate color override
   
-  // Default state (e.g., Staff or Audit): Enforce exactly 58px height and zero padding
+  // Default state (e.g., Staff or Audit): Enforce 58px via 12px top and bottom padding on inner container
   min-height: 58px !important;
-  height: 58px !important;
-  max-height: 58px !important;
+  height: auto !important;
+  max-height: none !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   display: flex !important;
@@ -630,8 +632,8 @@ html body main > .bg-primary:first-child {
     box-shadow: none !important;
   }
   
-  // Enforce dark color (#191A1A) and zero spacing on internal .bg-primary wrapper to maintain exact 58px height and block yellow background
-  &, .bg-primary, .bg-primary.text-white, div[class*="bg-primary"] {
+  // Enforce dark color (#191A1A) and block yellow background
+  &, .bg-primary, .bg-primary.text-white, div[class*="bg-primary"], > div {
     background: #191A1A !important;
     background-color: #191A1A !important;
     background-image: none !important;
@@ -640,8 +642,9 @@ html body main > .bg-primary:first-child {
     color: #FFFFFF !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    min-height: 100% !important;
-    height: 100% !important;
+    min-height: 58px !important;
+    height: auto !important;
+    max-height: none !important;
     display: flex !important;
     align-items: center !important;
     width: 100% !important;
@@ -655,7 +658,7 @@ html body main > .bg-primary:first-child {
     background-color: transparent !important;
   }
 
-  // Target containers to ensure they take full width, sit on one line (nowrap), and fit in 58px height
+  // Target containers to ensure they take full width, sit on one line (nowrap), and apply exactly 12px top/bottom padding
   .container, .container-xl, .container-mw-xl, .container-fluid {
     display: flex !important;
     align-items: center !important;
@@ -663,16 +666,20 @@ html body main > .bg-primary:first-child {
     width: 100% !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    height: 100% !important;
+    min-height: 58px !important;
+    height: auto !important;
+    max-height: none !important;
     flex-wrap: nowrap !important;
 
-    > .py-3, .py-3, > .d-md-flex {
+    > .py-3, .py-3, > .d-md-flex, .d-md-flex {
       display: flex !important;
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
+      padding-top: 12px !important;
+      padding-bottom: 12px !important;
       margin-top: 0 !important;
       margin-bottom: 0 !important;
-      height: 100% !important;
+      min-height: 58px !important;
+      height: auto !important;
+      max-height: none !important;
       align-items: center !important;
       width: 100% !important;
       flex-wrap: nowrap !important;
@@ -793,20 +800,27 @@ html body main > .bg-primary:first-child {
     min-height: 58px !important;
     height: auto !important;
     max-height: none !important;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 
-    .bg-primary, .bg-primary.text-white,
-    .container, .container-xl, .container-mw-xl, .container-fluid,
-    .py-3, > .py-3, > .d-md-flex {
+    .bg-primary, .bg-primary.text-white, > div,
+    .container, .container-xl, .container-mw-xl, .container-fluid {
       height: auto !important;
-      min-height: 34px !important;
+      min-height: 58px !important;
+      max-height: none !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    .py-3, > .py-3, > .d-md-flex, .d-md-flex {
+      height: auto !important;
+      min-height: 58px !important;
       max-height: none !important;
       flex-wrap: nowrap !important;
       align-items: flex-start !important;
       justify-content: space-between !important;
-      padding-top: 2px !important;
-      padding-bottom: 2px !important;
+      padding-top: 12px !important;
+      padding-bottom: 12px !important;
     }
 
     // Ensure left-side content leaves breathing room for "View course in: Studio" to stay anchored on the right
