@@ -655,17 +655,19 @@ html body main > .bg-primary:first-child {
     background-color: transparent !important;
   }
 
-  // Target containers to ensure they take full width and fit in 58px height
+  // Target containers to ensure they take full width, sit on one line (nowrap), and fit in 58px height
   .container, .container-xl, .container-mw-xl, .container-fluid {
     display: flex !important;
     align-items: center !important;
+    justify-content: space-between !important;
     width: 100% !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 100% !important;
-    flex-wrap: wrap !important;
+    flex-wrap: nowrap !important;
 
     > .py-3, .py-3, > .d-md-flex {
+      display: flex !important;
       padding-top: 0 !important;
       padding-bottom: 0 !important;
       margin-top: 0 !important;
@@ -673,8 +675,18 @@ html body main > .bg-primary:first-child {
       height: 100% !important;
       align-items: center !important;
       width: 100% !important;
-      flex-wrap: wrap !important;
+      flex-wrap: nowrap !important;
+      justify-content: space-between !important;
     }
+  }
+
+  // Remove wrapping separator line (<hr>) so both left and right controls sit perfectly aligned on one row
+  hr, .hr, .border-light {
+    display: none !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
   }
 
   // Force rows to vertically center their contents

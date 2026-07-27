@@ -1967,11 +1967,12 @@ html body main > .bg-primary:first-child .container-mw-xl,
 html body main > .bg-primary:first-child .container-fluid {
   display: flex !important;
   align-items: center !important;
+  justify-content: space-between !important;
   width: 100% !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   height: 100% !important;
-  flex-wrap: wrap !important;
+  flex-wrap: nowrap !important;
 }
 html body div[aria-label="Masquerade bar"] .container > .py-3, html body div[aria-label="Masquerade bar"] .container .py-3, html body div[aria-label="Masquerade bar"] .container > .d-md-flex, html body div[aria-label="Masquerade bar"] .container-xl > .py-3, html body div[aria-label="Masquerade bar"] .container-xl .py-3, html body div[aria-label="Masquerade bar"] .container-xl > .d-md-flex, html body div[aria-label="Masquerade bar"] .container-mw-xl > .py-3, html body div[aria-label="Masquerade bar"] .container-mw-xl .py-3, html body div[aria-label="Masquerade bar"] .container-mw-xl > .d-md-flex, html body div[aria-label="Masquerade bar"] .container-fluid > .py-3, html body div[aria-label="Masquerade bar"] .container-fluid .py-3, html body div[aria-label="Masquerade bar"] .container-fluid > .d-md-flex,
 html body #root div[aria-label="Masquerade bar"] .container > .py-3,
@@ -2142,6 +2143,7 @@ html body main > .bg-primary:first-child .container-mw-xl > .d-md-flex,
 html body main > .bg-primary:first-child .container-fluid > .py-3,
 html body main > .bg-primary:first-child .container-fluid .py-3,
 html body main > .bg-primary:first-child .container-fluid > .d-md-flex {
+  display: flex !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   margin-top: 0 !important;
@@ -2149,7 +2151,57 @@ html body main > .bg-primary:first-child .container-fluid > .d-md-flex {
   height: 100% !important;
   align-items: center !important;
   width: 100% !important;
-  flex-wrap: wrap !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+}
+html body div[aria-label="Masquerade bar"] hr, html body div[aria-label="Masquerade bar"] .hr, html body div[aria-label="Masquerade bar"] .border-light,
+html body #root div[aria-label="Masquerade bar"] hr,
+html body #root div[aria-label="Masquerade bar"] .hr,
+html body #root div[aria-label="Masquerade bar"] .border-light,
+html body div[role=region][aria-label="Masquerade bar"] hr,
+html body div[role=region][aria-label="Masquerade bar"] .hr,
+html body div[role=region][aria-label="Masquerade bar"] .border-light,
+html body div[data-testid=instructor-toolbar] hr,
+html body div[data-testid=instructor-toolbar] .hr,
+html body div[data-testid=instructor-toolbar] .border-light,
+html body #root div[data-testid=instructor-toolbar] hr,
+html body #root div[data-testid=instructor-toolbar] .hr,
+html body #root div[data-testid=instructor-toolbar] .border-light,
+html body div.bg-primary.text-white hr,
+html body div.bg-primary.text-white .hr,
+html body div.bg-primary.text-white .border-light,
+html body #root div.bg-primary.text-white hr,
+html body #root div.bg-primary.text-white .hr,
+html body #root div.bg-primary.text-white .border-light,
+html body .masquerade-widget hr,
+html body .masquerade-widget .hr,
+html body .masquerade-widget .border-light,
+html body .course-status-banner hr,
+html body .course-status-banner .hr,
+html body .course-status-banner .border-light,
+html body .alert-primary hr,
+html body .alert-primary .hr,
+html body .alert-primary .border-light,
+html body header + .bg-primary hr,
+html body header + .bg-primary .hr,
+html body header + .bg-primary .border-light,
+html body .pgn__header + .bg-primary hr,
+html body .pgn__header + .bg-primary .hr,
+html body .pgn__header + .bg-primary .border-light,
+html body #root > .bg-primary:first-child hr,
+html body #root > .bg-primary:first-child .hr,
+html body #root > .bg-primary:first-child .border-light,
+html body .page-wrapper > .bg-primary hr,
+html body .page-wrapper > .bg-primary .hr,
+html body .page-wrapper > .bg-primary .border-light,
+html body main > .bg-primary:first-child hr,
+html body main > .bg-primary:first-child .hr,
+html body main > .bg-primary:first-child .border-light {
+  display: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
 html body div[aria-label="Masquerade bar"] .row,
 html body #root div[aria-label="Masquerade bar"] .row,
