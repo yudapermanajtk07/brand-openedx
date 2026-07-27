@@ -1,0 +1,25 @@
+// Instructor Dashboard style and text color overrides
+#root {
+    .container-mw-xl,
+    .container-mw-xl.container-fluid,
+    [class*="instructor-dashboard"] {
+        // Override primary text color utility classes for titles (e.g. Instructor Dashboard), course titles, section headers, and numbers
+        .text-primary-700,
+        .text-primary-500,
+        .text-primary-300,
+        .text-primary {
+            color: #0B1F3F !important;
+        }
+
+        // Ensure interactive icons (such as collapsible chevrons in Pending Tasks) use dark blue
+        .pgn__icon.text-primary-500,
+        .pgn__icon.text-primary-700,
+        .pgn__icon.text-primary {
+            color: #0B1F3F !important;
+            svg, path {
+                color: #0B1F3F !important;
+                fill: currentColor;
+            }
+        }
+    }
+}

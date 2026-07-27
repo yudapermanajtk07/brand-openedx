@@ -5037,6 +5037,51 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 li .small.mb-2 {
   line-height: 20px;
   max-width: 475px;
 }
+#root .container-mw-xl .text-primary-700,
+#root .container-mw-xl .text-primary-500,
+#root .container-mw-xl .text-primary-300,
+#root .container-mw-xl .text-primary,
+#root .container-mw-xl.container-fluid .text-primary-700,
+#root .container-mw-xl.container-fluid .text-primary-500,
+#root .container-mw-xl.container-fluid .text-primary-300,
+#root .container-mw-xl.container-fluid .text-primary,
+#root [class*=instructor-dashboard] .text-primary-700,
+#root [class*=instructor-dashboard] .text-primary-500,
+#root [class*=instructor-dashboard] .text-primary-300,
+#root [class*=instructor-dashboard] .text-primary {
+  color: #0B1F3F !important;
+}
+#root .container-mw-xl .pgn__icon.text-primary-500,
+#root .container-mw-xl .pgn__icon.text-primary-700,
+#root .container-mw-xl .pgn__icon.text-primary,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary-500,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary-700,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary-500,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary-700,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary {
+  color: #0B1F3F !important;
+}
+#root .container-mw-xl .pgn__icon.text-primary-500 svg, #root .container-mw-xl .pgn__icon.text-primary-500 path,
+#root .container-mw-xl .pgn__icon.text-primary-700 svg,
+#root .container-mw-xl .pgn__icon.text-primary-700 path,
+#root .container-mw-xl .pgn__icon.text-primary svg,
+#root .container-mw-xl .pgn__icon.text-primary path,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary-500 svg,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary-500 path,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary-700 svg,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary-700 path,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary svg,
+#root .container-mw-xl.container-fluid .pgn__icon.text-primary path,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary-500 svg,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary-500 path,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary-700 svg,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary-700 path,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary svg,
+#root [class*=instructor-dashboard] .pgn__icon.text-primary path {
+  color: #0B1F3F !important;
+  fill: currentColor;
+}
 .theme-toggle-button {
   position: relative;
   display: flex;
