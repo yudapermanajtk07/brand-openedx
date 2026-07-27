@@ -671,7 +671,7 @@ html body main > .bg-primary:first-child {
     max-height: none !important;
     flex-wrap: nowrap !important;
 
-    > .py-3, .py-3, > .d-md-flex, .d-md-flex {
+    > .py-3, .py-3, .container > .d-md-flex, .container-xl > .d-md-flex, .container-mw-xl > .d-md-flex, .container-fluid > .d-md-flex {
       display: flex !important;
       padding-top: 12px !important;
       padding-bottom: 12px !important;
@@ -684,6 +684,12 @@ html body main > .bg-primary:first-child {
       width: 100% !important;
       flex-wrap: nowrap !important;
       justify-content: space-between !important;
+
+      // Prevent nested child containers from taking duplicate 12px padding
+      .d-md-flex, .flex-grow-1, .row {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
     }
   }
 
@@ -812,7 +818,7 @@ html body main > .bg-primary:first-child {
       padding-bottom: 0 !important;
     }
 
-    .py-3, > .py-3, > .d-md-flex, .d-md-flex {
+    > .py-3, .py-3, .container > .d-md-flex, .container-xl > .d-md-flex, .container-mw-xl > .d-md-flex, .container-fluid > .d-md-flex {
       height: auto !important;
       min-height: 58px !important;
       max-height: none !important;
@@ -821,6 +827,12 @@ html body main > .bg-primary:first-child {
       justify-content: space-between !important;
       padding-top: 12px !important;
       padding-bottom: 12px !important;
+
+      // Prevent nested child containers from taking duplicate 12px padding in Specific Student mode
+      .d-md-flex, .flex-grow-1, .row {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
     }
 
     // Ensure left-side content leaves breathing room for "View course in: Studio" to stay anchored on the right
