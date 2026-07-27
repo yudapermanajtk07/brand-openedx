@@ -709,6 +709,11 @@ html body main > .bg-primary:first-child {
     margin-bottom: 0 !important;
   }
 
+  // Jarak 10px antara baris pertama (View this course as / Staff) dan baris kedua (Username or email)
+  .row + .row, .row.mt-2, div > .row:nth-of-type(2), div > .row:not(:first-child) {
+    margin-top: 10px !important;
+  }
+
   // Ensure the text and buttons align perfectly without vertical margins
   span.mx-1, span.my-1, span.mt-1, span.mr-2, .my-1, .mt-1 {
     display: flex !important;
@@ -739,14 +744,38 @@ html body main > .bg-primary:first-child {
   }
 
   // Remove native left padding from the col-4 wrapper of the input field to align it
-  .pgn__form-control-decorator-group.col-4, form.col-4 {
+  .pgn__form-control-decorator-group.col-4, form.col-4, .col-4 {
     padding-left: 0 !important;
   }
 
-  // Restore enough width for the form so the Submit button is not squished/hidden
-  .row form {
-    flex: 1 !important;
-    max-width: 400px !important;
+  // Memperkecil ukuran text field Username or email dan wrappernya agar button Submit di sebelahnya muncul dengan sempurna
+  .pgn__form-control-decorator-group, 
+  .pgn__form-control-decorator-group.col-4, 
+  form.col-4, 
+  .col-4 {
+    max-width: 220px !important;
+    width: 220px !important;
+    flex: 0 0 220px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  #masquerade-search,
+  input[id*="masquerade"], 
+  input[id*="search"],
+  .form-control {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  // Restore alignment and display for Submit buttons or any adjacent buttons in the masquerade form row
+  .row form, form {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    width: auto !important;
+    max-width: none !important;
+    gap: 8px !important;
   }
 
   *, .text-dark, .text-primary {
