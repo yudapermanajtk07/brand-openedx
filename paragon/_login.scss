@@ -160,7 +160,73 @@
                     font-weight: 500;
                     line-height: 30px;
                 }
+
+                // Social / OAuth / TPA login buttons (e.g. Keycloak OIDC, Google, Microsoft, etc.) inside #main-content
+                .btn-social, 
+                .btn-oa2-oidc, 
+                #oa2-oidc, 
+                button[id*="oa2"], 
+                button[class*="btn-social"], 
+                button[class*="btn-tpa"], 
+                .btn-tpa {
+                    color: #0B1F3F !important;
+                    
+                    #provider-name, 
+                    span, 
+                    .pgn__icon, 
+                    svg, 
+                    path,
+                    .notranslate {
+                        color: #0B1F3F !important;
+                        fill: #0B1F3F !important;
+                    }
+
+                    &:hover, &:focus, &:active {
+                        color: #0B1F3F !important;
+                        #provider-name, span, .pgn__icon, svg, path, .notranslate {
+                            color: #0B1F3F !important;
+                            fill: #0B1F3F !important;
+                        }
+                    }
+                }
             }
         }
      }
+}
+
+// Global & direct override for Social / OAuth / TPA login buttons across all auth screens (including authn and standalone MFE roots)
+.btn-social, 
+.btn-oa2-oidc, 
+#oa2-oidc, 
+button[id*="oa2"], 
+button[class*="btn-social"], 
+button[class*="btn-tpa"], 
+.btn-tpa,
+#root .btn-social,
+#root .btn-oa2-oidc {
+    color: #0B1F3F !important;
+    
+    #provider-name, 
+    span, 
+    .pgn__icon, 
+    svg, 
+    path,
+    .notranslate {
+        color: #0B1F3F !important;
+        fill: #0B1F3F !important;
+    }
+
+    &:hover, &:focus, &:active {
+        color: #0B1F3F !important;
+        #provider-name, span, .pgn__icon, svg, path, .notranslate {
+            color: #0B1F3F !important;
+            fill: #0B1F3F !important;
+        }
+    }
+}
+
+// Direct targeting for #provider-name label and icons anywhere on the page
+#provider-name, span[id="provider-name"], button[class*="btn-social"] span, button[class*="btn-social"] svg path {
+    color: #0B1F3F !important;
+    fill: #0B1F3F !important;
 }
