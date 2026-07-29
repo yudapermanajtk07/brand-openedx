@@ -92,8 +92,28 @@ body,
             color: #0B1F3F !important;
             svg, path {
                 color: #0B1F3F !important;
-                fill: #0B1F3F !important;
             }
         }
+    }
+}
+
+// ULTIMATE KILLER for focus outlines/borders on instructor tabs
+html body #instructor-nav .nav-item .nav-link:focus,
+html body #instructor-nav .nav-item .nav-link:active,
+html body #instructor-nav .nav-item .nav-link:focus-visible,
+html body .nav-tabs .nav-link:focus,
+html body .nav-tabs .nav-link:active,
+html body .nav-tabs .nav-link:focus-visible,
+html body .course-tabs-navigation .nav-link:focus,
+html body .course-tabs-navigation .nav-link:active,
+html body .course-tabs-navigation .nav-link:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    border: 0 !important; // Nuke all borders (top, left, right)
+    border-bottom: 2px solid transparent !important; // Reserve space for the bottom yellow border
+    
+    &.active {
+        border-bottom: 2px solid #F6DB00 !important;
     }
 }

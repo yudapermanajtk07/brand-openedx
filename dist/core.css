@@ -15883,7 +15883,32 @@ body .pgn__icon.text-primary path,
 [class*=instructor] .pgn__icon.text-primary svg,
 [class*=instructor] .pgn__icon.text-primary path {
   color: #0B1F3F !important;
-  fill: #0B1F3F !important;
+}
+html body #instructor-nav .nav-item .nav-link:focus,
+html body #instructor-nav .nav-item .nav-link:active,
+html body #instructor-nav .nav-item .nav-link:focus-visible,
+html body .nav-tabs .nav-link:focus,
+html body .nav-tabs .nav-link:active,
+html body .nav-tabs .nav-link:focus-visible,
+html body .course-tabs-navigation .nav-link:focus,
+html body .course-tabs-navigation .nav-link:active,
+html body .course-tabs-navigation .nav-link:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-bottom: 2px solid transparent !important;
+}
+html body #instructor-nav .nav-item .nav-link:focus.active,
+html body #instructor-nav .nav-item .nav-link:active.active,
+html body #instructor-nav .nav-item .nav-link:focus-visible.active,
+html body .nav-tabs .nav-link:focus.active,
+html body .nav-tabs .nav-link:active.active,
+html body .nav-tabs .nav-link:focus-visible.active,
+html body .course-tabs-navigation .nav-link:focus.active,
+html body .course-tabs-navigation .nav-link:active.active,
+html body .course-tabs-navigation .nav-link:focus-visible.active {
+  border-bottom: 2px solid #F6DB00 !important;
 }
 .theme-toggle-button {
   position: relative;
