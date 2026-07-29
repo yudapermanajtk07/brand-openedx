@@ -557,6 +557,17 @@ body {
         border-color: transparent transparent #F6DB00 transparent !important;
         border-bottom: 2px solid #F6DB00 !important;
     }
+    
+    .nav-link:focus, 
+    [role="tab"]:focus, 
+    a:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        border-top-color: transparent !important;
+        border-left-color: transparent !important;
+        border-right-color: transparent !important;
+    }
+
     .nav-link:hover,
     [role="tab"]:hover,
     a:hover {
