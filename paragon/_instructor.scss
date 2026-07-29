@@ -134,7 +134,11 @@ html body .course-tabs-navigation .nav-link {
         border-bottom: 2px solid #F6DB00 !important;
     }
     
-    &.active {
+    &.active, 
+    &.is-active,
+    &[aria-selected="true"],
+    &[aria-current="page"] {
         border-bottom: 2px solid #F6DB00 !important;
+        border-bottom-color: #F6DB00 !important;
     }
 }

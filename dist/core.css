@@ -15967,10 +15967,17 @@ html body .course-tabs-navigation .nav-link:hover {
   border-right: none !important;
   border-bottom: 2px solid #F6DB00 !important;
 }
-html body #instructor-nav .nav-item .nav-link.active,
+html body #instructor-nav .nav-item .nav-link.active, html body #instructor-nav .nav-item .nav-link.is-active, html body #instructor-nav .nav-item .nav-link[aria-selected=true], html body #instructor-nav .nav-item .nav-link[aria-current=page],
 html body .nav-tabs .nav-link.active,
-html body .course-tabs-navigation .nav-link.active {
+html body .nav-tabs .nav-link.is-active,
+html body .nav-tabs .nav-link[aria-selected=true],
+html body .nav-tabs .nav-link[aria-current=page],
+html body .course-tabs-navigation .nav-link.active,
+html body .course-tabs-navigation .nav-link.is-active,
+html body .course-tabs-navigation .nav-link[aria-selected=true],
+html body .course-tabs-navigation .nav-link[aria-current=page] {
   border-bottom: 2px solid #F6DB00 !important;
+  border-bottom-color: #F6DB00 !important;
 }
 .theme-toggle-button {
   position: relative;
