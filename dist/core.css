@@ -1668,8 +1668,8 @@ body {
 .navbar [aria-current=page],
 .navbar a.course-link.active {
   color: #0B1F3F !important;
-  border-color: transparent transparent #FFD900 transparent !important;
-  border-bottom: 2px solid #FFD900 !important;
+  border-color: transparent transparent #F6DB00 transparent !important;
+  border-bottom: 2px solid #F6DB00 !important;
 }
 .nav .nav-link:hover,
 .nav [role=tab]:hover,
@@ -1690,10 +1690,10 @@ body {
 [role=tablist] a:hover, .navbar .nav-link:hover,
 .navbar [role=tab]:hover,
 .navbar a:hover {
-  border-bottom-color: #FFD900 !important;
+  border-bottom-color: #F6DB00 !important;
 }
 .nav .badge, .nav-tabs .badge, .nav-pills .badge, .pgn__tabs .badge, .navbar-nav .badge, .course-tabs-navigation .badge, .nav-underline .badge, [role=tablist] .badge, .navbar .badge {
-  background-color: #FFD900 !important;
+  background-color: #F6DB00 !important;
   color: #0B1F3F !important;
 }
 .modal-header .close, .modal-header .btn-icon, .modal-header .pgn__modal-close, .modal-header button[aria-label=Close], .modal-header button[aria-label=close] {
@@ -9827,6 +9827,24 @@ html body main > .bg-primary:first-child:has(.alert) span.mt-1 {
 .btn-brand:hover span, .btn-brand:focus span, .btn-brand:active span, .pgn__stateful-btn.btn-brand:hover span, .pgn__stateful-btn.btn-brand:focus span, .pgn__stateful-btn.btn-brand:active span {
   color: #0B1F3F !important;
 }
+.btn-primary, [data-paragon-theme-variant=dark] .modal button {
+  background-color: #F6DB00 !important;
+  border-color: #F6DB00 !important;
+  color: #0B1F3F !important;
+}
+.btn-primary .pgn__icon, [data-paragon-theme-variant=dark] .modal button .pgn__icon, .btn-primary svg, [data-paragon-theme-variant=dark] .modal button svg, .btn-primary path, [data-paragon-theme-variant=dark] .modal button path {
+  color: #0B1F3F !important;
+  fill: #0B1F3F !important;
+}
+.btn-primary:hover, [data-paragon-theme-variant=dark] .modal button:hover, .btn-primary:focus, [data-paragon-theme-variant=dark] .modal button:focus, .btn-primary:active, [data-paragon-theme-variant=dark] .modal button:active, .btn-primary.active, [data-paragon-theme-variant=dark] .modal button.active, .btn-primary.show, [data-paragon-theme-variant=dark] .modal button.show {
+  background-color: #E6C300 !important;
+  border-color: #E6C300 !important;
+  color: #0B1F3F !important;
+}
+.btn-primary:hover .pgn__icon, [data-paragon-theme-variant=dark] .modal button:hover .pgn__icon, .btn-primary:hover svg, [data-paragon-theme-variant=dark] .modal button:hover svg, .btn-primary:hover path, [data-paragon-theme-variant=dark] .modal button:hover path, .btn-primary:focus .pgn__icon, [data-paragon-theme-variant=dark] .modal button:focus .pgn__icon, .btn-primary:focus svg, [data-paragon-theme-variant=dark] .modal button:focus svg, .btn-primary:focus path, [data-paragon-theme-variant=dark] .modal button:focus path, .btn-primary:active .pgn__icon, [data-paragon-theme-variant=dark] .modal button:active .pgn__icon, .btn-primary:active svg, [data-paragon-theme-variant=dark] .modal button:active svg, .btn-primary:active path, [data-paragon-theme-variant=dark] .modal button:active path, .btn-primary.active .pgn__icon, [data-paragon-theme-variant=dark] .modal button.active .pgn__icon, .btn-primary.active svg, [data-paragon-theme-variant=dark] .modal button.active svg, .btn-primary.active path, [data-paragon-theme-variant=dark] .modal button.active path, .btn-primary.show .pgn__icon, [data-paragon-theme-variant=dark] .modal button.show .pgn__icon, .btn-primary.show svg, [data-paragon-theme-variant=dark] .modal button.show svg, .btn-primary.show path, [data-paragon-theme-variant=dark] .modal button.show path {
+  color: #0B1F3F !important;
+  fill: #0B1F3F !important;
+}
 #root {
   position: relative;
   z-index: 1;
@@ -14724,8 +14742,8 @@ body .navbar a.course-link.active,
 [class*=instructor] .navbar [aria-current=page],
 [class*=instructor] .navbar a.course-link.active {
   color: #0B1F3F !important;
-  border-color: transparent transparent #FFD900 transparent !important;
-  border-bottom: 2px solid #FFD900 !important;
+  border-color: transparent transparent #F6DB00 transparent !important;
+  border-bottom: 2px solid #F6DB00 !important;
 }
 html body .nav .nav-link:hover,
 html body .nav [role=tab]:hover,
@@ -14882,7 +14900,7 @@ body .navbar a:hover,
 [class*=instructor] .navbar [role=tab]:hover,
 [class*=instructor] .navbar a:hover {
   color: #0B1F3F !important;
-  border-bottom-color: #FFD900 !important;
+  border-bottom-color: #F6DB00 !important;
 }
 html body .pgn__icon, html body .pgn__icon.text-primary-500, html body .pgn__icon.text-primary-700, html body .pgn__icon.text-primary,
 body .pgn__icon,

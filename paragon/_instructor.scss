@@ -42,7 +42,7 @@ body,
         color: #0B1F3F !important;
     }
 
-    // Active tab underline overrides (garis di bawah tab yang aktif -> #FFD900)
+    // Active tab underline overrides (garis di bawah tab yang aktif -> #F6DB00)
     .nav, .nav-tabs, .nav-pills, .pgn__tabs, .navbar-nav, .course-tabs-navigation, .nav-underline, [role="tablist"], .navbar {
         .nav-link.active,
         .nav-item.active .nav-link,
@@ -52,15 +52,15 @@ body,
         [aria-current="page"],
         a.course-link.active {
             color: #0B1F3F !important;
-            border-color: transparent transparent #FFD900 transparent !important;
-            border-bottom: 2px solid #FFD900 !important;
+            border-color: transparent transparent #F6DB00 transparent !important;
+            border-bottom: 2px solid #F6DB00 !important;
         }
         
         .nav-link:hover,
         [role="tab"]:hover,
         a:hover {
             color: #0B1F3F !important;
-            border-bottom-color: #FFD900 !important;
+            border-bottom-color: #F6DB00 !important;
         }
     }
 
