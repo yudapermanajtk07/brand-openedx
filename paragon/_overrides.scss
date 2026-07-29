@@ -545,7 +545,7 @@ body {
 }
 
 // Tab styling and active tab underline
-.nav, .nav-tabs, .nav-pills, .pgn__tabs, .navbar-nav, .course-tabs-navigation, .nav-underline, [role="tablist"], .navbar {
+#instructor-nav, .nav, .nav-tabs, .nav-pills, .pgn__tabs, .navbar-nav, .course-tabs-navigation, .nav-underline, [role="tablist"], .navbar {
     .nav-link.active,
     .nav-item.active .nav-link,
     a.active,
@@ -556,6 +556,7 @@ body {
         color: #0B1F3F !important;
         border-color: transparent transparent #F6DB00 transparent !important;
         border-bottom: 2px solid #F6DB00 !important;
+        background-color: transparent !important;
     }
     
     .nav-link:focus, 
@@ -572,6 +573,8 @@ body {
     .nav-item:focus-visible {
         outline: none !important;
         box-shadow: none !important;
+        background-color: transparent !important;
+        border-color: transparent !important;
         border-top-color: transparent !important;
         border-left-color: transparent !important;
         border-right-color: transparent !important;
