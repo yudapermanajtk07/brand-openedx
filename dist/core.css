@@ -15819,7 +15819,6 @@ body .navbar .nav-item:focus-visible,
   outline: none !important;
   box-shadow: none !important;
   background-color: transparent !important;
-  border-color: transparent !important;
   border-top-color: transparent !important;
   border-left-color: transparent !important;
   border-right-color: transparent !important;
@@ -16106,7 +16105,6 @@ html body .course-tabs-navigation .nav-link *:focus-within {
   outline-color: transparent !important;
   box-shadow: none !important;
   background: transparent !important;
-  border-color: transparent !important;
 }
 html body #instructor-nav .nav-item::before, html body #instructor-nav .nav-item::after,
 html body #instructor-nav .nav-item *::before,
