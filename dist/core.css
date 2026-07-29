@@ -3905,6 +3905,7 @@ html body .page-wrapper > .bg-primary form.col-4,
 html body main > .bg-primary:first-child .pgn__form-control-decorator-group.col-4,
 html body main > .bg-primary:first-child form.col-4 {
   padding-left: 0 !important;
+  margin-left: 4px !important;
 }
 html body div[aria-label="Masquerade bar"] .row form,
 html body #root div[aria-label="Masquerade bar"] .row form,

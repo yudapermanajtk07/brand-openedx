@@ -743,9 +743,10 @@ html body main > .bg-primary:first-child {
     height: 32px !important; // Match button height perfectly!
   }
 
-  // Remove native left padding from the col-4 wrapper of the input field to align it
+  // Adjust wrapper to align perfectly with the Staff/Studio dropdown buttons
   .pgn__form-control-decorator-group.col-4, form.col-4 {
     padding-left: 0 !important;
+    margin-left: 4px !important;
   }
 
   .row form {
