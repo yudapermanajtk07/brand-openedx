@@ -16147,7 +16147,7 @@ html body .course-tabs-navigation .nav-link:hover {
   border-right: none !important;
   border-bottom: 2px solid #F6DB00 !important;
 }
-html body #instructor-nav .nav-item .nav-link.active, html body #instructor-nav .nav-item .nav-link.is-active, html body #instructor-nav .nav-item .nav-link[aria-selected=true], html body #instructor-nav .nav-item .nav-link[aria-current=page], html body #instructor-nav .nav-item .nav-link.text-primary, html body #instructor-nav .nav-item .nav-link.text-primary-500, html body #instructor-nav .nav-item .nav-link.border-primary, html body #instructor-nav .nav-item .nav-link:has(.text-primary), html body #instructor-nav .nav-item .nav-link:has(.text-primary-500), html body #instructor-nav .nav-item .nav-link:has(.text-primary-700),
+html body #instructor-nav .nav-item .nav-link.active, html body #instructor-nav .nav-item .nav-link.is-active, html body #instructor-nav .nav-item .nav-link[aria-selected=true], html body #instructor-nav .nav-item .nav-link[aria-current=page], html body #instructor-nav .nav-item .nav-link.text-primary, html body #instructor-nav .nav-item .nav-link.text-primary-500, html body #instructor-nav .nav-item .nav-link.border-primary,
 html body .nav-tabs .nav-link.active,
 html body .nav-tabs .nav-link.is-active,
 html body .nav-tabs .nav-link[aria-selected=true],
@@ -16155,21 +16155,25 @@ html body .nav-tabs .nav-link[aria-current=page],
 html body .nav-tabs .nav-link.text-primary,
 html body .nav-tabs .nav-link.text-primary-500,
 html body .nav-tabs .nav-link.border-primary,
-html body .nav-tabs .nav-link:has(.text-primary),
-html body .nav-tabs .nav-link:has(.text-primary-500),
-html body .nav-tabs .nav-link:has(.text-primary-700),
 html body .course-tabs-navigation .nav-link.active,
 html body .course-tabs-navigation .nav-link.is-active,
 html body .course-tabs-navigation .nav-link[aria-selected=true],
 html body .course-tabs-navigation .nav-link[aria-current=page],
 html body .course-tabs-navigation .nav-link.text-primary,
 html body .course-tabs-navigation .nav-link.text-primary-500,
-html body .course-tabs-navigation .nav-link.border-primary,
-html body .course-tabs-navigation .nav-link:has(.text-primary),
-html body .course-tabs-navigation .nav-link:has(.text-primary-500),
-html body .course-tabs-navigation .nav-link:has(.text-primary-700) {
+html body .course-tabs-navigation .nav-link.border-primary {
   border-bottom: 2px solid #F6DB00 !important;
   border-bottom-color: #F6DB00 !important;
+  margin-bottom: -1px !important;
+}
+html body #instructor-nav .nav-item .nav-link.active,
+html body .nav-tabs .nav-link.active,
+html body .course-tabs-navigation .nav-link.active {
+  border-bottom: 2px solid #F6DB00 !important;
+  border-bottom-color: #F6DB00 !important;
+  border-bottom-width: 2px !important;
+  border-bottom-style: solid !important;
+  margin-bottom: -1px !important;
 }
 .theme-toggle-button {
   position: relative;

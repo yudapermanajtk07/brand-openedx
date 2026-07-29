@@ -143,11 +143,21 @@ html body .course-tabs-navigation .nav-link {
     &[aria-current="page"],
     &.text-primary,
     &.text-primary-500,
-    &.border-primary,
-    &:has(.text-primary),
-    &:has(.text-primary-500),
-    &:has(.text-primary-700) {
+    &.border-primary {
         border-bottom: 2px solid #F6DB00 !important;
         border-bottom-color: #F6DB00 !important;
+        margin-bottom: -1px !important;
     }
 }
+
+// BULLETPROOF ACTIVE TAB OVERRIDE
+html body #instructor-nav .nav-item .nav-link.active,
+html body .nav-tabs .nav-link.active,
+html body .course-tabs-navigation .nav-link.active {
+    border-bottom: 2px solid #F6DB00 !important;
+    border-bottom-color: #F6DB00 !important;
+    border-bottom-width: 2px !important;
+    border-bottom-style: solid !important;
+    margin-bottom: -1px !important;
+}
+
