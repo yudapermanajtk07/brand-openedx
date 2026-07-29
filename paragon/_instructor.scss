@@ -127,11 +127,11 @@ html body .course-tabs-navigation .nav-link * {
 html body #instructor-nav .nav-item .nav-link,
 html body .nav-tabs .nav-link,
 html body .course-tabs-navigation .nav-link {
-    &:focus, &:active, &:focus-visible, &:focus-within {
+    &:focus, &:active, &:focus-visible, &:focus-within, &:hover {
         border-top: none !important;
         border-left: none !important;
         border-right: none !important;
-        border-bottom: 2px solid transparent !important;
+        border-bottom: 2px solid #F6DB00 !important;
     }
     
     &.active {
