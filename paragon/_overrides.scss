@@ -890,6 +890,17 @@ html body main > .bg-primary:first-child {
     }
 }
 
+// Global Dropdown Item Fix: Prevent items from turning dark blue (primary-500) on click/active
+body .dropdown-menu .dropdown-item:active,
+body .dropdown-menu .dropdown-item.active,
+body .dropdown-menu .pgn__dropdown-item:active,
+body .dropdown-menu .pgn__dropdown-item.active,
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item.active {
+    background-color: #f8f9fa !important; // Just the light grey hover color
+    color: #0B1F3F !important; // Keep text dark blue
+}
+
 @import "./header";
 @import "./footer";
 @import "./login";

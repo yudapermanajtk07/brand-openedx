@@ -9845,6 +9845,15 @@ html body main > .bg-primary:first-child:has(.alert) span.mt-1 {
   color: #0B1F3F !important;
   fill: #0B1F3F !important;
 }
+body .dropdown-menu .dropdown-item:active,
+body .dropdown-menu .dropdown-item.active,
+body .dropdown-menu .pgn__dropdown-item:active,
+body .dropdown-menu .pgn__dropdown-item.active,
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item.active {
+  background-color: #f8f9fa !important;
+  color: #0B1F3F !important;
+}
 #root {
   position: relative;
   z-index: 1;
