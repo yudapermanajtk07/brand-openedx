@@ -98,20 +98,41 @@ body,
 }
 
 // ULTIMATE KILLER for focus outlines/borders on instructor tabs
-html body #instructor-nav .nav-item .nav-link:focus,
-html body #instructor-nav .nav-item .nav-link:active,
-html body #instructor-nav .nav-item .nav-link:focus-visible,
-html body .nav-tabs .nav-link:focus,
-html body .nav-tabs .nav-link:active,
-html body .nav-tabs .nav-link:focus-visible,
-html body .course-tabs-navigation .nav-link:focus,
-html body .course-tabs-navigation .nav-link:active,
-html body .course-tabs-navigation .nav-link:focus-visible {
-    outline: none !important;
-    box-shadow: none !important;
-    background: transparent !important;
-    border: 0 !important; // Nuke all borders (top, left, right)
-    border-bottom: 2px solid transparent !important; // Reserve space for the bottom yellow border
+html body #instructor-nav .nav-item,
+html body #instructor-nav .nav-item *,
+html body #instructor-nav .nav-link,
+html body #instructor-nav .nav-link *,
+html body .nav-tabs .nav-link,
+html body .nav-tabs .nav-item,
+html body .course-tabs-navigation .nav-item,
+html body .course-tabs-navigation .nav-item *,
+html body .course-tabs-navigation .nav-link,
+html body .course-tabs-navigation .nav-link * {
+    &:focus, &:active, &:focus-visible, &:focus-within {
+        outline: none !important;
+        outline-width: 0 !important;
+        outline-color: transparent !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        border-color: transparent !important;
+    }
+    
+    &::before, &::after {
+        outline: none !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+}
+
+html body #instructor-nav .nav-item .nav-link,
+html body .nav-tabs .nav-link,
+html body .course-tabs-navigation .nav-link {
+    &:focus, &:active, &:focus-visible, &:focus-within {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: 2px solid transparent !important;
+    }
     
     &.active {
         border-bottom: 2px solid #F6DB00 !important;
