@@ -50,7 +50,10 @@ body,
         button.active,
         [role="tab"][aria-selected="true"],
         [aria-current="page"],
-        a.course-link.active {
+        a.course-link.active,
+        .nav-link.text-primary,
+        .nav-link.text-primary-500,
+        .nav-link.border-primary {
             color: #0B1F3F !important;
             border-color: transparent transparent #F6DB00 transparent !important;
             border-bottom: 2px solid #F6DB00 !important;
@@ -137,7 +140,10 @@ html body .course-tabs-navigation .nav-link {
     &.active, 
     &.is-active,
     &[aria-selected="true"],
-    &[aria-current="page"] {
+    &[aria-current="page"],
+    &.text-primary,
+    &.text-primary-500,
+    &.border-primary {
         border-bottom: 2px solid #F6DB00 !important;
         border-bottom-color: #F6DB00 !important;
     }
