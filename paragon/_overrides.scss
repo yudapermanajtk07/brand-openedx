@@ -560,7 +560,16 @@ body {
     
     .nav-link:focus, 
     [role="tab"]:focus, 
-    a:focus {
+    a:focus,
+    .nav-link:active,
+    [role="tab"]:active,
+    a:active,
+    .nav-link:focus-visible,
+    [role="tab"]:focus-visible,
+    a:focus-visible,
+    .nav-item:focus,
+    .nav-item:active,
+    .nav-item:focus-visible {
         outline: none !important;
         box-shadow: none !important;
         border-top-color: transparent !important;
