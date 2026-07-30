@@ -939,5 +939,10 @@ body .dropdown-menu .pgn__dropdown-item.active,
 @import "./extras";
 
 
+// ============================================================================
+// HIDDEN ELEMENTS TOGGLE
+// ============================================================================
+@import "./hidden"; // Comment out this line to easily show all hidden elements again
+
 // Including dark theme
 @import "./dark";

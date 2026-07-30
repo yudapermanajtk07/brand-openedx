@@ -16256,6 +16256,27 @@ html body .nav-tabs .nav-item.text-primary .nav-link {
 .theme-toggle-button .toggle-switch .switch .slider.round::before {
   border-radius: 50%;
 }
+.learner-dashboard button[aria-label="Course actions dropdown"].pgn__dropdown-toggle-iconbutton,
+.learner-dashboard button[id^=course-actions-dropdown-card-],
+.dashboard-container button[aria-label="Course actions dropdown"].pgn__dropdown-toggle-iconbutton,
+.dashboard-container button[id^=course-actions-dropdown-card-],
+#dashboard-container button[aria-label="Course actions dropdown"].pgn__dropdown-toggle-iconbutton,
+#dashboard-container button[id^=course-actions-dropdown-card-],
+.view-dashboard button[aria-label="Course actions dropdown"].pgn__dropdown-toggle-iconbutton,
+.view-dashboard button[id^=course-actions-dropdown-card-],
+[class*=learner-dashboard] button[aria-label="Course actions dropdown"].pgn__dropdown-toggle-iconbutton,
+[class*=learner-dashboard] button[id^=course-actions-dropdown-card-] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: absolute !important;
+  z-index: -9999 !important;
+  pointer-events: none !important;
+}
 [data-paragon-theme-variant=dark] {
   @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
   color: var(--pgn-color-text-base) !important;

@@ -1,0 +1,27 @@
+// ============================================================================
+// ELEMENTS TO HIDE (EASY TOGGLE)
+// ============================================================================
+
+// Hide the "Course actions dropdown" (3 dots button) on the course cards.
+// We target wrapper classes/IDs commonly used by the Learner Dashboard MFE 
+// to ensure it is hidden only on the Learner Dashboard.
+.learner-dashboard,
+.dashboard-container,
+#dashboard-container,
+.view-dashboard,
+[class*="learner-dashboard"] {
+    // Specifically target the button with the exact aria-label and pgn class to avoid hiding unrelated buttons
+    button[aria-label="Course actions dropdown"].pgn__dropdown-toggle-iconbutton,
+    button[id^="course-actions-dropdown-card-"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        position: absolute !important;
+        z-index: -9999 !important;
+        pointer-events: none !important;
+    }
+}
