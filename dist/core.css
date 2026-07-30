@@ -10844,12 +10844,12 @@ footer.tutor-container .copyright-site {
 }
 @media (min-width: 992px) {
   #dashboard-container #dashboard-content {
-    min-height: calc(100vh - 232px);
+    min-height: calc(100vh - 140px);
   }
 }
 @media (--pgn-size-breakpoint-min-width-lg) {
   #dashboard-container #dashboard-content {
-    min-height: calc(100vh - 232px);
+    min-height: calc(100vh - 140px);
   }
 }
 #dashboard-container .container-mw-xl.container-fluid {
@@ -17218,12 +17218,12 @@ html body div:has(> form.masquerade-bar) {
 }
 @media (min-width: 992px) {
   [data-paragon-theme-variant=dark] #dashboard-container #dashboard-content {
-    min-height: calc(100vh - 232px);
+    min-height: calc(100vh - 140px);
   }
 }
 @media (--pgn-size-breakpoint-min-width-lg) {
   [data-paragon-theme-variant=dark] #dashboard-container #dashboard-content {
-    min-height: calc(100vh - 232px);
+    min-height: calc(100vh - 140px);
   }
 }
 [data-paragon-theme-variant=dark] #dashboard-container .container-mw-xl.container-fluid {

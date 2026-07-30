@@ -137,7 +137,9 @@ footer.tutor-container {
 
     #dashboard-content {
         @media (--pgn-size-breakpoint-min-width-lg) {
-            min-height: calc(100vh - 232px);
+            // Adjusted from 232px to 140px to account for the removed masquerade bar height
+            // This prevents the footer from floating up and leaving white space at the bottom.
+            min-height: calc(100vh - 140px);
         }
     }
 
