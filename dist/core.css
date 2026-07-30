@@ -16349,6 +16349,18 @@ html body .dropdown-menu a[href*="/account"] {
   overflow: hidden !important;
   pointer-events: none !important;
 }
+html body a[data-testid$=-publish-button],
+html body button[data-testid$=-publish-button] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}
 [data-paragon-theme-variant=dark] {
   @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
   color: var(--pgn-color-text-base) !important;
