@@ -68,3 +68,31 @@ html body .sidebar-column:has(> #looking-for-challenge-widget) {
     margin: 0 !important;
     overflow: hidden !important;
 }
+
+// Hide "Register" tab on the Login/Auth page
+html body .pgn__tabs a[data-rb-event-key="/register"],
+html body .pgn__tabs a[id*="/register"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+}
+
+// Hide "Forgot Password" link on Login page
+html body a#forgot-password,
+html body a[name="forgot-password"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+}
