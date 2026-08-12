@@ -21468,9 +21468,15 @@ p > [data-paragon-theme-variant=dark] a.muted-link[href]:not(.btn):hover, [data-
   background-color: #ccc;
   box-shadow: 0 0 1px #ccc;
 }
-div.pgn__bubble.pgn__bubble-primary.expandable {
+div.pgn__bubble.pgn__bubble-primary.expandable,
+div.pgn__bubble.pgn__bubble-primary.mr-1 {
   color: #0B1F3F !important;
 }
-div.pgn__bubble.pgn__bubble-primary.expandable, div.pgn__bubble.pgn__bubble-primary.expandable span, div.pgn__bubble.pgn__bubble-primary.expandable *, div.pgn__bubble.pgn__bubble-primary.expandable .text-white, div.pgn__bubble.pgn__bubble-primary.expandable .text-light {
+div.pgn__bubble.pgn__bubble-primary.expandable, div.pgn__bubble.pgn__bubble-primary.expandable span, div.pgn__bubble.pgn__bubble-primary.expandable *, div.pgn__bubble.pgn__bubble-primary.expandable .text-white, div.pgn__bubble.pgn__bubble-primary.expandable .text-light,
+div.pgn__bubble.pgn__bubble-primary.mr-1,
+div.pgn__bubble.pgn__bubble-primary.mr-1 span,
+div.pgn__bubble.pgn__bubble-primary.mr-1 *,
+div.pgn__bubble.pgn__bubble-primary.mr-1 .text-white,
+div.pgn__bubble.pgn__bubble-primary.mr-1 .text-light {
   color: #0B1F3F !important;
 }

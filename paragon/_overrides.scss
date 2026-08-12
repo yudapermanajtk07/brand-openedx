@@ -947,8 +947,9 @@ body .dropdown-menu .pgn__dropdown-item.active,
 // Including dark theme
 @import "./dark";
 
-// Authoring taxonomy bubble text color
-div.pgn__bubble.pgn__bubble-primary.expandable {
+// Authoring taxonomy and course outline bubble text color
+div.pgn__bubble.pgn__bubble-primary.expandable,
+div.pgn__bubble.pgn__bubble-primary.mr-1 {
     color: #0B1F3F !important;
     &, span, *, .text-white, .text-light {
         color: #0B1F3F !important;
