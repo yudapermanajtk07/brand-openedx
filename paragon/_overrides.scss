@@ -946,3 +946,11 @@ body .dropdown-menu .pgn__dropdown-item.active,
 
 // Including dark theme
 @import "./dark";
+
+// Authoring taxonomy bubble text color
+div.pgn__bubble.pgn__bubble-primary.expandable {
+    color: #0B1F3F !important;
+    &, span, *, .text-white, .text-light {
+        color: #0B1F3F !important;
+    }
+}

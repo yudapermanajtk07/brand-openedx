@@ -21468,3 +21468,9 @@ p > [data-paragon-theme-variant=dark] a.muted-link[href]:not(.btn):hover, [data-
   background-color: #ccc;
   box-shadow: 0 0 1px #ccc;
 }
+div.pgn__bubble.pgn__bubble-primary.expandable {
+  color: #0B1F3F !important;
+}
+div.pgn__bubble.pgn__bubble-primary.expandable, div.pgn__bubble.pgn__bubble-primary.expandable span, div.pgn__bubble.pgn__bubble-primary.expandable *, div.pgn__bubble.pgn__bubble-primary.expandable .text-white, div.pgn__bubble.pgn__bubble-primary.expandable .text-light {
+  color: #0B1F3F !important;
+}
