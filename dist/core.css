@@ -16134,6 +16134,11 @@ html body .course-tabs-navigation .nav-link *::after {
   box-shadow: none !important;
   border: none !important;
 }
+html body #instructor-nav .nav-item .nav-link,
+html body .nav-tabs .nav-link,
+html body .course-tabs-navigation .nav-link {
+  font-size: 14px !important;
+}
 html body #instructor-nav .nav-item .nav-link:focus, html body #instructor-nav .nav-item .nav-link:active, html body #instructor-nav .nav-item .nav-link:focus-visible, html body #instructor-nav .nav-item .nav-link:focus-within, html body #instructor-nav .nav-item .nav-link:hover,
 html body .nav-tabs .nav-link:focus,
 html body .nav-tabs .nav-link:active,
@@ -16197,6 +16202,9 @@ html body .nav-tabs .nav-item.text-primary .nav-link {
   border-bottom-width: 2px !important;
   border-bottom-style: solid !important;
   margin-bottom: -1px !important;
+}
+h2.text-primary-700.m-4 {
+  font-size: 24px !important;
 }
 .theme-toggle-button {
   position: relative;
