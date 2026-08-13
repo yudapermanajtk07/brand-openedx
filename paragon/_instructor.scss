@@ -128,6 +128,7 @@ html body .course-tabs-navigation .nav-link * {
 html body #instructor-nav .nav-item .nav-link,
 html body .nav-tabs .nav-link,
 html body .course-tabs-navigation .nav-link {
+    font-size: 14px !important;
     &:focus, &:active, &:focus-visible, &:focus-within, &:hover {
         border-top: none !important;
         border-left: none !important;
@@ -177,5 +178,10 @@ html body .nav-tabs .nav-item.text-primary .nav-link {
     border-bottom-width: 2px !important;
     border-bottom-style: solid !important;
     margin-bottom: -1px !important;
+}
+
+// Instructor Dashboard main heading
+h2.text-primary-700.m-4 {
+    font-size: 24px !important;
 }
 
