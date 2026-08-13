@@ -10025,7 +10025,7 @@ body .dropdown-menu .pgn__dropdown-item.active,
 #root .studio-header .course-title-lockup span:first-child, #root .studio-header .course-title-lockup span:first-child * {
   font-family: "IBM Plex Mono", monospace !important;
 }
-#root .studio-header nav, #root .studio-header .nav, #root .studio-header .navbar-nav, #root .studio-header .main-nav {
+#root .studio-header nav, #root .studio-header .nav[data-testid=desktop-menu], #root .studio-header .navbar-nav, #root .studio-header .main-nav {
   border: none !important;
   border-left: none !important;
   flex-grow: 1 !important;
@@ -10034,6 +10034,11 @@ body .dropdown-menu .pgn__dropdown-item.active,
   margin-left: auto !important;
   margin-right: 2rem !important;
   gap: 1.5rem !important;
+}
+#root .studio-header .nav:not([data-testid=desktop-menu]) {
+  flex-grow: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0.5rem !important;
 }
 #root .studio-header .btn-primary, #root .studio-header [data-paragon-theme-variant=dark] .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, #root .studio-header .btn-brand, #root .studio-header .btn {
   background-color: #F6DB00 !important;
@@ -16434,7 +16439,7 @@ html body div.mb-3:has(> div.alert-success a[href*="/certificates/"]) {
 [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child, [data-paragon-theme-variant=dark] #root .studio-header .course-title-lockup span:first-child * {
   font-family: "IBM Plex Mono", monospace !important;
 }
-[data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav, [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
+[data-paragon-theme-variant=dark] #root .studio-header nav, [data-paragon-theme-variant=dark] #root .studio-header .nav[data-testid=desktop-menu], [data-paragon-theme-variant=dark] #root .studio-header .navbar-nav, [data-paragon-theme-variant=dark] #root .studio-header .main-nav {
   border: none !important;
   border-left: none !important;
   flex-grow: 1 !important;
@@ -16443,6 +16448,11 @@ html body div.mb-3:has(> div.alert-success a[href*="/certificates/"]) {
   margin-left: auto !important;
   margin-right: 2rem !important;
   gap: 1.5rem !important;
+}
+[data-paragon-theme-variant=dark] #root .studio-header .nav:not([data-testid=desktop-menu]) {
+  flex-grow: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0.5rem !important;
 }
 [data-paragon-theme-variant=dark] #root .studio-header .btn-primary, [data-paragon-theme-variant=dark] #root .studio-header .modal button, [data-paragon-theme-variant=dark] .modal #root .studio-header button, [data-paragon-theme-variant=dark] #root .studio-header .btn-brand, [data-paragon-theme-variant=dark] #root .studio-header .btn {
   background-color: #F6DB00 !important;

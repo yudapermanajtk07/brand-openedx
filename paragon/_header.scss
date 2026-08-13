@@ -56,7 +56,7 @@
         }
       }
       // Align the navigation block to the right
-      nav, .nav, .navbar-nav, .main-nav {
+      nav, .nav[data-testid="desktop-menu"], .navbar-nav, .main-nav {
         border: none !important;
         border-left: none !important;
         flex-grow: 1 !important;
@@ -65,7 +65,13 @@
         margin-left: auto !important;
         margin-right: 2rem !important;
         gap: 1.5rem !important;
+      }
 
+      // Ensure the search and user dropdown sit next to each other
+      .nav:not([data-testid="desktop-menu"]) {
+        flex-grow: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0.5rem !important;
       }
 
       .btn-primary, .btn-brand, .btn {
