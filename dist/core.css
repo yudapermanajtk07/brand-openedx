@@ -10692,6 +10692,10 @@ body .dropdown-menu .pgn__dropdown-item.active,
   line-height: 20px;
   color: #374151;
 }
+a:has(img.logo), a:has(.logo), .logo-holder a, a.logo {
+  pointer-events: none !important;
+  cursor: default !important;
+}
 .wrapper-footer {
   padding: 25px 0;
   border-top: 1px solid #E5E7EB;

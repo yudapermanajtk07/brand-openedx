@@ -605,3 +605,8 @@
         }
     }
 }
+// Disable logo links
+a:has(img.logo), a:has(.logo), .logo-holder a, a.logo {
+    pointer-events: none !important;
+    cursor: default !important;
+}
