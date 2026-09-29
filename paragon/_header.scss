@@ -611,3 +611,17 @@ a:has(img.logo), a:has(.logo), .logo-holder a, a.logo, a:has(img[src*="logo"]) {
     cursor: default !important;
 }
 
+
+// Discussion header logo size
+a.logo img.logo-image {
+    width: 16.5px !important;
+    height: 28px !important;
+    max-height: none !important;
+}
+
+
+
+// Hide "Help" link in discussion header
+#notificationIcon + a.text-gray-700 {
+    display: none !important;
+}
