@@ -631,11 +631,12 @@ a.logo img.logo-image {
     display: none !important;
 }
 
-// Set header height to 54px
-#root header, 
-#root header > nav > .container-fluid,
-#root header > .container-fluid,
-#root header > div {
+// Set header height to 54px ONLY for Instructor Dashboard
+// We target headers that contain .secondary-nav-links (which Authoring doesn't have)
+#root header:has(.secondary-nav-links), 
+#root header:has(.secondary-nav-links) > nav > .container-fluid,
+#root header:has(.secondary-nav-links) > .container-fluid,
+#root header:has(.secondary-nav-links) > div {
     height: 54px !important;
     min-height: 54px !important;
 }
@@ -644,3 +645,4 @@ a.logo img.logo-image {
 #root header a.nav-link[href*="/catalog/courses"] {
     display: none !important;
 }
+
