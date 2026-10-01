@@ -10704,6 +10704,16 @@ a.logo img.logo-image {
 #notificationIcon + a.text-gray-700 {
   display: none !important;
 }
+#root header .secondary-nav-links {
+  display: none !important;
+}
+#root header,
+#root header > nav > .container-fluid,
+#root header > .container-fluid,
+#root header > div {
+  height: 54px !important;
+  min-height: 54px !important;
+}
 .wrapper-footer {
   padding: 25px 0;
   border-top: 1px solid #E5E7EB;

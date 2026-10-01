@@ -625,3 +625,17 @@ a.logo img.logo-image {
 #notificationIcon + a.text-gray-700 {
     display: none !important;
 }
+
+// Hide Help link in Instructor Dashboard
+#root header .secondary-nav-links {
+    display: none !important;
+}
+
+// Set header height to 54px
+#root header, 
+#root header > nav > .container-fluid,
+#root header > .container-fluid,
+#root header > div {
+    height: 54px !important;
+    min-height: 54px !important;
+}
