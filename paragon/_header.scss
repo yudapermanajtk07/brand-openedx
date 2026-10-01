@@ -639,3 +639,8 @@ a.logo img.logo-image {
     height: 54px !important;
     min-height: 54px !important;
 }
+
+// Hide Discover New link in headers
+#root header a.nav-link[href*="/catalog/courses"] {
+    display: none !important;
+}

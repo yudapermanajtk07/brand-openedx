@@ -10714,6 +10714,9 @@ a.logo img.logo-image {
   height: 54px !important;
   min-height: 54px !important;
 }
+#root header a.nav-link[href*="/catalog/courses"] {
+  display: none !important;
+}
 .wrapper-footer {
   padding: 25px 0;
   border-top: 1px solid #E5E7EB;
