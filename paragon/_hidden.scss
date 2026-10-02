@@ -182,3 +182,10 @@ html body .course-unit-publish-controls .course-unit-sidebar-visibility {
     overflow: hidden !important;
     pointer-events: none !important;
 }
+
+// Hide Course Tools section in Learner Course Home
+section.mb-4:has(#courseHome-launchTourLink),
+section.mb-4:has(a[href*="/course/updates"]),
+section.mb-4:has(a[href*="/bookmarks/"]) {
+    display: none !important;
+}
